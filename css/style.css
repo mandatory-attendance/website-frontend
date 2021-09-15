@@ -10,6 +10,13 @@
     background: red;
 }
 
+#disclaimer a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
 nav {
     width: 100%;
 }
