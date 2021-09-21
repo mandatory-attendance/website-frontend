@@ -58,6 +58,70 @@
 
 /*Garry*/
 /*Learning Mode*/
-#learningModeHeader{
-    font-size: 40px;
+/*Learning Mode*/
+#learningBody{
+    margin: 0;
+    background-color: #D0D0D0;
+}
+
+#disclaimer{
+    text-align: center;
+    width:100%;
+    background-color: grey;
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+}
+#learningHeader{
+    text-align: center;
+    font-size: 5vw;
+}
+
+#learningPicture{
+    width: 50%;
+    height:20vw;
+    margin-top: 3vw;
+    float:left;
+    display:inline;
+    text-align:center;
+}
+#childPicture{
+    height:20vw;
+}
+
+#learningCard{
+    margin-top: 3vw;
+    float:left;
+    height:12vw;
+    width: 50%;
+    
+    padding-top: 8vw;
+    text-align: center;
+    font-size: 3vw;
+}
+#child{
+    padding:5vw 10vw 5vw 10vw;
+    background-color: grey;
+}
+
+#learningButtons{
+    margin-top: 25vw;
+    float: none;
+    width:100%;
+}
+#row{
+    text-align: center;
+}
+
+#language{
+    font-size:2vw;
+}
+
+#howToPlay{
+    margin-top:3vw;
+    margin-right: 3vw;
+    text-align: right;
+}
+
+.flipCard{
+        color:black;
 }
