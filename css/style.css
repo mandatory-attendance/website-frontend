@@ -135,23 +135,17 @@
     background-color: #99D5EF;
 }
 
-/* .HambugerIcon {
-  position: relative;
-  display: inline-block;
-} */
-
 .HambugerOptions {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  min-width: 6vw;
+  box-shadow: 0px 2vw 5vw 0vw rgba(0,0,0,0.2);
+  /* z-index: 1; */
 }
 
 .HambugerOptions a {
   color: black;
-  padding: 12px 16px;
+  padding: 1.5vw 2vw;
   text-decoration: none;
   display: block;
 }
@@ -160,4 +154,4 @@
 
 .HambugerIcon:hover .HambugerOptions {display: block;}
 
-.HambugerIcon:hover .HambugerButton {background-color:}
+/* .HambugerIcon:hover .HambugerButton {}; */
