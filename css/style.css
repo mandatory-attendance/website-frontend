@@ -250,3 +250,49 @@ body {
     text-decoration: none;
     color: #000000;
 }
+
+.main-body {
+    background: linear-gradient(45deg, rgba(
+        153, 213, 239, 0.5), rgba(
+          153, 213, 239, 0.5)),url(../img/background-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+    align-items: center;
+    
+}
+
+.summary > img {
+    width: 46vw;
+}
+
+.summary > p {
+    width: 46vw;
+    text-align: justify;
+}
+
+.modes-button {
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-around;
+}
+
+.learning-mode-button, .translation-mode-button, .puzzle-mode-button {
+    background: #000000;
+    padding: 5%;
+}
+
+.learning-mode-button > a, .translation-mode-button > a, .puzzle-mode-button > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0%;
+}
