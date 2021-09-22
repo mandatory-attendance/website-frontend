@@ -89,7 +89,7 @@ Background
 	cursor: pointer;
 }
 
-.HowToPlayBlock{
+.HowToPlayButton .HowToPlayBlock{
     margin-top:3vw;
     margin-right: 3vw;
     position: fixed;
