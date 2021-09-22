@@ -89,19 +89,6 @@ Background
 	cursor: pointer;
 }
 
-#HowToPlayButton .HowToPlayBlock{
-    margin-top:3vw;
-    margin-right: 3vw;
-    position: fixed;
-    display: inline-block;
-	color: black;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 0.5em 2em;
-	border: 2px solid black;
-	border-radius: 5px;
-    
-}
 
 /*Garry*/
 /*Learning Mode*/
