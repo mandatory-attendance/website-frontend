@@ -17,12 +17,12 @@ Background
 	width: 100%; 
 	height: 100%; 
 	overflow: auto; 
-	background-color: rgb(85, 75, 71); 
+	background-color: #E9BCD7; 
 	background-color: rgba(0,0,0,0.4);
 }
 /* Content of Modal*/
 .DisclaimerContent {
-    background-color: #e2bbb4;
+    background-color: #E9BCD7;
 	margin: auto;
 	padding: 40px;
 	padding-top: 5%;
@@ -49,7 +49,7 @@ Background
 /*Disclaimer  Button Block */
 
 .button a {
-    background-color: rgb(221, 151, 151);
+    background-color: #E9BCD7;
     display: block;
     padding: 10px;
     width: 100%;
@@ -325,6 +325,45 @@ body {
     text-align: justify;
     width: 50vw;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #E9BCD7;
+}
+
+.footer-home-button > h3 > a, .footer-about-button > h3 > a, .footer-Learn-button > h3 > a, .footer-Translation-button > h3 > a, .footer-Test-button > h3 > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Matt - About Page */
 body {
