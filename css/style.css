@@ -202,7 +202,8 @@ Background
 
 #translationHeader{
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
+    margin-top: 40px;
 }
 
 .kala{
