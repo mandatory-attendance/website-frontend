@@ -91,7 +91,7 @@ Background
 #disclaimer{
     text-align: center;
     width:100%;
-    background-color: grey;
+    background-color: #e2bbb4;
     padding-top: 0.1vw;
     padding-bottom: 0.1vw;
 }
@@ -116,7 +116,7 @@ Background
     margin-top: 3vw;
     float:left;
     height:12vw;
-    width: 50%;
+    width: 30%;
     
     padding-top: 8vw;
     text-align: center;
@@ -124,7 +124,7 @@ Background
 }
 #child{
     padding:5vw 10vw 5vw 10vw;
-    background-color: grey;
+    background-color: #ADD8AF;
 }
 
 #learningButtons{
