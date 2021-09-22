@@ -20,6 +20,20 @@ Background
 	background-color: #E9BCD7; 
 	background-color: rgba(0,0,0,0.4);
 }
+
+.modal1 {
+	display: none; 
+	position: fixed; 
+	padding-top: 70px; 
+	left: 0;
+	top: 0%;
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgb(85, 75, 71); 
+	background-color: rgba(0,0,0,0.4);
+}
+
 /* Content of Modal*/
 .DisclaimerContent {
     background-color: #E9BCD7;
@@ -33,6 +47,11 @@ Background
     text-align: center;
 	border-radius: 25px;
 }
+
+.DisclaimerContent p {
+    font-size: 30px;
+}
+
 /* Close Button*/
 .exit {
     color: #ffffff;
@@ -84,6 +103,7 @@ Background
 	cursor: pointer;
 }
 
+
 /*Garry*/
 /*Learning Mode*/
 /*Learning Mode*/
@@ -92,17 +112,36 @@ Background
     background-color: #AAE3F7;
 }
 
-#disclaimer{
+/* #disclaimer{
     text-align: center;
     width:100%;
     background-color: #e2bbb4;
     padding-top: 0.1vw;
     padding-bottom: 0.1vw;
-}
+} */
+
 #learningHeader{
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
+    margin-top: 40px;
 }
+
+#learning-exit {
+    color: black;
+	float: right;
+	font-size: 7vw;
+	font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+
+#learning-exit:hover, #learning-exit:focus {
+    color: gray;
+	text-decoration: none;
+	cursor: pointer;
+} 
 
 #learningPicture{
     width: 50%;
@@ -147,7 +186,7 @@ Background
     font-size:2vw;
 }
 
-#howToPlay{
+#HowToPlay{
     margin-top:3vw;
     margin-right: 3vw;
     text-align: right;
@@ -190,24 +229,24 @@ Background
 /* Matt - Translation Page */
 #translationBody{
     margin: 0;
-    background-color: #D0D0D0;
+    background-color: #AAE3F7;
 }
 
 #translationHeader{
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
+    margin-top: 40px;
 }
 
-.kala{
-    text-align: right;
-}
-
-.english{
+.english {
     text-align: left;
+    margin-left: 100px;
 }
 
-
-
+.kala {
+    text-align: right;
+    margin-right: 100px;
+}
 
 /* Yash */
 /* Homepage */
@@ -260,16 +299,15 @@ body {
 }
 
 .main-body {
-    
     display: flex;
     flex-direction: column;
-
 }
 
 .summary {
-    background: linear-gradient(45deg, rgba(
+    /* background: linear-gradient(45deg, rgba(
         153, 213, 239, 0.5), rgba(
-          153, 213, 239, 0.5)),url(../img/background-image.png);
+          153, 213, 239, 0.5)),url(../img/background-image.png); */
+    background: #AAE3F7;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -287,6 +325,7 @@ body {
 .summary > p {
     width: 46vw;
     text-align: justify;
+    font-size: 1.5vw;
 }
 
 .modes-button {
@@ -298,14 +337,18 @@ body {
 }
 
 .learning-mode-button, .translation-mode-button, .puzzle-mode-button {
-    background: #000000;
+    background: white;
     padding: 5%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .learning-mode-button > a, .translation-mode-button > a, .puzzle-mode-button > a {
-    color: #FFFFFF;
+    color: black;
     text-decoration: none;
     padding: 0%;
+    font-size: 2vw;
 }
 
 .language-summary {
@@ -324,6 +367,7 @@ body {
 .language-summary > p {
     text-align: justify;
     width: 50vw;
+    font-size: 1.25vw;
 }
 
 footer {
@@ -411,4 +455,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.references {
+    padding: 2%;
 }
