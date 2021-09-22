@@ -304,9 +304,9 @@ body {
 }
 
 .summary {
-    /* background: linear-gradient(45deg, rgba(
+    background: linear-gradient(45deg, rgba(
         153, 213, 239, 0.5), rgba(
-          153, 213, 239, 0.5)),url(../img/background-image.png); */
+          153, 213, 239, 0.5)),url(../img/background-image.png);
     background: #AAE3F7;
     background-repeat: no-repeat;
     background-size: cover;
@@ -410,16 +410,10 @@ footer {
 
 
 /* Matt - About Page */
-body {
+/* body {
     background: #AAE3F7;
     
-}
-
-.about-row {
-    display: flex;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
+} */
 
 .about-row h1 {
     font-size: 40px;
@@ -446,8 +440,8 @@ body {
 }
 
 .about-image img {
-    width: 800px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -455,8 +449,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-content: center;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: #AAE3F7;
+}
+
+.about-row > section {
+    width: 50vw;
 }
 
 .references {
     padding: 2%;
+    background-color: #a9d4ab;
 }
