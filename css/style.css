@@ -106,7 +106,8 @@ Background
     margin-top: 3vw;
     float:left;
     display:inline;
-    text-align:center;
+    text-align:right;
+
 }
 #childPicture{
     height:20vw;
@@ -116,12 +117,12 @@ Background
     margin-top: 3vw;
     float:left;
     height:12vw;
-    width: 50%;
-    
+    width: 30%;
     padding-top: 8vw;
     text-align: center;
     font-size: 3vw;
 }
+
 #child{
     padding:5vw 10vw 5vw 10vw;
     background-color: grey;
@@ -136,6 +137,9 @@ Background
     text-align: center;
 }
 
+.totalWords{
+    width:33%;
+}
 #language{
     font-size:2vw;
 }
