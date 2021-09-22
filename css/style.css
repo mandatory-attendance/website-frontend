@@ -337,14 +337,18 @@ body {
 }
 
 .learning-mode-button, .translation-mode-button, .puzzle-mode-button {
-    background: #000000;
+    background: white;
     padding: 5%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .learning-mode-button > a, .translation-mode-button > a, .puzzle-mode-button > a {
-    color: #FFFFFF;
+    color: black;
     text-decoration: none;
     padding: 0%;
+    font-size: 2vw;
 }
 
 .language-summary {
@@ -363,6 +367,7 @@ body {
 .language-summary > p {
     text-align: justify;
     width: 50vw;
+    font-size: 1.25vw;
 }
 
 /* Matt - About Page */
