@@ -380,3 +380,7 @@ body {
     flex-direction: row;
     justify-content: center;
 }
+
+.references {
+    padding: 2%;
+}
