@@ -275,9 +275,10 @@ body {
 }
 
 .summary {
-    background: linear-gradient(45deg, rgba(
+    /* background: linear-gradient(45deg, rgba(
         153, 213, 239, 0.5), rgba(
-          153, 213, 239, 0.5)),url(../img/background-image.png);
+          153, 213, 239, 0.5)),url(../img/background-image.png); */
+    background: #AAE3F7;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
