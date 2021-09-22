@@ -97,16 +97,18 @@ Background
     background-color: #AAE3F7;
 }
 
-#disclaimer{
+/* #disclaimer{
     text-align: center;
     width:100%;
     background-color: #e2bbb4;
     padding-top: 0.1vw;
     padding-bottom: 0.1vw;
-}
+} */
+
 #learningHeader{
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
+    margin-top: 40px;
 }
 
 #learningPicture{
