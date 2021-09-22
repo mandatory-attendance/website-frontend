@@ -54,6 +54,10 @@ Background
     padding: 10px;
     width: 100%;
     text-align: center;
+    /* Matt - added below to make the disclaimer be at the very top of the page */
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .button a:hover {
 	background-color: rgb(158, 92, 92);
@@ -226,6 +230,7 @@ body {
     background: #fef5a5;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .navigation-bar {
@@ -316,4 +321,51 @@ body {
 .language-summary > p {
     text-align: justify;
     width: 50vw;
+}
+
+/* Matt - About Page */
+body {
+    background: #FEF5A5;
+}
+
+.about-row {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.about-row h1 {
+    font-size: 40px;
+}
+
+.about-description {
+    flex-direction: column;
+    width: 725px;
+    padding: 2%;
+    text-align: justify;
+    background: white;
+}
+
+.about-description p {
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.about-image {
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 800px;
+}
+
+.about-image img {
+    width: 800px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.about-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
