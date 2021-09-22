@@ -229,7 +229,7 @@ Background
 /* Matt - Translation Page */
 #translationBody{
     margin: 0;
-    background-color: #D0D0D0;
+    background-color: #AAE3F7;
 }
 
 #translationHeader{
@@ -238,16 +238,15 @@ Background
     margin-top: 40px;
 }
 
-.kala{
-    text-align: right;
-}
-
-.english{
+.english {
     text-align: left;
+    margin-left: 100px;
 }
 
-
-
+.kala {
+    text-align: right;
+    margin-right: 100px;
+}
 
 /* Yash */
 /* Homepage */
@@ -300,10 +299,8 @@ body {
 }
 
 .main-body {
-    
     display: flex;
     flex-direction: column;
-
 }
 
 .summary {
@@ -328,6 +325,7 @@ body {
 .summary > p {
     width: 46vw;
     text-align: justify;
+    font-size: 1.5vw;
 }
 
 .modes-button {
