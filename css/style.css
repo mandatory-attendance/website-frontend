@@ -20,6 +20,20 @@ Background
 	background-color: rgb(85, 75, 71); 
 	background-color: rgba(0,0,0,0.4);
 }
+
+.modal1 {
+	display: none; 
+	position: fixed; 
+	padding-top: 70px; 
+	left: 0;
+	top: 0%;
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgb(85, 75, 71); 
+	background-color: rgba(0,0,0,0.4);
+}
+
 /* Content of Modal*/
 .DisclaimerContent {
     background-color: #e2bbb4;
