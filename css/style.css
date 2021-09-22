@@ -230,7 +230,7 @@ body {
     background: #fef5a5;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 37px;
 }
 
 .navigation-bar {
@@ -325,7 +325,8 @@ body {
 
 /* Matt - About Page */
 body {
-    background: #FEF5A5;
+    background: #AAE3F7;
+    
 }
 
 .about-row {
