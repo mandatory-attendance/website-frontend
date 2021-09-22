@@ -2,10 +2,10 @@
 
 //Gets modal, Disclaimer button and Exit span
 var modal = document.getElementById("HowToPlay");
-var DisclaimerBlock = document.getElementById("DisclaimerBlock")
+var HowToPlayBlock = document.getElementById("HowToPlayBlock")
 var span = document.getElementsByClassName("exit")[0];
 //Opens modal when user clicks on Disclaimer button.
-DisclaimerBlock.onclick = function() {
+HowToPlayBlock.onclick = function() {
     modal.style.display = "block";
 }
 //Closes modal when close button is clicked.
