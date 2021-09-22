@@ -33,6 +33,11 @@ Background
     text-align: center;
 	border-radius: 25px;
 }
+
+.DisclaimerContent p {
+    font-size: 30px;
+}
+
 /* Close Button*/
 .exit {
     color: #ffffff;
