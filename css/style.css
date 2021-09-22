@@ -89,7 +89,7 @@ Background
 /*Learning Mode*/
 #learningBody{
     margin: 0;
-    background-color: #D0D0D0;
+    background-color: #AAE3F7;
 }
 
 #disclaimer{
@@ -110,7 +110,7 @@ Background
     margin-top: 3vw;
     float:left;
     display:inline;
-    text-align:center;
+    text-align:right;
 }
 #childPicture{
     height:20vw;
