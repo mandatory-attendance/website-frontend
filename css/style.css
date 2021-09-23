@@ -410,10 +410,9 @@ footer {
 
 
 /* Matt - About Page */
-/* body {
+#about-page {
     background: #AAE3F7;
-    
-} */
+}
 
 .about-row h1 {
     font-size: 40px;
