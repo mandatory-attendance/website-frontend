@@ -144,6 +144,7 @@ body {
     color: gray;
 	text-decoration: none;
 	cursor: pointer;
+    transition: 0.3s;
 } 
 
 #learningPicture{
@@ -282,6 +283,11 @@ body {
     display: flex;
     justify-content: space-around;
     background: #AAE3F7;
+}
+
+.navigation-bar a:hover {
+    transition: 0.2s;
+    color: gray;
 }
 
 .home-button, .about-button, .learn-button, .translation-button, .test-button {
