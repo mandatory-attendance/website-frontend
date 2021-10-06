@@ -21,7 +21,7 @@ body {
 	width: 100%; 
 	height: 100%; 
 	overflow: auto; 
-	background-color: #E9BCD7; 
+	background-color: #6D8981; 
 	background-color: rgba(0,0,0,0.4);
 }
 
@@ -40,7 +40,7 @@ body {
 
 /* Content of Modal*/
 .DisclaimerContent {
-    background-color: #E9BCD7;
+    background-color: #6D8981;
 	margin: auto;
 	padding: 40px;
 	padding-top: 5%;
