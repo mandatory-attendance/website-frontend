@@ -1,3 +1,5 @@
+var count = 1;
+
 function set_count() {
 	count=1;
 }
@@ -87,4 +89,4 @@ $(document).ready(function() {
 			iterateRecords(data);
 		}
 	});
-}
+})}
