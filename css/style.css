@@ -272,12 +272,12 @@ body {
     text-align: center;
 }
 
-.logo {
+/* .logo {
     background: #272F58;
     float: left;
     justify-content: center;
     margin-top: 37px;
-}
+} */
 
 .navigation-bar {
     display: flex;
