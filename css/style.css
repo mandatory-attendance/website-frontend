@@ -273,7 +273,7 @@ body {
 }
 
 .logo {
-    background: #fef5a5;
+    background: #272F58;
     display: flex;
     justify-content: center;
     margin-top: 37px;
@@ -282,7 +282,7 @@ body {
 .navigation-bar {
     display: flex;
     justify-content: space-around;
-    background: #AAE3F7;
+    background: #272F58;
 }
 
 .navigation-bar a:hover {
