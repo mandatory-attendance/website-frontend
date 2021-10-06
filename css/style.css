@@ -274,7 +274,7 @@ body {
 
 .logo {
     background: #272F58;
-    float: left;
+    display: flex;
     justify-content: center;
     margin-top: 37px;
 }
@@ -316,7 +316,7 @@ body {
     /* background: linear-gradient(45deg, rgba(
         153, 213, 239, 0.5), rgba(
           153, 213, 239, 0.5)),url(../img/background-image.png); */
-    background: white;
+    background: #AAE3F7;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
