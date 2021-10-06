@@ -17,27 +17,45 @@ function iterateRecords(data) {
 			);
 		}
 
-		if(recordKala && recordID == count) {
-			$("#records").append(
-				$('<section class="kala">').append(
-					$('<h2>').text(recordKala)
-				)
-			);
+	
+		function englishWord() {
+			if(recordEnglish && recordID == count) {
+				$("#records").append(
+					$('<section class="english">').append(
+						$('<h2>').text(recordEnglish)
+					)
+				);
+			}
+		}
+		
+		function kalaWord() {
+			if(recordKala && recordID == count) {
+				$("#records").append(
+					$('<section class="kala">').append(
+						$('<h2>').text(recordKala)
+					)
+				);
+			}
 		}
 	});
 
 }
 
-document.getElementById("next_button").onclick = function() {next()
-//if this-> clas = eng eng.hide(); kala.show()
-}
+// document.getElementsByClassName("english").onclick = function() {kalaWord()};
 
-function flip() {
-	if 
-}
+// // function flipEnglish() {
+// //   document.getElementsByClassName("kala").innerHTML
+
+// document.getElementById("next_button").onclick = function() {next()
+// //if this-> clas = eng eng.hide(); kala.show()
+// }
+
+// function flip() {
+// 	if 
+// }
 
 function next() {
-	count += 1;
+	count = count + 1;
 }
 
 $(document).ready(function() {
