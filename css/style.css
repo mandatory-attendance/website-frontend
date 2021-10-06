@@ -274,9 +274,9 @@ body {
 
 .logo {
     background: #272F58;
-    position:fixed; 
-	top:0; 
-	left:0; 
+    float: left;
+    justify-content: center;
+    margin-top: 37px;
 }
 
 .navigation-bar {
