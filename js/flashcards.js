@@ -28,6 +28,18 @@ function iterateRecords(data) {
 
 }
 
+document.getElementById("next_button").onclick = function() {next()
+//if this-> clas = eng eng.hide(); kala.show()
+}
+
+function flip() {
+	if 
+}
+
+function next() {
+	count += 1;
+}
+
 $(document).ready(function() {
 
 	var data = {
