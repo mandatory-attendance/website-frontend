@@ -1,16 +1,17 @@
-/* Colour codes to be used for css
+ /* Colour codes to be used for css
 Background
     Red - #E9BCD7;
     Yellow - #FEF5A5;
     Blue Navigation Bar - #AAE3F7;
 */
 
-/*Abi*/
-body{
+/* Matt - font for website */
+body {
     font-family: 'Rubik', sans-serif;
 }
 
-/*Disclaimer Modal*/
+
+/*Abi - Disclaimer Modal*/
 .modal {
 	display: none; 
 	position: fixed; 
@@ -20,7 +21,7 @@ body{
 	width: 100%; 
 	height: 100%; 
 	overflow: auto; 
-	background-color: #E9BCD7; 
+	background-color: #6D8981; 
 	background-color: rgba(0,0,0,0.4);
 }
 
@@ -39,7 +40,7 @@ body{
 
 /* Content of Modal*/
 .DisclaimerContent {
-    background-color: #E9BCD7;
+    background-color: #6D8981;
 	margin: auto;
 	padding: 40px;
 	padding-top: 5%;
@@ -63,7 +64,7 @@ body{
     color: #ffffff;
 	float: right;
 	font-size: 60px;
-	font-weight: bold;
+
 }
 .exit:hover, .exit:focus{
     color: rgb(58, 51, 51);
@@ -74,7 +75,7 @@ body{
 /*Disclaimer  Button Block */
 
 .button a {
-    background-color: #E9BCD7;
+    background-color: #6D8981;
     display: block;
     padding: 10px;
     width: 100%;
@@ -117,7 +118,7 @@ body{
 /*Learning Mode*/
 #learningBody{
     margin: 0;
-    background-color: #AAE3F7;
+    background-color: white;
 }
 
 /* #disclaimer{
@@ -138,7 +139,6 @@ body{
     color: black;
 	float: right;
 	font-size: 7vw;
-	font-weight: bold;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -149,6 +149,7 @@ body{
     color: gray;
 	text-decoration: none;
 	cursor: pointer;
+    transition: 0.3s;
 } 
 
 #learningPicture{
@@ -173,7 +174,7 @@ body{
     text-align: center;
     font-size: 3vw;
 }
-#child{
+.flashcards{
     padding:5vw 10vw 5vw 10vw;
     background-color: #ADD8AF;
 }
@@ -264,7 +265,7 @@ body {
 }
 
 .disclaimer {
-    background-color: #E9BCD7;
+    background-color: #6C8880;
     display: flex;
 }
 
@@ -277,7 +278,7 @@ body {
 }
 
 .logo {
-    background: #fef5a5;
+    background: #272F58;
     display: flex;
     justify-content: center;
     margin-top: 37px;
@@ -286,7 +287,12 @@ body {
 .navigation-bar {
     display: flex;
     justify-content: space-around;
-    background: #AAE3F7;
+    background: #272F58;
+}
+
+.navigation-bar a:hover {
+    transition: 0.2s;
+    color: gray;
 }
 
 .home-button, .about-button, .learn-button, .translation-button, .test-button {
@@ -312,9 +318,10 @@ body {
 }
 
 .summary {
-    background: linear-gradient(45deg, rgba(
+    /* background: linear-gradient(45deg, rgba(
         153, 213, 239, 0.5), rgba(
-          153, 213, 239, 0.5)),url(../img/background-image.png);
+          153, 213, 239, 0.5)),url(../img/background-image.png); */
+    background: #AAE3F7;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -470,3 +477,56 @@ footer {
     padding: 2%;
     background-color: #a9d4ab;
 }
+
+/* Matt - Side Navigation Bar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: gray;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#hamburger {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    float: left;
+    font-size: 3.5vw;
+}
+
+#hamburger:hover {
+    color: gray;
+    transition: 0.3s;
+}
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

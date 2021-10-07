@@ -1,28 +1,15 @@
-function set_count() {
-	count=1;
-}
-
-function get_count() {
-	return count;
-}
-
-function inc_count() {
-	count = count + 1;
-}
-
-set_count();
-
 function iterateRecords(data) {
 
 	console.log(data);
+
 	$.each(data.result.records, function(recordKey, recordValue) {
 
 		var recordEnglish = recordValue["English"];
 		var recordKala = recordValue["Kala Lagaw Ya"];
 		var recordID = recordValue["_id"];
+		var count = 1;
 
-
-		if(recordEnglish && recordID == get_count()) {
+		if(recordEnglish && recordID == count) {
 			$("#records").append(
 				$('<section class="english">').append(
 					$('<h2>').text(recordEnglish)
@@ -30,48 +17,49 @@ function iterateRecords(data) {
 			);
 		}
 
-		if(recordKala && recordID == get_count()) {
-			$("#records").append(
-				$('<section class="kala">').append(
-					$('<h2>').text(recordKala)
-				)
-			);
-		}
-	});
-}
-
-document.getElementById("next_button").onclick = function() {next()};
-
-function next() {
-	function iterateRecords(data) {
-		$.each(data.result.records, function(recordKey, recordValue) {
 	
-			var recordEnglish = recordValue["English"];
-			var recordKala = recordValue["Kala Lagaw Ya"];
-			var recordID = recordValue["_id"];
-	
-			if(recordEnglish && recordID == get_count()) {
+		function englishWord() {
+			if(recordEnglish && recordID == count) {
 				$("#records").append(
 					$('<section class="english">').append(
 						$('<h2>').text(recordEnglish)
 					)
 				);
 			}
-	
-			if(recordKala && recordID == get_count()) {
+		}
+		
+		function kalaWord() {
+			if(recordKala && recordID == count) {
 				$("#records").append(
 					$('<section class="kala">').append(
 						$('<h2>').text(recordKala)
 					)
 				);
 			}
-		});
-	console.log(count);
-	inc_count()
+		}
+	});
+
+}
+
+// document.getElementsByClassName("english").onclick = function() {kalaWord()};
+
+// // function flipEnglish() {
+// //   document.getElementsByClassName("kala").innerHTML
+
+// document.getElementById("next_button").onclick = function() {next()
+// //if this-> clas = eng eng.hide(); kala.show()
+// }
+
+// function flip() {
+// 	if 
+// }
+
+function next() {
+	count = count + 1;
 }
 
 $(document).ready(function() {
-	
+
 	var data = {
 		resource_id: "9229d441-bdcc-40a9-8ad9-d287b2d679c4"
 	}
@@ -85,4 +73,4 @@ $(document).ready(function() {
 			iterateRecords(data);
 		}
 	});
-})}
+});

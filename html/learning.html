@@ -17,8 +17,7 @@
         <div id="Disclaimer" class="modal">
     
             <div class="DisclaimerContent">
-                <!--<span class="exit">&times;</span> -->
-                <h1>Disclaimer</h1>
+                <h2>Disclaimer</h2>
                 <p>Aboriginal and Torres Strait Islander viewers are advised that this website may contain images of deceased persons.<br>
                     Users are warned that there may be words and descriptions that may be culturally sensitive and which might not normally be used in certain public or community contexts.<br>
                     Terms and annotations that reflect the attitude of the author or the period in which the item was written, may be considered inappropriate today.</p>
@@ -33,6 +32,19 @@
             Learning Mode
         </header>
 
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="translation.html">Translate</a>
+            <a href="#">Quiz</a>
+            <a href="#">Puzzle</a>
+        </div>
+            
+        <span id = "hamburger" style="cursor:pointer" onclick="openNav()">&#9776</span>
+            
+        <script src="../js/sidenav.js"></script>
+
         <a id="learning-exit" href="../index.html">&times;</a>
 
         <section id = "learningSection">
@@ -41,9 +53,13 @@
             </div>
             
             <a class = "flipCard" href = "../html/learning2.html">
-            <div id = "learningCard">
-                <span id = "child">Child</span>
-            </div></a>
+                <div id = "learningCard">
+                    <span class = "flashcards">Child</span>
+                </div></a>
+        </section>
+
+        <section id="records">
+            <section class="english"></section>
         </section>
         
         <table id = "learningButtons">
@@ -58,7 +74,7 @@
                 </td>
 
                 <td>
-                    <button>Next</button>
+                    <button id="next_button">Next</button>
                 </td>
             </tr>
         </table>
@@ -80,7 +96,7 @@
         </div>
 
         <script src="../js/modal.js"></script>
-
+        <script src="../js/flashcards.js"></script>
         
     </body>
 
