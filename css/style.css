@@ -169,7 +169,7 @@ body {
     text-align: center;
     font-size: 3vw;
 }
-#child{
+.flashcards{
     padding:5vw 10vw 5vw 10vw;
     background-color: #ADD8AF;
 }
