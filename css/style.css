@@ -7,7 +7,9 @@ Background
 
 /* Nisha - font for website */
 body {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower';
+    background-color: #b0d2bf;
+    margin: 0%;
 }
 
 /* Abi*/
