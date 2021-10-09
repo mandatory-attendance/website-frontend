@@ -410,14 +410,14 @@ article p {
     cursor: grabbing;
 }
 
-.blankAnswer{
+#answerTarget span{
     background-color: #E4E7E9;
     width:50px;
     height:50px;
     margin: 5px;
     border-radius: 10px;
 }
-.randomizedWords{
+#answerSource span{
     font-size: 3vw;
     background-color: #A0CDC4;
     width:50px;
@@ -439,6 +439,11 @@ article p {
     font-size: 2vw;
     cursor:pointer;
 }
+
+.notDraggable {
+    cursor: not-allowed !important;
+    opacity:0.3 !important;
+  }
 
 /* Nisha */
 /* Hamburger Icon */
