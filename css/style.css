@@ -115,10 +115,9 @@ body {
 
 /*Garry*/
 /*Learning Mode*/
-/*Learning Mode*/
 #learningBody{
     margin: 0;
-    background-color: white;
+    background-color: #AAE3F7;
 }
 
 /* #disclaimer{
@@ -160,7 +159,7 @@ body {
     display:inline;
     text-align:right;
 }
-#childPicture{
+#picture{
     height:20vw;
 }
 
@@ -203,6 +202,76 @@ body {
 
 .flipCard{
         color:black;
+}
+
+/*Puzzle Mode*/
+#puzzleBody{
+    margin: 0;
+    background-color: #AAE3F7;
+}
+
+#puzzleHeader{
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#puzzleQuestion{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    
+}
+
+#puzzleEnglishQuestion{
+    font-size: 3vw;
+    border-radius: 10px;
+    background-color: #C8DFD0;
+    height:3.5vw;
+    margin-bottom: 10px;
+}
+
+#answerTarget, #answerSource{
+    margin:auto;
+    margin-bottom:1vw;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+
+#answerSource{
+    cursor: grabbing;
+}
+
+.blankAnswer{
+    background-color: #E4E7E9;
+    width:50px;
+    height:50px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.randomizedWords{
+    font-size: 3vw;
+    background-color: #A0CDC4;
+    width:50px;
+    height:50px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#checkAnswer{
+    text-align:center;
+    margin-bottom: 10px;
+}
+.checkButton{
+    padding: 0.5vw 1vw;
+    border:none;
+    border: 1px #3F875F solid;
+    background-color: #C8DFD0;
+    text-decoration: none;
+    font-size: 2vw;
+    cursor:pointer;
 }
 
 /* Nisha */
