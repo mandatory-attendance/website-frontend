@@ -261,8 +261,12 @@ body {
 }
 .checkButton{
     padding: 0.5vw 1vw;
+    border:none;
+    border: 1px #3F875F solid;
+    background-color: #C8DFD0;
     text-decoration: none;
     font-size: 2vw;
+    cursor:pointer;
 }
 
 /* Nisha */
