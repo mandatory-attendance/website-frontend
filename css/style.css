@@ -6,12 +6,57 @@ Background
 */
 
 /* Matt - font for website */
-body {
+
+body{
     font-family: 'Rubik', sans-serif;
+    background-color: #b0d2bf;
+    margin: 0%;
 }
 
+/* #page-header {
+	background: #e6e4e4;
+    font-size: 40px;
+	text-align: center;
+	padding: 13vw;
+    display: flex;
+    justify-content: space-around;
+} */
 
-/*Abi - Disclaimer Modal*/
+#page-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 28vw;
+    background: #c8e6f7;
+}
+
+.klylogo {
+    display: flex;
+    width: 45vw;
+    align-items: center;  
+    margin: 4vw;  
+}
+
+.klylogo > img {
+    width: 100%;
+    height: fit-content;
+}
+
+.options {
+    width: 90vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4vw;
+}
+
+.options > img {
+    width: 6vw;
+    height: 6vw;
+}
+/*Disclaimer Modal*/
 .modal {
 	display: none; 
 	position: fixed; 
@@ -21,7 +66,7 @@ body {
 	width: 100%; 
 	height: 100%; 
 	overflow: auto; 
-	background-color: #6D8981; 
+	background-color: #3d724d; 
 	background-color: rgba(0,0,0,0.4);
 }
 
@@ -40,7 +85,7 @@ body {
 
 /* Content of Modal*/
 .DisclaimerContent {
-    background-color: #6D8981;
+    background-color: #588c7e;
 	margin: auto;
 	padding: 40px;
 	padding-top: 5%;
@@ -64,7 +109,7 @@ body {
     color: #ffffff;
 	float: right;
 	font-size: 60px;
-
+	font-weight: bold;
 }
 .exit:hover, .exit:focus{
     color: rgb(58, 51, 51);
@@ -75,10 +120,10 @@ body {
 /*Disclaimer  Button Block */
 
 .button a {
-    background-color: #6D8981;
+    background-color: #588c7e;
     display: block;
     padding: 10px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     /* Matt - added below to make the disclaimer be at the very top of the page */
     position: absolute;
@@ -87,7 +132,7 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 .button a:hover {
-	background-color: rgb(158, 92, 92);
+	background-color: #588c7ebb;
 	color: white;
 	cursor: pointer;
 }
@@ -110,6 +155,126 @@ body {
 	color: white;
 	
 	cursor: pointer;
+}
+
+/* logo */
+/* .klylogo img {
+    max-width: 30%;
+    padding: 2vw;
+    left: 4%;
+    top: 3%;
+}
+
+.klylogo img:hover{
+    max-width: 30%;
+    padding: 2vw;
+    filter: drop-shadow(5px 5px 5px rgb(129, 215, 255));
+}
+
+.home_icon img {
+    max-width: 15%;
+    position: fixed;
+    float: right;
+    left: 40%;
+    top: 20%;
+}
+.home_icon img:hover{
+    filter: drop-shadow(7px 7px 7px rgb(183, 255, 245));
+}
+.about_icon img {
+    max-width: 12%;
+    position: fixed;
+    float: right;
+    left: 50%;
+    top: 22%;
+}
+.about_icon img:hover{
+    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
+}
+
+.flash_icon img {
+    max-width: 12%;
+    position: fixed;
+    float: right;
+    left: 58%;
+    top: 22%;
+}
+.flash_icon img:hover{
+    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
+}
+
+.translate_icon img {
+    max-width: 12%;
+    position: fixed;
+    float: right;
+    left: 66%;
+    top: 22%;
+}
+.translate_icon img:hover{
+    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
+}
+
+.puzzle_icon img {
+    max-width: 12%;
+    position: fixed;
+    float: right;
+    left: 75%;
+    top: 22%;
+}
+.puzzle_icon img:hover{
+    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
+}
+
+.quiz_icon img {
+    max-width: 12%;
+    position: fixed;
+    float: right;
+    left: 83%;
+    top: 22%;
+}
+.quiz_icon img:hover{
+    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
+} */
+
+article {
+	padding: 2em;
+    line-height: 1.5em;
+	text-align:justify;
+}
+
+article p {
+    position: relative;
+    left: 50%;
+    top: 1%;
+    max-width: 35%;
+}
+
+.flag_img img {
+    margin: 3%;
+}
+
+.modes-button {
+    background: #a9d4ab;
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+
+.learning-mode-button, .translation-mode-button, .puzzle-mode-button {
+    background: white;
+    padding: 5%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.learning-mode-button > a, .translation-mode-button > a, .puzzle-mode-button > a {
+    color: black;
+    text-decoration: none;
+    padding: 0%;
+    font-size: 2vw;
 }
 
 
