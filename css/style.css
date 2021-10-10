@@ -111,7 +111,7 @@ article p{
 
 /* Content of Modal*/
 .DisclaimerContent {
-    background-color: #588c7e;
+    background-color: #b0d2bf;
 	margin: auto;
 	padding: 40px;
 	padding-top: 5%;
@@ -121,7 +121,6 @@ article p{
 	font-size: 20px;
     text-align: center;
 	border-radius: 25px;
-    font-family: 'Rubik', sans-serif;
 }
 
 .DisclaimerContent p {
@@ -172,7 +171,8 @@ article p{
 	border: 2px solid black;
 	border-radius: 5px;
 	justify-content: center;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: inherit;
 }
 
 .DisclaimerContent .ContinueButton:hover{
