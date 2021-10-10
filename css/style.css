@@ -42,7 +42,8 @@ article img{
 }
 
 article p{
-    justify-content: spa;
+    justify-content: space-around;
+    margin: 5vw;
 }
 
 .klylogo {
