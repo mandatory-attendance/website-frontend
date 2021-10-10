@@ -36,6 +36,14 @@ body {
     background: #eef0f1;
 }
 
+article img{
+    float: left;
+}
+
+article p{
+    justify-content: spa;
+}
+
 .klylogo {
     display: flex;
     width: 45vw;
@@ -266,13 +274,6 @@ article {
 	padding: 2em;
     line-height: 1.5em;
 	text-align:justify;
-}
-
-article p {
-    position: relative;
-    left: 50%;
-    top: 1%;
-    max-width: 35%;
 }
 
 .flag_img img {
