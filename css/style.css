@@ -183,85 +183,6 @@ article p{
 	cursor: pointer;
 }
 
-/* logo */
-/* .klylogo img {
-    max-width: 30%;
-    padding: 2vw;
-    left: 4%;
-    top: 3%;
-}
-
-.klylogo img:hover{
-    max-width: 30%;
-    padding: 2vw;
-    filter: drop-shadow(5px 5px 5px rgb(129, 215, 255));
-}
-
-.home_icon img {
-    max-width: 15%;
-    position: fixed;
-    float: right;
-    left: 40%;
-    top: 20%;
-}
-.home_icon img:hover{
-    filter: drop-shadow(7px 7px 7px rgb(183, 255, 245));
-}
-.about_icon img {
-    max-width: 12%;
-    position: fixed;
-    float: right;
-    left: 50%;
-    top: 22%;
-}
-.about_icon img:hover{
-    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
-}
-
-.flash_icon img {
-    max-width: 12%;
-    position: fixed;
-    float: right;
-    left: 58%;
-    top: 22%;
-}
-.flash_icon img:hover{
-    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
-}
-
-.translate_icon img {
-    max-width: 12%;
-    position: fixed;
-    float: right;
-    left: 66%;
-    top: 22%;
-}
-.translate_icon img:hover{
-    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
-}
-
-.puzzle_icon img {
-    max-width: 12%;
-    position: fixed;
-    float: right;
-    left: 75%;
-    top: 22%;
-}
-.puzzle_icon img:hover{
-    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
-}
-
-.quiz_icon img {
-    max-width: 12%;
-    position: fixed;
-    float: right;
-    left: 83%;
-    top: 22%;
-}
-.quiz_icon img:hover{
-    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
-} */
-
 article {
 	padding: 2em;
     line-height: 1.5em;
@@ -289,13 +210,9 @@ article {
     justify-content: center;
 }
 
-.learning-mode-button > a, .translation-mode-button > a, .puzzle-mode-button > a {
-    color: black;
-    text-decoration: none;
-    padding: 0%;
-    font-size: 2vw;
+.learning-mode-button:hover, .translation-mode-button:hover, .puzzle-mode-button:hover{
+    background: rgb(140, 192, 240);
 }
-
 
 /*Garry*/
 /*Learning Mode*/
