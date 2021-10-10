@@ -43,7 +43,7 @@ body {
     margin: 4vw;  
 }
 
-.klylogo >img {
+.klylogo a >img {
     width: 100%;
     height: fit-content;
 }
