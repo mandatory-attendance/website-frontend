@@ -194,13 +194,12 @@ article {
 }
 
 .modes-button {
-    background: #a9d4ab;
+    background: #b7ccb7;
     display: flex;
     flex-direction: initial;
     justify-content: space-around;
     padding: 1%;
 }
-
 
 .learning-mode-button, .translation-mode-button, .puzzle-mode-button {
     background: white;
@@ -211,7 +210,7 @@ article {
 }
 
 .learning-mode-button:hover, .translation-mode-button:hover, .puzzle-mode-button:hover{
-    background: rgb(140, 192, 240);
+    background: rgb(226, 247, 255);
 }
 
 /*Garry*/
@@ -517,13 +516,6 @@ body {
     font-size: 1.5vw;
 }
 
-.modes-button {
-    background: #dfe9df;
-    display: flex;
-    flex-direction: initial;
-    justify-content: space-around;
-    padding: 1%;
-}
 
 .learning-mode-button, .translation-mode-button, .puzzle-mode-button {
     background: white;
