@@ -1,4 +1,4 @@
-<head>
+    <head>
         <meta charset="utf-8">
         <title>Homepage</title>
         <link rel="stylesheet" href="css/style.css">
@@ -8,9 +8,6 @@
     </head>
 
     <body>
-        <!-- <div class="disclaimer">
-            <a href="#" id="disclaimer-link">Disclaimer</a>
-        </div> -->
 
         <?php include 'disclaimer.php'; ?>
 
@@ -54,19 +51,7 @@
                 </figure>
                 </div>
 
-<!--             <div class="options">
-                <<img src="images/home.png" alt="home icon"> 
-                <img src="images/about.png" alt="about icon">
-                <p>about</p>
-                <img src="images/flash.png" alt="flash icon">
-                <p>flash card</p>
-                <img src="images/translate.png" alt="translate icon">
-                <p>translate</p>
-                <img src="images/puzzle.png" alt="puzzle icon">
-                <p>puzzel</p>
-                <img src="images/quiz.png" alt="quiz icon">
-                <p>quiz</p>
-            </div> -->
+
         </div>
 
         <article>
