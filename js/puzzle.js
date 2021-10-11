@@ -41,12 +41,10 @@ function dropHandler(e) {
   
   const dataSourceId = e.dataTransfer.getData('text'); 
   const dataTargetId = e.target.getAttribute('data-target-id');
-  console.log(dataSourceId)
-  console.log(dataTargetId)
   
   if(dataSourceId === dataTargetId) {
     e.target.insertAdjacentHTML('afterbegin', dataSourceId);
-    e.target.style = 'font-size: 3vw';
+    e.target.style = 'font-size: 3vw; background: #A0CDC4';
     document.getElementById("tryAgain").style.display = "none";
     
     let sourceElemDataId = 'span[data-source-id="' + dataSourceId + '"]';
@@ -61,6 +59,17 @@ function dropHandler(e) {
     document.getElementById("tryAgain").style.display = "block";
   }
   
+}
+
+function iterateRecords(data) {
+
+	console.log(data);
+	$.each(data.result.records, function(recordKey, recordValue) {
+
+		var recordEnglish = recordValue["English"];
+		var recordKala = recordValue["Kala Lagaw Ya"];
+		var recordID = recordValue["_id"];
+	});
 }
 
 $(document).ready(function() {
