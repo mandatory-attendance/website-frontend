@@ -1,3 +1,5 @@
+document.getElementById("tryAgain").style.display = "none"
+
 const answerSource = document.querySelectorAll('#answerSource > span');
 const answerTarget = document.querySelectorAll('#answerTarget > span');
 
@@ -21,6 +23,7 @@ function dragEndHandler(e) {
 }
 
 function dragEnterHandler(e) {
+  e.preventDefault();
   e.target.style = 'border: 2px dashed gray; box-sizing: border-box';
 }
 
@@ -38,9 +41,13 @@ function dropHandler(e) {
   
   const dataSourceId = e.dataTransfer.getData('text'); 
   const dataTargetId = e.target.getAttribute('data-target-id');
+  console.log(dataSourceId)
+  console.log(dataTargetId)
   
   if(dataSourceId === dataTargetId) {
     e.target.insertAdjacentHTML('afterbegin', dataSourceId);
+    e.target.style = 'font-size: 3vw';
+    document.getElementById("tryAgain").style.display = "none";
     
     let sourceElemDataId = 'span[data-source-id="' + dataSourceId + '"]';
     let sourceElemSpanTag = document.querySelector(sourceElemDataId);
@@ -50,5 +57,25 @@ function dropHandler(e) {
       draggable: false,
     });
   }
+  else{
+    document.getElementById("tryAgain").style.display = "block";
+  }
   
 }
+
+$(document).ready(function() {
+	
+	var data = {
+		resource_id: "9229d441-bdcc-40a9-8ad9-d287b2d679c4"
+	}
+
+	$.ajax({
+		url: "https://www.data.qld.gov.au/api/3/action/datastore_search",
+		data: data,
+		dataType: "jsonp", // We use "jsonp" to ensure AJAX works correctly locally (otherwise XSS).
+		cache: true,
+		success: function(data) {
+			iterateRecords(data);
+		}
+	});
+})
