@@ -72,6 +72,11 @@ function iterateRecords(data) {
 	});
 }
 
+document.getElementById("checkAnswer");
+
+
+function nextPuzzle(){
+
 $(document).ready(function() {
 	
 	var data = {
@@ -87,4 +92,4 @@ $(document).ready(function() {
 			iterateRecords(data);
 		}
 	});
-})
+})}
