@@ -8,7 +8,7 @@ Background
 /* Nisha - font for website */
 body {
     font-family: 'Indie Flower';
-    background-color: #b0d2bf;
+    /* background-color: #b0d2bf; */
     margin: 0%;
 }
 
@@ -152,9 +152,10 @@ article p{
     width: 100vw;
     text-align: center;
     /* Matt - added below to make the disclaimer be at the very top of the page */
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; 
+    Not required as it is always linked on top of each page*/
 }
 .button a:hover {
 	background-color: #588c7ebb;
@@ -410,11 +411,11 @@ article {
 /* .HambugerIcon:hover .HambugerButton {}; */
 
 /* Matt - Translation Page */
-#translationBody{
+/* #translationBody{
     margin: 0;
     background-color: #AAE3F7;
 }
-
+ */
 #translationHeader{
     text-align: center;
     font-size: 4vw;
@@ -696,4 +697,65 @@ footer {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
+}
+
+
+
+
+
+
+
+
+
+.translation-heading > h1 {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.translation-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.translation-body-button {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.translation-body-button > img {
+    width: 50%;
+    height: 50%;
+}
+
+
+.translation-body-english, .translation-body-indigenous {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.translation-body-english > h1, .translation-body-indigenous > h1 {
+    margin: 2%;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+    background: #5F9D91;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.translation-body-english > textarea, .translation-body-indigenous > textarea {
+    border: 0px;
+    background: gainsboro;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+    resize: none;
+    width: 100%;
+}
