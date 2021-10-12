@@ -56,31 +56,35 @@
 
         <section id = "puzzleAnswer">
             <div id = "answerTarget">
-                <span data-target-id = "K">
+                <span data-target-id = "K" class = "target">
                 </span>
-                <span data-target-id = "A">
+                <span data-target-id = "A" class = "target">
                 </span>
-                <span data-target-id = "Z">
+                <span data-target-id = "Z" class = "target">
                 </span>
-                <span data-target-id = "I">
+                <span data-target-id = "I" class = "target">
                 </span>
             </div>
             
             <div id ="answerSource">
-                <span data-source-id = "Z" draggable="true">
+                <span data-source-id = "Z" draggable="true" class = "source">
                     Z
                 </span>
-                <span data-source-id = "K" draggable="true">
+                <span data-source-id = "K" draggable="true" class = "source">
                     K
                 </span>
-                <span data-source-id = "I" draggable="true">
+                <span data-source-id = "I" draggable="true" class = "source">
                     I
                 </span>
-                <span data-source-id = "A" draggable="true">
+                <span data-source-id = "A" draggable="true" class = "source">
                     A  
                 </span>
             </div>
         </section>
+        
+        <figcaption id = 'tryAgain'>
+            Try Again
+        </figcaption>
 
         <nav id = "checkAnswer">
             <button class = "checkButton">Check</button>
@@ -89,7 +93,7 @@
         <nav class="HowToPlayButton">
             <a id="HowToPlayBlock"><button>How To Play</button></a>
         </nav>
-        <script src="../js/puzzle.js"></script>
+        
     
         <div id="HowToPlay" class="modal1">
     
@@ -101,6 +105,8 @@
     
         </div>
 
+        <script src="../js/puzzle.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="../js/modal.js"></script>
         
     </body>
