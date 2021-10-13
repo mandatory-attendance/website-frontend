@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Translation</title>
+        <title>Translate</title>
         <link rel="stylesheet" href="../css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     </head>
@@ -26,18 +26,48 @@
 
         <script src="../js/disclaimer.js"></script>
 
-        <header id = "translationHeader">
-            Translation Mode
-        </header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="flash.html">Flashcards</a>
+            <a href="translation.html">Translate</a>
+            <a href="#">Quiz</a>
+            <a href="puzzle.html">Puzzle</a>
+        </div>
 
-        <a id="learning-exit" href="../index.html">&times;</a>
+		<span id = "hamburger" style="cursor:pointer" onclick="openNav()">&#9776</span>
 
-        <section id="records">
-            <section class="english"></section>
-            <section class="kala"></section>
+		<script src="../js/sidenav.js"></script>
+
+        <header id = "translationHeader">Translate</header>
+
+        <section id="translator-box">
+            <section id="translator">
+                <section class="english">
+                    <h2>English</h2>
+                    <div class="autocomplete">
+                        <input id="eng-input" type="text">
+                    </div>
+                </section>
+                <section class="kala">
+                    <h2>kala Lagaw Ya</h2>
+                    <div class="autocomplete">
+                        <input id="kala-input" type="text">
+                    </div>
+                </section>
+            </section>
         </section>
 
-        <button id="next_button">Next</button>
+        <section id="translate-button-box">
+            <button id="translate-button">Translate</button>
+        </section>
+
+        <section class="info-box">
+            <section class="word-info">
+                <h2>Info About Word</h2>
+            </section>
+        </section>
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="../js/translate.js"></script>
