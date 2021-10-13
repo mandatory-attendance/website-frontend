@@ -46,9 +46,6 @@
         <!--<div id = "HowToPlay"><button>How to Play</button></div>-->
         
         <section id = "puzzleQuestion">
-            <div id = "puzzleEnglishQuestion">
-                Child
-            </div>
             <div id = "questionPict">
                 <img id = "picture" src = "../img/child.jpg">
             </div>
@@ -56,18 +53,18 @@
 
         <section id = "puzzleAnswer">
             <div id = "answerTarget">
-                <span data-target-id = "K" class = "target">
+                <!-- <span data-target-id = "K" class = "target">
                 </span>
                 <span data-target-id = "A" class = "target">
                 </span>
                 <span data-target-id = "Z" class = "target">
                 </span>
                 <span data-target-id = "I" class = "target">
-                </span>
+                </span> -->
             </div>
             
             <div id ="answerSource">
-                <span data-source-id = "Z" draggable="true" class = "source">
+                <!-- <span data-source-id = "Z" draggable="true" class = "source">
                     Z
                 </span>
                 <span data-source-id = "K" draggable="true" class = "source">
@@ -78,16 +75,16 @@
                 </span>
                 <span data-source-id = "A" draggable="true" class = "source">
                     A  
-                </span>
+                </span> -->
             </div>
         </section>
         
-        <figcaption id = 'tryAgain'>
+        <div id = 'tryAgain'>
             Try Again
-        </figcaption>
+        </div>
 
-        <nav id = "checkAnswer">
-            <button class = "checkButton">Check</button>
+        <nav id = "nextPuzzle">
+            <button class = "nextButton">Next</button>
         </nav>
         
         <nav class="HowToPlayButton">
@@ -105,9 +102,11 @@
     
         </div>
 
-        <script src="../js/puzzle.js"></script>
+        
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="../js/modal.js"></script>
+        <script src="../js/puzzle.js"></script>
+        
         
     </body>
 
