@@ -50,6 +50,14 @@ function next() {
 	inc_count();
 }
 
+document.getElementById("prev_button").onclick = function() {prev()};
+
+function prev() {
+	if(count > 1) {
+		count = count - 2
+		next()
+	}
+}
 
 $(document).ready(function() {
 	next()
