@@ -92,16 +92,16 @@ article p{
 
 /*Nisha: Slide Show*/
 .slideshow{
-    width:60%;
-    height: 50% ;
-    position: absolute;
+    width:50%;
+    height: 60% ;
+    position:absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, 25%);
     background-image: url('../../img/child.jpg');
     background-size: 100% 100%;
     box-shadow: 1px 2px 10px 5px white;
-    animation:photochange 5s infinite linear;
+    animation:photochange 6s infinite linear;
 }
 
 @keyframes photochange{
