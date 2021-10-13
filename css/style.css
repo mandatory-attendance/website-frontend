@@ -340,6 +340,7 @@ article {
     
 }
 
+
 #puzzleEnglishQuestion{
     font-size: 3vw;
     border-radius: 10px;
@@ -381,11 +382,11 @@ article {
     font-size: 2vw;
     color:red;
 }
-#checkAnswer{
+#nextPuzzle{
     text-align:center;
     margin-bottom: 10px;
 }
-.checkButton{
+.nextButton{
     padding: 0.5vw 1vw;
     border:none;
     border: 1px #3F875F solid;
