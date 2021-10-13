@@ -28,6 +28,7 @@ body {
     justify-content: space-around;
 } */
 
+/*Nisha: page header*/
 #page-header {
     display: flex;
     flex-direction: row;
@@ -88,6 +89,26 @@ article p{
     filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
 }
 
+
+/*Nisha: Slide Show*/
+.maindiv{
+    width:70%;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+    background-image: url('../../img/child.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation:slider 9s infinite linear;
+}
+
+@keyframes slider{
+    0%{}
+    35%{}
+    75%{}
+}
 /*Disclaimer Modal*/
 .modal {
 	display: none; 
