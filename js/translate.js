@@ -1,5 +1,5 @@
 function set_count() {
-	count=1;
+	count = 1;
 }
 
 function get_count() {
@@ -11,34 +11,6 @@ function inc_count() {
 }
 
 set_count();
-
-function iterateRecords(data) {
-
-	console.log(data);
-	$.each(data.result.records, function(recordKey, recordValue) {
-
-		var recordEnglish = recordValue["English"];
-		var recordKala = recordValue["Kala Lagaw Ya"];
-		var recordID = recordValue["_id"];
-
-
-		if(recordEnglish && recordID == get_count()) {
-			$("#records").append(
-				$('<section class="english">').append(
-					$('<h2>').text(recordEnglish)
-				)
-			);
-		}
-
-		if(recordKala && recordID == get_count()) {
-			$("#records").append(
-				$('<section class="kala">').append(
-					$('<h2>').text(recordKala)
-				)
-			);
-		}
-	});
-}
 
 document.getElementById("next_button").onclick = function() {next()};
 
@@ -68,7 +40,7 @@ function next() {
 		});
 	console.log(count);
 	inc_count()
-}
+	}
 
 $(document).ready(function() {
 	
@@ -79,7 +51,7 @@ $(document).ready(function() {
 	$.ajax({
 		url: "https://www.data.qld.gov.au/api/3/action/datastore_search",
 		data: data,
-		dataType: "jsonp", // We use "jsonp" to ensure AJAX works correctly locally (otherwise XSS).
+		dataType: "jsonp",
 		cache: true,
 		success: function(data) {
 			iterateRecords(data);

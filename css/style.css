@@ -575,33 +575,6 @@ footer {
     color: #000000;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Matt - About Page */
 #about-page {
     background: #AAE3F7;
@@ -694,7 +667,7 @@ footer {
 
 #hamburger {
     position: absolute;
-    top: 40px;
+    top: 10px;
     left: 10px;
     float: left;
     font-size: 3.5vw;
@@ -712,46 +685,81 @@ footer {
 
 /* Matt - Flashcards Page */
 
+#flash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
 .scene {
-    width: 200px;
+    width: 500px;
     height: 260px;
     border: 1px solid #CCC;
     margin: 40px 0;
     perspective: 600px;
-  }
+}
   
-  .card {
+.card {
     width: 100%;
     height: 100%;
     transition: transform 1s;
     transform-style: preserve-3d;
     cursor: pointer;
     position: relative;
-  }
+}
   
-  .card.is-flipped {
+.card.is-flipped {
     transform: rotateY(180deg);
-  }
+}
   
-  .card__face {
+.card__face {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     line-height: 260px;
-    color: white;
-    text-align: center;
+    color: black;
+    font-size: 75px;
     font-weight: bold;
-    font-size: 40px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-  }
+    margin: auto;
+    border-radius: 0.5em;
+    background: white;
+}
   
-  .card__face--front {
-    background: red;
-  }
-  
-  .card__face--back {
-    background: blue;
+.card__face--back {
     transform: rotateY(180deg);
-  }
+}
 
+#next_button, #prev_button {
+    background-color: white;
+    border: none;
+    color: black;
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 0.5em;
+    position: absolute;
+}
+
+#next_button {
+    right: 200px;
+}
+
+#prev_button {
+    left: 200px;
+}
+
+#current-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}

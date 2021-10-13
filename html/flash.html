@@ -4,22 +4,38 @@
 		<meta charset="utf-8">
 		<title>Flashcards</title>
 		<link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 	</head>
 
     <body>
 
-		<button id="next_button">Next</button>
+		<div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="translation.html">Translate</a>
+            <a href="#">Quiz</a>
+            <a href="puzzle.html">Puzzle</a>
+        </div>
+
+		<span id = "hamburger" style="cursor:pointer" onclick="openNav()">&#9776</span>
+
+		<script src="../js/sidenav.js"></script>
 
 		<section id="flash">
 			<section class="scene scene--card">
 				<section class="card">
 				<section class="card__face card__face--front"><p class = "englishword"></p></section>
-				<section class="card__face card__face--back"><p class = "notenglishword"></p></section>
+				<section class="card__face card__face--back"><p class = "kalaword"></p></section>
 				</section>
 			</section>
 		</section>
 
-		<p>Click card to flip.</p>
+		<button id="prev_button">Previous</button>
+
+		<button id="next_button">Next</button>
+
+		<section id="current-language"><p>Current Language</p></section>
 
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script src="../js/flashcards.js"></script>
