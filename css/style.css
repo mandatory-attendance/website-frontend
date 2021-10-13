@@ -492,7 +492,7 @@ article {
 }
 
 #translate-button {
-    background-color: pink;
+    background-color: #d8ecf7;
     border: none;
     color: black;
     width: 200px;
@@ -516,8 +516,8 @@ article {
     display: flex;
     justify-content: center;
     width: 1200px;
-    height: 300px;
-    background: white;
+    height: 200px;
+    background: #dbdcdd;
 }
 
 .info-box {
@@ -869,18 +869,18 @@ footer {
 }
 
 #next_button {
-    right: 500px;
+    right: 420px;
 }
 
 #prev_button {
-    left: 500px;
+    left: 420px;
 }
 
 #current-language {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 65px;
+    font-size: 40px;
 }
 
 #flashcards-header {
