@@ -1,4 +1,5 @@
 document.getElementById("tryAgain").style.display = "none";
+// document.getElementById("nextPuzzle").addEventListener("click",nextButtonQuestion);
 
 function set_count() {
 	count=1;
@@ -32,8 +33,6 @@ function arrayShuffle(array) {  //source : https://stackoverflow.com/questions/2
   return array;
 }
 
-set_count();
-
 
 
 
@@ -65,6 +64,7 @@ function dropHandler(e) {
   const dataSourceId = e.dataTransfer.getData('text'); 
   const dataTargetId = e.target.getAttribute('data-target-id');
   
+  
   if(dataSourceId === dataTargetId) {
     e.target.insertAdjacentHTML('afterbegin', dataSourceId);
     e.target.style = 'font-size: 3vw; background: #A0CDC4';
@@ -87,13 +87,19 @@ function dropHandler(e) {
 function iterateRecords(data) {
 
 	$.each(data.result.records, function(recordKey, recordValue) {
-
+    
 		var recordEnglish = recordValue["English"];
 		var recordKala = recordValue["Kala Lagaw Ya"];
 		var recordID = recordValue["_id"];
-
+    
+    
+    
 
     if(recordEnglish && recordID == get_count()) {
+      
+
+      let EnglishQuestion = document.getElementById("puzzleEnglishQuestion");
+      EnglishQuestion.remove();
 			$("#puzzleQuestion").prepend(
 				$('<figcaption id = "puzzleEnglishQuestion">').text(recordEnglish)
 				);
@@ -101,9 +107,6 @@ function iterateRecords(data) {
       let kalaLetter = recordKala.toUpperCase();
       let kalaOrderedLetter = kalaLetter.split('');
       
-
-      console.log(kalaLetter);
-      console.log(kalaOrderedLetter);
       
       for (let i = 0; i < kalaOrderedLetter.length; i++) {
         $("#answerTarget").append(
@@ -112,7 +115,6 @@ function iterateRecords(data) {
       }
 
       let kalaRandomLetter = arrayShuffle(kalaOrderedLetter);
-      console.log(kalaRandomLetter);
       for (let i = 0; i < kalaRandomLetter.length; i++) {
         $("#answerSource").append(
           $('<span data-source-id = "'+ kalaRandomLetter[i] +'"draggable="true" "class = "source">').text(kalaRandomLetter[i])
@@ -120,9 +122,6 @@ function iterateRecords(data) {
       }
       const answerSource = document.querySelectorAll('#answerSource > span');
       const answerTarget = document.querySelectorAll('#answerTarget > span');
-
-      console.log(answerSource);
-      console.log(answerTarget);
 
       answerSource.forEach(el => {
         el.addEventListener('dragstart', dragStartHandler);
@@ -133,7 +132,23 @@ function iterateRecords(data) {
         el.addEventListener('dragover', dragOverHandler); 
         el.addEventListener('dragleave', dragLeaveHandler);
         el.addEventListener('drop', dropHandler);
-      })  
+      }) 
+      
+      document.getElementById("nextPuzzle").addEventListener("click",function(e){
+      
+        const completeSource = document.querySelectorAll('#answerSource > span');
+        const completeTarget = document.querySelectorAll('#answerTarget > span');
+        completeSource.forEach(el => {
+          el.remove();
+        })
+        completeTarget.forEach(el => {
+          el.remove();
+        }) 
+        
+        iterateRecords(data);
+        
+      });
+      
       
 		}
 
@@ -143,7 +158,7 @@ function iterateRecords(data) {
 
 
 $(document).ready(function() {
-	
+	set_count();
 	var data = {
 		resource_id: "9229d441-bdcc-40a9-8ad9-d287b2d679c4"
 	};
