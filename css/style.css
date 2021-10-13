@@ -667,7 +667,7 @@ footer {
 
 #hamburger {
     position: absolute;
-    top: 40px;
+    top: 10px;
     left: 10px;
     float: left;
     font-size: 3.5vw;
@@ -689,6 +689,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
 }
 
 .scene {
