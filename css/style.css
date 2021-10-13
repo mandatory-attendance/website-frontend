@@ -155,13 +155,12 @@ article p{
 .button a {
     background-color: #588c7e;
     display: block;
-    padding: 10px;
+    padding: 5px;
     width: 100vw;
     text-align: center;
-    /* Matt - added below to make the disclaimer be at the very top of the page */
     position: absolute;
     top: 0;
-    left: 0;
+    font-size: 1.7em;
 }
 .button a:hover {
 	background-color: #588c7ebb;
@@ -186,7 +185,6 @@ article p{
 .DisclaimerContent .ContinueButton:hover{
 	background-color: black;
 	color: white;
-	
 	cursor: pointer;
 }
 
@@ -226,14 +224,6 @@ article {
     margin: 0;
     background-color: #AAE3F7;
 }
-
-/* #disclaimer{
-    text-align: center;
-    width:100%;
-    background-color: #e2bbb4;
-    padding-top: 0.1vw;
-    padding-bottom: 0.1vw;
-} */
 
 #learningHeader{
     text-align: center;
@@ -290,25 +280,25 @@ article {
     float: none;
     width:100%;
 }
-#row{
+#row {
     text-align: center;
 }
-.totalWords{
+.totalWords {
     width:33%;
 }
 
-#language{
+#language {
     font-size:2vw;
 }
 
-#HowToPlay{
+#HowToPlay {
     margin-top:3vw;
     margin-right: 3vw;
     text-align: right;
 }
 
-.flipCard{
-        color:black;
+.flipCard {
+    color:black;
 }
 
 /*Puzzle Mode*/
@@ -647,7 +637,7 @@ footer {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 40px;
     color: black;
     display: block;
     transition: 0.3s;
@@ -667,7 +657,7 @@ footer {
 
 #hamburger {
     position: absolute;
-    top: 10px;
+    top: 40px;
     left: 10px;
     float: left;
     font-size: 3.5vw;
@@ -689,12 +679,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .scene {
-    width: 500px;
-    height: 260px;
+    width: 570px;
+    height: 300px;
     border: 1px solid #CCC;
     margin: 40px 0;
     perspective: 600px;
@@ -722,7 +712,7 @@ footer {
     height: 100%;
     line-height: 260px;
     color: black;
-    font-size: 75px;
+    font-size: 6em;
     font-weight: bold;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -750,11 +740,11 @@ footer {
 }
 
 #next_button {
-    right: 200px;
+    right: 500px;
 }
 
 #prev_button {
-    left: 200px;
+    left: 500px;
 }
 
 #current-language {
@@ -762,4 +752,10 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 65px;
+}
+
+#flashcards-header {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 40px;
 }
