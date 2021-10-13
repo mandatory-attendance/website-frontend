@@ -324,7 +324,7 @@ article {
 /*Puzzle Mode*/
 #puzzleBody{
     margin: 0;
-    background-color: #AAE3F7;
+    background-color: #b0d2bf;
 }
 
 #puzzleHeader{
@@ -345,7 +345,7 @@ article {
 #puzzleEnglishQuestion{
     font-size: 3vw;
     border-radius: 10px;
-    background-color: #C8DFD0;
+    background-color: #b4dbff;
     height:3.5vw;
     margin-bottom: 10px;
 }
@@ -363,7 +363,7 @@ article {
 }
 
 #answerTarget span{
-    background-color: #E4E7E9;
+    background-color: #d5e6f7;
     width:50px;
     height:50px;
     margin: 5px;
@@ -371,7 +371,7 @@ article {
 }
 #answerSource span{
     font-size: 3vw;
-    background-color: #A0CDC4;
+    background-color: #b4dbff;
     width:50px;
     height:50px;
     margin: 5px;
