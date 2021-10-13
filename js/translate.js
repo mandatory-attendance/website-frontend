@@ -20,17 +20,39 @@ function iterateRecords(data) {
 		var recordKala = recordValue["Kala Lagaw Ya"];
 		var recordID = recordValue["_id"];
 
-		for (let i = 1; i < 52; i++) {
+		for (let i = 1; i < 53; i++) {
 			if(recordID == i) {
 			get_eng_array().push(recordEnglish)
 			}
 		}
 		
-		for (let i = 1; i < 52; i++) {
+		for (let i = 1; i < 53; i++) {
 			if(recordID == i) {
 				get_kala_array().push(recordKala)
 			}
 		}	
+
+		document.getElementById('translate-button').onclick = function() {translate()};
+
+		function translate() {
+			var engInput = document.getElementById('eng-input').value
+			console.log(engInput)
+			var index = get_eng_array().indexOf(engInput)
+			console.log(index)
+			if(index) {
+				var translation = get_kala_array()[index]
+				$('.word').text(translation);
+			}
+
+			var kalaInput = document.getElementById('kala-input').value
+			console.log(kalaInput)
+			var index = get_kala_array().indexOf(kalaInput)
+			console.log(index)
+			if(index) {
+				var translation = get_eng_array()[index]
+				$('.word').text(translation);
+			}
+		}
 	});
 }
 

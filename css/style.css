@@ -524,6 +524,10 @@ article {
     justify-content: center;
 }
 
+.word-info p{
+    font-size: 3em;
+}
+
 /* Translate Page Autocomplete Search */
 .autocomplete {
     /*the container must be positioned relative:*/
