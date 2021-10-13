@@ -1,5 +1,4 @@
 document.getElementById("tryAgain").style.display = "none";
-// document.getElementById("nextPuzzle").addEventListener("click",nextButtonQuestion);
 
 function set_count() {
 	count=1;
@@ -92,10 +91,9 @@ function iterateRecords(data) {
 		var recordKala = recordValue["Kala Lagaw Ya"];
 		var recordID = recordValue["_id"];
     
-    
-    
 
     if(recordEnglish && recordID == get_count()) {
+      
       
 
       let EnglishQuestion = document.getElementById("puzzleEnglishQuestion");
@@ -134,8 +132,8 @@ function iterateRecords(data) {
         el.addEventListener('drop', dropHandler);
       }) 
       
-      document.getElementById("nextPuzzle").addEventListener("click",function(e){
-      
+      document.getElementById("nextPuzzle").onclick = function() {
+        
         const completeSource = document.querySelectorAll('#answerSource > span');
         const completeTarget = document.querySelectorAll('#answerTarget > span');
         completeSource.forEach(el => {
@@ -144,16 +142,18 @@ function iterateRecords(data) {
         completeTarget.forEach(el => {
           el.remove();
         }) 
-        
+        inc_count();
         iterateRecords(data);
         
-      });
+        
+      };
       
       
 		}
 
 
 	});
+  
 }
 
 
@@ -166,7 +166,7 @@ $(document).ready(function() {
 	$.ajax({
 		url: "https://www.data.qld.gov.au/api/3/action/datastore_search",
 		data: data,
-		dataType: "jsonp", // We use "jsonp" to ensure AJAX works correctly locally (otherwise XSS).
+		dataType: "jsonp",
 		cache: true,
 		success: function(data) {
 			iterateRecords(data);
