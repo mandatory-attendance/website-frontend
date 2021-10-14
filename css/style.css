@@ -6,8 +6,10 @@ Background
 */
 
 /* Nisha - font for website */
-.bannerbody {
+body{
     font-family: 'Indie Flower';
+}
+#banner {
     background-color: #b0d2bf;
     margin: 0%;
 }
@@ -30,6 +32,7 @@ Background
 
 /*Nisha: page header*/
 #page-header {
+    
     display: flex;
     flex-direction: row;
     width: 100%;
