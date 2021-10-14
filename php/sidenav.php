@@ -9,6 +9,9 @@
     <a href="flash.html">
         <img src="/images/flash.png" width="20%" alt=""> Flashcards
     </a>
+    <a href="translate.html">
+        <img src="/images/translate.png" width="20%" alt=""> Translate
+    </a>
     <a href="puzzle.html">
         <img src="/images/puzzle.png" width="20%" alt=""> Puzzle
     </a>
