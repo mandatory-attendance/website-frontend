@@ -29,10 +29,7 @@ function setVal() {
 	}
 }
 
-
-
 document.getElementById("translate").onclick = function() {setVal()};
-
 
 $(document).ready(function() {
 	

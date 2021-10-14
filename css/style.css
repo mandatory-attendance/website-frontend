@@ -127,9 +127,11 @@ article p{
 	overflow: auto; 
 	background-color: #3d724d; 
 	background-color: rgba(0,0,0,0.4);
+    z-index: 1;
 }
 
-.modal1 {
+/* How to Play Modal */
+/* .modal1 {
 	display: none; 
 	position: fixed; 
 	padding-top: 70px; 
@@ -140,7 +142,7 @@ article p{
 	overflow: auto; 
 	background-color: rgb(85, 75, 71); 
 	background-color: rgba(0,0,0,0.4);
-}
+} to be replaced by how to play images*/
 
 /* Content of Modal*/
 .DisclaimerContent {
@@ -183,12 +185,8 @@ article p{
     padding: 5px;
     width: 100vw;
     text-align: center;
-    /* Matt - added below to make the disclaimer be at the very top of the page */
-    /* position: absolute;
-    top: 0;
-    left: 0; 
-    Not required as it is always linked on top of each page*/
 }
+
 .button a:hover {
 	background-color: #588c7ebb;
 	color: white;
@@ -969,7 +967,3 @@ footer {
     font-size: 5vw;
     margin-top: 40px;
 }
-
-/* body {
-    background: lightblue;
-} */
