@@ -884,7 +884,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .scene {
@@ -963,4 +963,8 @@ footer {
     text-align: center;
     font-size: 5vw;
     margin-top: 40px;
+}
+
+body {
+    background: lightblue;
 }
