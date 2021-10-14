@@ -12,8 +12,8 @@ function inc_count() {
 	count = count + 1;
 }
 
-function arrayShuffle(array) {  //source : https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-  let currentIndex = array.length
+function arrayRandomize(array) {  //source : https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+  let currentIndex = array.length;
   let randomIndex;
 
   // While there remain elements to shuffle...
@@ -35,47 +35,50 @@ function arrayShuffle(array) {  //source : https://stackoverflow.com/questions/2
 
 
 
-function dragStartHandler(e) {
+function dragStart(e) {
   e.dataTransfer.setData('text', e.target.getAttribute('data-source-id'));
   e.target.style = 'opacity: 0.3';
 }
-function dragEndHandler(e) {
+function dragEnd(e) {
   e.target.style = 'opacity: 1';
 }
 
-function dragEnterHandler(e) {
+function dragEnter(e) {
   e.preventDefault();
-  e.target.style = 'border: 2px dashed gray; box-sizing: border-box';
+  e.target.style = 'border: 2px dashed black; box-sizing: border-box';
 }
 
-function dragOverHandler(e) {
+function dragOver(e) {
   e.preventDefault();
 }
 
-function dragLeaveHandler(e) {
-  e.target.style = 'font-size:3vw; background: #E4E7E9';
+function dragLeave(e) {
+  e.target.style = 'font-size:3vw; background: #467e9d';
 }
 
-function dropHandler(e) {
+function drop(e) {
   e.preventDefault();
-  dragLeaveHandler(e); 
+  dragLeave(e); 
   
   const dataSourceId = e.dataTransfer.getData('text'); 
   const dataTargetId = e.target.getAttribute('data-target-id');
-  
+  // const dataNumberId = e.dataTransfer.getData('data-number-source-id')
+  // console.log(dataTargetId);
+  // console.log(dataNumberId);
   
   if(dataSourceId === dataTargetId) {
     e.target.insertAdjacentHTML('afterbegin', dataSourceId);
-    e.target.style = 'font-size: 3vw; background: #A0CDC4';
+    e.target.style = 'font-size: 3vw; background: #467e9d';
     document.getElementById("tryAgain").style.display = "none";
     
     let sourceElemDataId = 'span[data-source-id="' + dataSourceId + '"]';
     let sourceElemSpanTag = document.querySelector(sourceElemDataId);
-    
+    console.log(sourceElemSpanTag)
     Object.assign(sourceElemSpanTag, {
-      className: 'notDraggable',
-      draggable: false,
-    });
+    className: 'notDraggable',
+    draggable: false,
+      });
+    
   }
   else{
     document.getElementById("tryAgain").style.display = "block";
@@ -108,28 +111,28 @@ function iterateRecords(data) {
       
       for (let i = 0; i < kalaOrderedLetter.length; i++) {
         $("#answerTarget").append(
-          $('<span data-target-id = "'+ kalaOrderedLetter[i] +'"class = "target">')
+          $('<span data-target-id = "'+ kalaOrderedLetter[i] + '"data-number-target-id = "' + i +'"class = "target">')
           );
       }
 
-      let kalaRandomLetter = arrayShuffle(kalaOrderedLetter);
+      let kalaRandomLetter = arrayRandomize(kalaOrderedLetter);
       for (let i = 0; i < kalaRandomLetter.length; i++) {
         $("#answerSource").append(
-          $('<span data-source-id = "'+ kalaRandomLetter[i] +'"draggable="true" "class = "source">').text(kalaRandomLetter[i])
+          $('<span data-source-id = "'+ kalaRandomLetter[i] + '"data-number-source-id = "' + i +'"draggable="true" "class = "source">').text(kalaRandomLetter[i])
           );
       }
       const answerSource = document.querySelectorAll('#answerSource > span');
       const answerTarget = document.querySelectorAll('#answerTarget > span');
 
       answerSource.forEach(el => {
-        el.addEventListener('dragstart', dragStartHandler);
-        el.addEventListener('dragend', dragEndHandler);
+        el.addEventListener('dragstart', dragStart);
+        el.addEventListener('dragend', dragEnd);
       })
       answerTarget.forEach(el => {
-        el.addEventListener('dragenter', dragEnterHandler);
-        el.addEventListener('dragover', dragOverHandler); 
-        el.addEventListener('dragleave', dragLeaveHandler);
-        el.addEventListener('drop', dropHandler);
+        el.addEventListener('dragenter', dragEnter);
+        el.addEventListener('dragover', dragOver); 
+        el.addEventListener('dragleave', dragLeave);
+        el.addEventListener('drop', drop);
       }) 
       
       document.getElementById("nextPuzzle").onclick = function() {
