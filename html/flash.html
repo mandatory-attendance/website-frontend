@@ -4,9 +4,69 @@
 		<meta charset="utf-8">
 		<title>Flashcards</title>
 		<link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 	</head>
 
     <body>
-        
+
+		<nav class="button">
+            <a id="DisclaimerBlock">DISCLAIMER</a>
+        </nav>
+    
+        <div id="Disclaimer" class="modal">
+    
+            <div class="DisclaimerContent">
+                <h1>Disclaimer</h1>
+                <p>Aboriginal and Torres Strait Islander viewers are advised that this website may contain images of deceased persons.<br>
+                    Users are warned that there may be words and descriptions that may be culturally sensitive and which might not normally be used in certain public or community contexts.<br>
+                    Terms and annotations that reflect the attitude of the author or the period in which the item was written, may be considered inappropriate today.</p>
+                <span class="Continuebutton"><button class="ContinueButton">Continue</button></span>
+            </div>
+        </div>
+
+        <script src="../js/disclaimer.js"></script>
+
+		<div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html">
+				<img src="/images/KLY LOGO.png" width="40%" alt=""> Home
+			</a>
+            <a href="newabout.html">
+				<img src="/images/about.png" width="20%" alt=""> About
+			</a>
+            <a href="translation.html">
+				<img src="/images/translate.png" width="20%" alt=""> Translate
+			</a>
+			<a href="puzzle.html">
+				<img src="/images/puzzle.png" width="20%" alt=""> Puzzle
+			</a>
+            <a href="#">
+				<img src="/images/quiz.png" width="20%" alt=""> Quiz
+			</a>
+        </div>
+
+		<span id = "hamburger" style="cursor:pointer" onclick="openNav()">&#9776</span>
+
+		<script src="../js/sidenav.js"></script>
+
+		<header id = "flashcards-header">Flashcards</header>
+
+		<section id="flash">
+			<section class="scene scene--card">
+				<section class="card">
+				<section class="card__face card__face--front"><p class = "englishword"></p></section>
+				<section class="card__face card__face--back"><p class = "kalaword"></p></section>
+				</section>
+			</section>
+		</section>
+
+		<button id="prev_button">Previous</button>
+
+		<button id="next_button">Next</button>
+
+		<section id="current-language"><p></p></section>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="../js/flashcards.js"></script>
     </body>
 </html>

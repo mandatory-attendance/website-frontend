@@ -3,8 +3,9 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Translation</title>
+        <title>Translate</title>
         <link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     </head>
     <body id = "translationBody">
         <nav class="button">
@@ -25,18 +26,55 @@
 
         <script src="../js/disclaimer.js"></script>
 
-        <header id = "translationHeader">
-            Translation Mode
-        </header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html">
+				<img src="/images/KLY LOGO.png" width="40%" alt=""> Home
+			</a>
+            <a href="newabout.html">
+				<img src="/images/about.png" width="20%" alt=""> About
+			</a>
+            <a href="flash.html">
+				<img src="/images/flash.png" width="20%" alt=""> Flashcards
+			</a>
+            <a href="puzzle.html">
+				<img src="/images/puzzle.png" width="20%" alt=""> Puzzle
+			</a>
+            <a href="#">
+				<img src="/images/quiz.png" width="20%" alt=""> Quiz
+			</a>
+        </div>
 
-        <a id="learning-exit" href="../index.html">&times;</a>
+		<span id = "hamburger" style="cursor:pointer" onclick="openNav()">&#9776</span>
+            
+        <script src="../js/sidenav.js"></script>
 
-        <section id="records">
-            <section class="english"></section>
-            <section class="kala"></section>
+        <header id = "translationHeader">Translate</header>
+
+        <section id="translator-box">
+            <section id="translator">
+                <section class="english">
+                    <h2>English</h2>
+                    <div class="autocomplete">
+                        <input id="eng-input" type="text">
+                    </div>
+                </section>
+                <section class="kala">
+                    <h2>kala Lagaw Ya</h2>
+                    <div class="autocomplete">
+                        <input id="kala-input" type="text">
+                    </div>
+                </section>
+            </section>
         </section>
 
-        <button id="next_button">Next</button>
+        <section id="translate-button-box">
+            <button id="translate-button">Translate</button>
+        </section>
+
+        <section class="info-box">
+            <section class="word-info"><p class="word"></p></section>
+        </section>
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="../js/translate.js"></script>
