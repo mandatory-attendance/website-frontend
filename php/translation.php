@@ -9,6 +9,7 @@
 
 <body>
     <?php include 'disclaimer.php';?>
+    <?php include 'sidenav.php';?>
     
     <div class="translation-heading">
         <h1>Translation</h1>
