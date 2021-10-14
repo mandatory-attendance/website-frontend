@@ -8,7 +8,7 @@ Background
 /* Nisha - font for website */
 body {
     font-family: 'Indie Flower';
-    /* background-color: #b0d2bf; */
+    background-color: #b0d2bf;
     margin: 0%;
 }
 
@@ -965,6 +965,6 @@ footer {
     margin-top: 40px;
 }
 
-body {
+/* body {
     background: lightblue;
-}
+} */
