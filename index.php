@@ -8,8 +8,8 @@
     
 
     <body>
-        <?php include 'php/support/homepage/disclaimer.php';?>
-        <?php include 'php/support/homepage/homepage-header.php';?>
+        <?php include './php/support/homepage/disclaimer.php';?>
+        <?php include './php/support/homepage/homepage-header.php';?>
 
         <div class="slideshow">
         </div>
