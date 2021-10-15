@@ -10,7 +10,7 @@ body{
     font-family: 'Indie Flower';
 }
 #banner {
-    background-color:black;
+    background-color:#b0d2bf;
     margin: 0%;
 }
 
@@ -32,50 +32,35 @@ body{
 
 /*Nisha: page header*/
 #page-header {
-    
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 30vw;
-    background-image: url('/images/backgroundLogo.png');
+    height: 20vw;
+    background-image: url('./../images/backgroundLogo.png');
     background-size: 150% 185%;
-    /* background-position: 0.5vw 2vw; */
     background-repeat: no-repeat;
-    background-color:  #b0d2bf;
 }
 
-
-article img{
-    float: left;
-    padding: inherit;
-}
-
-article p{
-    justify-content: spa;
-    justify-content: space-around;
-    margin: 5vw;
-}
-
-.klylogo {
+#klylogo {
     display: flex;
-    width: 45vw;
-    height: 15vw;
+    width: 30vw;
+    height: 7vw;
     align-items: center;  
     margin: 4vw;  
 }
 
-.klylogo a >img {
+#klylogo a >img {
     width: 100%;
     height: fit-content;
 }
 
-.klylogo a >img:hover{
+#klylogo a >img:hover{
     filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
 }
 
- .options {
-    width: 90vw;
-    height: 25vw;
+#options {
+    width: 80vw;
+    height: 85%;
     margin:10px auto;
     padding:5px;
     text-align:center;
@@ -85,12 +70,12 @@ article p{
     justify-content: space-around;
  }
 
-.options figure a > img{
-    width: 6vw;
-    height: 6vw;
+#options figure a > img{
+    width: 5vw;
+    height: 5vw;
 }
 
-.options figure a > img:hover{
+#options figure a > img:hover{
     filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
 }
 
@@ -110,9 +95,9 @@ article p{
 }
 
 @keyframes photochange{
-    0%{background-image: url('/images/1.jpeg');}
-    35%{background-image: url('/images/2.jpeg');}
-    75%{background-image: url('/images/3.png');}
+    0%{background-image: url('./../images/1.jpeg');}
+    35%{background-image: url('./../images/2.jpeg');}
+    75%{background-image: url('./../images/3.png');}
 }
 
 /*Disclaimer Modal*/
