@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Translation</title>
-    <link rel="stylesheet" href="../css/style.css">
+        <?php include './support/head.php';?>
+        <title>Translation</title>
+        <link rel="stylesheet" href="./../css/style.css">
 </head>
 
 <body>
-    <?php include 'disclaimer.php';?>
-    <?php include 'sidenav.php';?>
+    <?php include './support/disclaimer.php';?>
+    <?php include './support/sidenav.php';?>
     
     <div class="translation-heading">
         <h1>Translation</h1>
