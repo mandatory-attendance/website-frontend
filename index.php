@@ -12,7 +12,35 @@
         <?php include './testnisha/test-fullsize.php';?>
 
         <div class="slideshow">
+            <div class="slideshow-item">
+                <img src="./../images/1.jpeg" alt="">
+                <div class="slideshow-item-text">
+                    <h5>sup </h5>
+                    <p>hedsjhuhfdhjhhdhfuhdfuhdfuhduhduhudsfhbdhbdhbd</p>
+                </div>
+            </div>  
+
+            <div class="slideshow-item">
+                <img src="./../images/2.jpeg" alt="">
+                <div class="slideshow-item-text">
+                    <h5>bye </h5>
+                    <p>hedsjhuhfdhjhhdhfuhdfuhdfuhduhduhudsfhbdhbdhbd</p>
+                </div>
+            </div>  
+
+            <div class="slideshow-item">
+                <img src="./../images/3.png" alt="">
+                <div class="slideshow-item-text">
+                    <h5>okay </h5>
+                    <p>hedsjhuhfdhjhhdhfuhdfuhdfuhduhduhudsfhbdhbdhbd</p>
+                </div>
+            </div>  
         </div>
+
+       <!--  <div class="slideshow"></div> -->
+
+
+
 
         <div class="modes-button">
             <div class="learning-mode-button">

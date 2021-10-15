@@ -81,10 +81,10 @@ body{
 
 
 /*Nisha: Slide Show*/
-.slideshow{
+/* .slideshow{
     width:50%;
     height: 60% ;
-    position:absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, 25%);
@@ -98,7 +98,7 @@ body{
     0%{background-image: url('./../images/1.jpeg');}
     35%{background-image: url('./../images/2.jpeg');}
     75%{background-image: url('./../images/3.png');}
-}
+} */
 
 /*Disclaimer Modal*/
 .modal {
@@ -214,6 +214,7 @@ article {
     flex-direction: initial;
     justify-content: space-around;
     padding: 1%;
+   
 }
 
 .learning-mode-button, .translation-mode-button, .puzzle-mode-button {
