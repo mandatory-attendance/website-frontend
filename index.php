@@ -7,7 +7,7 @@
     </head>
     
 
-    <body>
+    <body id="banner">
         <?php include './php/support/homepage/disclaimer.php';?>
         <?php include './php/support/homepage/homepage-header.php';?>
 
