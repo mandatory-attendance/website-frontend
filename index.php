@@ -1,10 +1,15 @@
 <!DOCTYPE HTML>
 <html>
-    <?php include 'php/support/homepage-head.php';?>
+    <head>
+        <?php include './php/support/head.php';?>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
 
     <body>
-        <?php include 'php/support/disclaimer.php';?>
-        <?php include 'php/support/homepage-header.php';?>
+        <?php include 'php/support/homepage/disclaimer.php';?>
+        <?php include 'php/support/homepage/homepage-header.php';?>
 
         <div class="slideshow">
         </div>

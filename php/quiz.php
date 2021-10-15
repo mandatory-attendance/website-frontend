@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php include'support/head.php';?>
+    <head>
+        <?php include './support/head.php';?>
+        <title>Quiz</title>
+        <link rel="stylesheet" href="./../css/style.css">
+    </head>
 
     <body id="quiz-body">
 

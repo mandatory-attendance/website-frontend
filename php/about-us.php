@@ -1,10 +1,15 @@
 <!DOCTYPE HTML>
 <html>
-    <?php include 'support/head.php';?>
-
+    <head>
+        <?php include './support/head.php';?>
+        <title>About Us</title>
+        <link rel="stylesheet" href="./../css/style.css">
+    </head>
+    
+    
     <body>
-    <?php include 'support/disclaimer.php';?>
-    <?php include 'support/homepage-header.php';?>
+        <?php include './support/disclaimer.php';?>
+        <?php include './support/header-fullsize.php';?>
 
     <div class="maindiv">
         
@@ -39,7 +44,7 @@
                     </p>
                 </section>
                 <section class="about-image">
-                    <img src="/images/islands.JPG">
+                    <img src="./../images/islands.JPG">
                 </section>
             </div>
 

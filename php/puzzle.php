@@ -1,15 +1,19 @@
 <!DOCTYPE HTML>
 <html>
-    <?php include'support/head.php';?> 
+    <head>
+        <?php include './support/head.php';?>
+        <title>Puzzle</title>
+        <link rel="stylesheet" href="./../css/style.css">
+    </head>
 
     <body id = "puzzleBody">
-        <?php include'support/disclaimer.php';?>
+        <?php include './support/disclaimer.php';?>
         
         <header id = "puzzleHeader">
             Puzzle Mode
         </header>
 
-        <?php include'support/sidenav.php';?>
+        <?php include './support/sidenav.php';?>
 
         <a id="learning-exit" href="../index.html">&times;</a>
         <!--<div id = "HowToPlay"><button>How to Play</button></div>-->
@@ -18,7 +22,7 @@
             <figcaption id = "puzzleEnglishQuestion">
             </figcaption>
             <div id = "questionPict">
-                <img id = "picture" src = "../img/child.jpg">
+                <img id = "picture" src = "./../img/child.jpg">
             </div>
         </section>
 
@@ -55,8 +59,8 @@
 
         
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="/js/modal.js"></script>
-        <script src="/js/puzzle.js"></script>
+        <script src="./../js/modal.js"></script>
+        <script src="./../js/puzzle.js"></script>
         
         
     </body>

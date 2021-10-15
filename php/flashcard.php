@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-	<?php include'support/head.php';?>
+	<head>
+        <?php include './support/head.php';?>
+        <title>Flashcard</title>
+        <link rel="stylesheet" href="./../css/style.css">
+    </head>
 
     <body id="flash-body">
 
-		<?php include'support/disclaimer.php';?>
+		<?php include'./support/disclaimer.php';?>
 
-		<?php include'support/sidenav.php';?>
+		<?php include'./support/sidenav.php';?>
 
 		<header id = "flashcards-header">Flashcards</header>
 
@@ -26,6 +30,6 @@
 		<section id="current-language"><p></p></section>
 
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<script src="/js/flashcards.js"></script>
+		<script src="./../js/flashcards.js"></script>
     </body>
 </html>

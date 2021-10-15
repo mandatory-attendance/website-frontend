@@ -13,4 +13,4 @@
 </div>
 </div>
 
-<script src="./../js/disclaimer.js"></script>
+<script src="./js/disclaimer.js"></script>
