@@ -19,4 +19,4 @@
 
 <span id = "hamburger" style="cursor:pointer" onclick="openNav()">&#9776</span>
     
-<script src="../js/sidenav.js"></script>
+<script src="/js/sidenav.js"></script>
