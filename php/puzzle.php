@@ -42,9 +42,9 @@
             <button class = "nextButton">Next</button>
         </nav>
         
-        <nav class="HowToPlayButton">
+        <!-- <nav class="HowToPlayButton">
             <a id="HowToPlayBlock"><button>How To Play</button></a>
-        </nav>
+        </nav> -->
         
     
         <div id="HowToPlay" class="modal1">
