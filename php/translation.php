@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="./../css/style.css">
 </head>
 
-<body>
+<body id="banner">
     <?php include './support/disclaimer.php';?>
     <?php include './support/sidenav.php';?>
     
