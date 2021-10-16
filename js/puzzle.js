@@ -1,5 +1,4 @@
-document.getElementById("tryAgain").style.display = "none";
-
+//counting functions
 function set_count() {
 	count=1;
 }
@@ -12,20 +11,94 @@ function inc_count() {
 	count = count + 1;
 }
 
-function arrayRandomize(array) {  //source : https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-  let currentIndex = array.length;
-  let randomIndex;
+//main data iteration
+function iterateRecords(data) {
 
-  // While there remain elements to shuffle...
-  while (currentIndex != 0) {
+  document.getElementById("tryAgain").style.display = "none";
 
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
+	$.each(data.result.records, function(recordKey, recordValue) {
+    
+		var recordEnglish = recordValue["English"];
+		var recordKala = recordValue["Kala Lagaw Ya"];
+		var recordID = recordValue["_id"];
+    
 
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
+    if(recordEnglish && recordID == get_count()) {
+      
+      
+
+      let EnglishQuestion = document.getElementById("puzzleEnglishQuestion");
+      EnglishQuestion.remove();
+			$("#puzzleQuestion").prepend(
+				$('<figcaption id = "puzzleEnglishQuestion">').text(recordEnglish)
+				);
+
+      let kalaLetter = recordKala;
+      let kalaOrderedLetter = kalaLetter.split('');
+      
+      
+      for (let i = 0; i < kalaOrderedLetter.length; i++) {
+        $("#answerTarget").append(
+          $('<span data-target-id = "'+ kalaOrderedLetter[i] + '"data-number-target-id = "' + i +'"class = "target">')
+          );
+      }
+
+      let kalaRandomLetter = arrayRandomize(kalaOrderedLetter);
+      for (let i = 0; i < kalaRandomLetter.length; i++) {
+        $("#answerSource").append(
+          $('<span data-source-id = "'+ kalaRandomLetter[i] + '"data-number-source-id = "' + i +'"draggable="true" "class = "source">').text(kalaRandomLetter[i])
+          );
+      }
+      const answerSource = document.querySelectorAll('#answerSource > span');
+      const answerTarget = document.querySelectorAll('#answerTarget > span');
+
+      answerSource.forEach(el => {
+        el.addEventListener('dragstart', dragStart);
+        el.addEventListener('dragend', dragEnd);
+      })
+
+      answerTarget.forEach(el => {
+        el.addEventListener('dragenter', dragEnter);
+        el.addEventListener('dragover', dragOver); 
+        el.addEventListener('dragleave', dragLeave);
+        el.addEventListener('drop', drop);
+      }) 
+      
+      document.getElementById("nextPuzzle").onclick = function() {
+        
+        const completeSource = document.querySelectorAll('#answerSource > span');
+        const completeTarget = document.querySelectorAll('#answerTarget > span');
+        completeSource.forEach(el => {
+          el.remove();
+        })
+        completeTarget.forEach(el => {
+          el.remove();
+        }) 
+        inc_count();
+        iterateRecords(data);
+      }; 
+		}
+	}); 
+}
+
+//Array randomizer
+//source : https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+  
+function arrayRandomize(array) {  
+
+  let oldIndex = array.length;
+  let newRandomIndex;
+
+  // Loop while old array is not empty
+  while (oldIndex != 0) {
+
+    // Assign new index for new array
+    newRandomIndex = Math.floor(Math.random() * currentIndex);
+    oldIndex--;
+
+    // Swap old index and new index
+    [array[oldIndex], array[newRandomIndex]] = [
+      array[newRandomIndex], array[oldIndex]];
 
   }
 
@@ -34,6 +107,8 @@ function arrayRandomize(array) {  //source : https://stackoverflow.com/questions
 
 
 
+//Drag and Drop Functions
+//source : https://blog.jscrambler.com/build-a-simple-game-in-vanilla-js-with-the-drag-and-drop-api
 
 function dragStart(e) {
   e.dataTransfer.setData('text', e.target.getAttribute('data-source-id'));
@@ -83,80 +158,6 @@ function drop(e) {
   else{
     document.getElementById("tryAgain").style.display = "block";
   }
-  
-}
-
-function iterateRecords(data) {
-
-	$.each(data.result.records, function(recordKey, recordValue) {
-    
-		var recordEnglish = recordValue["English"];
-		var recordKala = recordValue["Kala Lagaw Ya"];
-		var recordID = recordValue["_id"];
-    
-
-    if(recordEnglish && recordID == get_count()) {
-      
-      
-
-      let EnglishQuestion = document.getElementById("puzzleEnglishQuestion");
-      EnglishQuestion.remove();
-			$("#puzzleQuestion").prepend(
-				$('<figcaption id = "puzzleEnglishQuestion">').text(recordEnglish)
-				);
-
-      let kalaLetter = recordKala.toUpperCase();
-      let kalaOrderedLetter = kalaLetter.split('');
-      
-      
-      for (let i = 0; i < kalaOrderedLetter.length; i++) {
-        $("#answerTarget").append(
-          $('<span data-target-id = "'+ kalaOrderedLetter[i] + '"data-number-target-id = "' + i +'"class = "target">')
-          );
-      }
-
-      let kalaRandomLetter = arrayRandomize(kalaOrderedLetter);
-      for (let i = 0; i < kalaRandomLetter.length; i++) {
-        $("#answerSource").append(
-          $('<span data-source-id = "'+ kalaRandomLetter[i] + '"data-number-source-id = "' + i +'"draggable="true" "class = "source">').text(kalaRandomLetter[i])
-          );
-      }
-      const answerSource = document.querySelectorAll('#answerSource > span');
-      const answerTarget = document.querySelectorAll('#answerTarget > span');
-
-      answerSource.forEach(el => {
-        el.addEventListener('dragstart', dragStart);
-        el.addEventListener('dragend', dragEnd);
-      })
-
-      answerTarget.forEach(el => {
-        el.addEventListener('dragenter', dragEnter);
-        el.addEventListener('dragover', dragOver); 
-        el.addEventListener('dragleave', dragLeave);
-        el.addEventListener('drop', drop);
-      }) 
-      
-      document.getElementById("nextPuzzle").onclick = function() {
-        
-        const completeSource = document.querySelectorAll('#answerSource > span');
-        const completeTarget = document.querySelectorAll('#answerTarget > span');
-        completeSource.forEach(el => {
-          el.remove();
-        })
-        completeTarget.forEach(el => {
-          el.remove();
-        }) 
-        inc_count();
-        iterateRecords(data);
-        
-        
-      };
-      
-      
-		}
-
-
-	});
   
 }
 
