@@ -42,19 +42,15 @@
             <button class = "nextButton">Next</button>
         </nav>
         
-        <!-- <nav class="HowToPlayButton">
+        <nav class="HowToPlayButton">
             <a id="HowToPlayBlock"><button>How To Play</button></a>
-        </nav> -->
+        </nav>
         
     
-        <div id="HowToPlay" class="modal1">
-    
-            <div class="DisclaimerContent">
-                <span class="exit">&times;</span>
-                <h2>How To Play</h2>
-                <p>This is how to play. </p>
-            </div>
-    
+        <div class="DisclaimerContent" class = "modal1">
+            <span class="exit">&times;</span>
+            <h2>How To Play</h2>
+            <p>This is how to play. </p>
         </div>
 
         
