@@ -93,7 +93,7 @@ function arrayRandomize(array) {
   while (oldIndex != 0) {
 
     // Assign new index for new array
-    newRandomIndex = Math.floor(Math.random() * currentIndex);
+    newRandomIndex = Math.floor(Math.random() * oldIndex);
     oldIndex--;
 
     // Swap old index and new index
