@@ -1,3 +1,6 @@
+let currentWord = '';
+let currentGuessedLetter = 0;
+
 //counting functions
 function set_count() {
 	count=1;
@@ -25,6 +28,7 @@ function iterateRecords(data) {
 
     if(recordEnglish && recordID == get_count()) {
       
+      document.getElementById("nextPuzzle").style.display="none";
       
       //Seting up the questions
       let englishQuestion = document.getElementById("puzzleEnglishQuestion");
@@ -44,6 +48,7 @@ function iterateRecords(data) {
       //Setting up the answer and the choice
 
       let kalaLetter = recordKala.toUpperCase();
+      currentWord = kalaLetter;
       let kalaOrderedLetter = kalaLetter.split('');
       let kalaRandomLetter = [];
       
@@ -84,6 +89,9 @@ function iterateRecords(data) {
         
         const completeSource = document.querySelectorAll('#answerSource > span');
         const completeTarget = document.querySelectorAll('#answerTarget > span');
+
+        currentGuessedLetter = 0;
+        document.getElementById("nextPuzzle").style.display="none";
 
         completeSource.forEach(el => {
           el.remove();
@@ -158,8 +166,8 @@ function drop(e) {
   const dataSourceId = JSON.parse(e.dataTransfer.getData('text')); 
   const letterSourceId = dataSourceId.sourceId;
   const dataTargetId = e.target.getAttribute('data-target-id');
-
-  // console.log(dataTargetId);
+  const wordLength = currentWord.length;
+  
   
   if(letterSourceId === dataTargetId) {
     e.target.insertAdjacentHTML('afterbegin', letterSourceId[0]);
@@ -168,11 +176,16 @@ function drop(e) {
     
     let sourceElemDataId = 'span[data-source-id="' + letterSourceId + '"]';
     let sourceElemSpanTag = document.querySelector(sourceElemDataId);
+    currentGuessedLetter++
     
     Object.assign(sourceElemSpanTag, {
       className: 'notDraggable',
       draggable: false,
     });
+
+    if (currentGuessedLetter === wordLength){
+      document.getElementById("nextPuzzle").style.display="block";
+    }
     
   }
   else{

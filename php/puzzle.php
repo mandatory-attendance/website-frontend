@@ -42,7 +42,7 @@
             <button class = "nextButton">Next</button>
         </nav>
         
-        <nav class="HowToPlayButton">
+        <!-- <nav class="HowToPlayButton">
             <a id="HowToPlayBlock"><button>How To Play</button></a>
         </nav>
         
@@ -51,11 +51,11 @@
             <span class="exit">&times;</span>
             <h2>How To Play</h2>
             <p>This is how to play. </p>
-        </div>
+        </div> -->
 
         
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="./../js/modal.js"></script>
+        <!-- <script src="./../js/modal.js"></script> -->
         <script src="./../js/puzzle.js"></script>
         
         
