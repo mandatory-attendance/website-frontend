@@ -46,7 +46,8 @@
             <section class="test-about-description1">
                     <h1>Our Purpose</h1>
                     <p>
-                        Some text here.
+                        We are a group of students attending the University of Queensland who have collectively 
+                        worked on this website for our DECO1800 (Design Computing Studio 1) course this semester (Sem 2, 2021).
                     </p>
             </section>
             
@@ -57,7 +58,7 @@
                 <section class="test-about-description">
                         <h1>Nisha</h1>
                         <p>
-                            Some text here.
+                            Some text here.Some text here.Some text here.Some text here.
                         </p>
                 </section>
 
