@@ -26,6 +26,10 @@
             </div>
         </section>
 
+        <div id = 'tryAgain'>
+            Try Again
+        </div>
+
         <section id = "puzzleAnswer">
             <div id = "answerTarget">   
             </div>
@@ -33,10 +37,6 @@
             <div id ="answerSource">
             </div>
         </section>
-        
-        <div id = 'tryAgain'>
-            Try Again
-        </div>
 
         <nav id = "nextPuzzle">
             <button class = "nextButton">Next</button>
