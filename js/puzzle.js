@@ -26,12 +26,22 @@ function iterateRecords(data) {
     if(recordEnglish && recordID == get_count()) {
       
       
+      //Seting up the questions
+      let englishQuestion = document.getElementById("puzzleEnglishQuestion");
+      let puzzlePicture = document.getElementById("picture");
+      let currentWordId = get_count();
 
-      let EnglishQuestion = document.getElementById("puzzleEnglishQuestion");
-      EnglishQuestion.remove();
-			$("#puzzleQuestion").prepend(
+      englishQuestion.remove();
+      puzzlePicture.remove();
+			$("#puzzleQuestion").append(
 				$('<figcaption id = "puzzleEnglishQuestion">').text(recordEnglish)
-				);
+			);
+      
+      $("#puzzleQuestion").append(
+				$('<img id = "picture" src = ../../images/'+ currentWordId + '.jpg alt = "' + recordEnglish +'">')
+			);
+
+      //Setting up the answer and the choice
 
       let kalaLetter = recordKala;
       let kalaOrderedLetter = kalaLetter.split('');
@@ -64,10 +74,14 @@ function iterateRecords(data) {
         el.addEventListener('drop', drop);
       }) 
       
+
+      //When next button is clicked
+
       document.getElementById("nextPuzzle").onclick = function() {
         
         const completeSource = document.querySelectorAll('#answerSource > span');
         const completeTarget = document.querySelectorAll('#answerTarget > span');
+
         completeSource.forEach(el => {
           el.remove();
         })
