@@ -128,6 +128,7 @@ function iterateRecords(data) {
         el.addEventListener('dragstart', dragStart);
         el.addEventListener('dragend', dragEnd);
       })
+
       answerTarget.forEach(el => {
         el.addEventListener('dragenter', dragEnter);
         el.addEventListener('dragover', dragOver); 
