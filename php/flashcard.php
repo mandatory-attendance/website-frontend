@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="./../css/style.css">
     </head>
 
-    <body id="flash-body">
+    <body id="banner">
 
 		<?php include'./support/disclaimer.php';?>
 
