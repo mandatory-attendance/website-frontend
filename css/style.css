@@ -748,7 +748,7 @@ footer {
 
 /* Matt - About Page */
 #about-page {
-    background: #AAE3F7;
+    background: #d2d3d3;
 }
 
 .about-row h1 {
@@ -789,7 +789,7 @@ footer {
     padding: 1%;
     margin-top: 2%;
     margin-bottom: 2%;
-    background: #AAE3F7;
+    background: #ffffff;
 }
 
 .about-row > section {
@@ -1011,3 +1011,7 @@ footer {
     font-size: 5vw;
     margin-top: 40px;
 }
+
+
+/* ABI TEST ABOUT PAGE*/
+/* #b0d2bf */
