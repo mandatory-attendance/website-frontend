@@ -6,13 +6,16 @@
         <link rel="stylesheet" href="..//css/style.css">
     </head>
 
+
     <?php include '..//php/support/disclaimer.php';?>
 
     <body id="banner">
         <article id="test-about-contents">
+
+        <h1>About Kala Lagaw Ya</h1>
          
-            <div class="about-row">
-                <section class="about-description">
+            <div class="test-about-row">
+                <section class="test-about-description">
                     <h1>Kalaw Lagaw Ya Language</h1>
                     <p>
                         Kala Lagaw Ya is one of two traditional languages of the Torres Strait. Kala Lagaw Ya (also written as Kalaw Lagaw Ya) 
@@ -25,18 +28,72 @@
                 </section>
             </div>
 
-            <div class="about-row">
+            <div class="test-about-row">
                 <section style="text-align:center">
                     <iframe width="580" height="350" src="https://www.youtube.com/embed/UD-xWwNtPXI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
-                <section class="about-description">
+                
+                <section class="test-about-description1">
                     <h1></h1>
                     <p>
-                        Kala Lagaw Ya is one of two traditional languages of the Torres Strait. Kala Lagaw Ya (also written as Kalaw Lagaw Ya) 
-                        is the traditional language owned by the Western and Central islands of the Torres Strait. It is linguistically connected 
-                        to the Aboriginal languages of the Australian mainland.
+                        Some text here.
                     </p>
                 </section>
+            </div>
+
+            <h1>About The Team</h1>
+
+            <section class="test-about-description1">
+                    <h1>Our Purpose</h1>
+                    <p>
+                        Some text here.
+                    </p>
+            </section>
+            
+            
+            <h4>The Lead Designers</h4>
+
+            <div class="test-about-row">
+                <section class="test-about-description">
+                        <h1>Nisha</h1>
+                        <p>
+                            Some text here.
+                        </p>
+                </section>
+
+                <section class="test-about-description">
+                        <h1>Abigail</h1>
+                        <p>
+                            Some text here.
+                        </p>
+                </section>
+
+            </div>
+
+            <h4>The Lead Developers</h4>
+
+            <div class="test-about-row">
+                <section class="test-about-description">
+                        <h1>Yashik</h1>
+                        <p>
+                            Some text here.
+                        </p>
+                </section>
+
+                <section class="test-about-description">
+                        <h1>Matt</h1>
+                        <p>
+                            Some text here.
+                        </p>
+                </section>
+
+                <section class="test-about-description">
+                        <h1>Garryco</h1>
+                        <p>
+                            Some text here.
+                        </p>
+                </section>
+
             </div>
 
         </article>

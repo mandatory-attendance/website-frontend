@@ -1015,3 +1015,51 @@ footer {
 
 /* ABI TEST ABOUT PAGE*/
 /* #b0d2bf */
+#test-about-contents{
+font-size: xx-large;
+text-align: center;
+}
+
+.test-about-description {
+    flex-direction: column;
+    width: 725px;
+    padding: 2%;
+    text-align: justify;
+    background: white;
+    border-radius: 1em;
+}
+
+.test-about-description p {
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.test-about-description1 {
+    flex-direction: row;
+    width: 96%;
+    padding: 2%;
+    text-align: justify;
+    background: white;
+    border-radius: 1em;
+}
+
+.test-about-description1 p {
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.test-about-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: #ffffff;
+    border-radius: 1em;
+}
+
+.test-about-row > section {
+    width: 50vw;
+}
