@@ -45,19 +45,21 @@ function iterateRecords(data) {
 
       let kalaLetter = recordKala.toUpperCase();
       let kalaOrderedLetter = kalaLetter.split('');
-      
+      let kalaRandomLetter = [];
       
       for (let i = 0; i < kalaOrderedLetter.length; i++) {
         $("#answerTarget").append(
-          $('<span data-target-id = "'+ kalaOrderedLetter[i] + '"data-number-target-id = "' + i +'"class = "target">')
+          $('<span data-target-id = "'+ kalaOrderedLetter[i] + i +'"class = "target">')
           );
+        
+          kalaRandomLetter.push(kalaOrderedLetter[i] + i);
       }
 
-      let kalaRandomLetter = arrayRandomize(kalaOrderedLetter);
+      kalaRandomLetter = arrayRandomize(kalaRandomLetter);
       
       for (let i = 0; i < kalaRandomLetter.length; i++) {
         $("#answerSource").append(
-          $('<span data-source-id = "'+ kalaRandomLetter[i] + '"data-number-source-id = "' + i +'"draggable="true" "class = "source">').text(kalaRandomLetter[i])
+          $('<span data-source-id = "'+ kalaRandomLetter[i] +'"draggable="true" "class = "source">').text(kalaRandomLetter[i][0])
           );
       }
       const answerSource = document.querySelectorAll('#answerSource > span');
@@ -126,7 +128,10 @@ function arrayRandomize(array) {
 //source : https://blog.jscrambler.com/build-a-simple-game-in-vanilla-js-with-the-drag-and-drop-api
 
 function dragStart(e) {
-  e.dataTransfer.setData('text', e.target.getAttribute('data-source-id'));
+  const data = { 
+    sourceId : e.target.getAttribute('data-source-id')
+  };
+  e.dataTransfer.setData('text', JSON.stringify(data));
   e.target.style = 'opacity: 0.3';
 }
 function dragEnd(e) {
@@ -150,20 +155,20 @@ function drop(e) {
   e.preventDefault();
   dragLeave(e); 
   
-  const dataSourceId = e.dataTransfer.getData('text'); 
+  const dataSourceId = JSON.parse(e.dataTransfer.getData('text')); 
+  const letterSourceId = dataSourceId.sourceId;
   const dataTargetId = e.target.getAttribute('data-target-id');
-  const dataNumberId = e.dataTransfer.getData('data-number-source-id')
+
   // console.log(dataTargetId);
-  console.log(dataNumberId);
   
-  if(dataSourceId === dataTargetId) {
-    e.target.insertAdjacentHTML('afterbegin', dataSourceId);
+  if(letterSourceId === dataTargetId) {
+    e.target.insertAdjacentHTML('afterbegin', letterSourceId[0]);
     e.target.style = 'font-size: 3vw; background: #467e9d';
     document.getElementById("tryAgain").style.display = "none";
     
-    let sourceElemDataId = 'span[data-source-id="' + dataSourceId + '"]';
+    let sourceElemDataId = 'span[data-source-id="' + letterSourceId + '"]';
     let sourceElemSpanTag = document.querySelector(sourceElemDataId);
-    console.log(sourceElemSpanTag)
+    
     Object.assign(sourceElemSpanTag, {
       className: 'notDraggable',
       draggable: false,
