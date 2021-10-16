@@ -93,11 +93,12 @@ body{
     width: inherit;
     height:inherit;
     position: absolute;
-    animation: cycleImages 31s infinite;
+    animation: cycleImages 10s infinite;
 }
 
 .slideshow-item:nth-child(1){
     animation-delay:0s;
+    
 }
 
 .slideshow-item:nth-child(2){
