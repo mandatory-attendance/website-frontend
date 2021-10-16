@@ -1,24 +1,50 @@
-<?php 
-    $api_url = "https://www.data.qld.gov.au/api/1/util/snippet/api_info.html?resource_id=3562cff7-b4dc-4b62-8e55-3ade0df2e77b";
+<!doctype html>
+<html lang="en">
 
-    $data = file_get_contents($api_url);
+<head>
+        <?php include './support/head.php';?>
+        <title>Translation</title>
+        <link rel="stylesheet" href="./../css/style.css">
+</head>
 
-    $data = json_decode($data,true);
-
-    $input_english = $_GET['english-word'];
-    $input_indi = $_GET['indigenous-word'];
-
-    if(is_array($data)) {
-        foreach($data as $english => $indi) {
-
-        }
-    }
+<body id="banner">
+    <?php include './support/disclaimer.php';?>
+    <?php include './support/sidenav.php';?>
     
-    function get_translation_to_indi($input_english) {
-        
-    }
+    <div class="translation-heading">
+        <h1>Translation</h1>
+    </div>
 
-    function get_translation_to_english($input_indi) {
+    <div class="translation-body">
+        <div class="translation-body-english">
+            <h1>English</h1>
+            <input list="engWords" placeholder="Enter word in English" id="english-word" />
+            <datalist id="engWords">
+            </datalist>
+        </div>
 
-    }
-?>
+        <div class="translation-body-button">
+            <button id="translate">
+                <img src="../images/flash.png" alt="translate word">
+            </button>
+        </div>
+
+        <div class="translation-body-indigenous">
+            <h1>Kala Lagaw Ya</h1>
+            <input list="indiWords" placeholder="Enter word in Kala Lagaw Ya" id="indigenous-word" />
+            <datalist id="indiWords"></datalist>
+        </div>
+    </div>
+    
+    <div class="translation-info">
+        <div class="translation-info-picture">
+
+        </div>
+        <div class="translation-info-summary">
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./test.js"></script>
+</body>
+</html>

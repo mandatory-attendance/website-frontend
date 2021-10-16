@@ -18,18 +18,21 @@
     <div class="translation-body">
         <div class="translation-body-english">
             <h1>English</h1>
-            <textarea required placeholder="Enter word in English" id="english-word"></textarea>
-                <!-- Value to be set -->
+            <input list="engWords" placeholder="Enter word in English" id="english-word" />
+            <datalist id="engWords">
+            </datalist>
         </div>
+
         <div class="translation-body-button">
             <button id="translate">
                 <img src="../images/flash.png" alt="translate word">
             </button>
         </div>
+
         <div class="translation-body-indigenous">
             <h1>Kala Lagaw Ya</h1>
-            <textarea required placeholder="Enter word in Kala Lagaw Ya" id="indigenous-word"></textarea>
-                <!-- Value to be set -->
+            <input list="indiWords" placeholder="Enter word in Kala Lagaw Ya" id="indigenous-word" />
+            <datalist id="indiWords"></datalist>
         </div>
     </div>
     

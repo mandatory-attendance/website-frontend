@@ -1,5 +1,12 @@
 var listOfWords = {};
 
+function initiate_data() {
+	for (word in listOfWords) {
+		$("#engWords").append("<option value=\"" + word + "\"");
+		$("#indiWords").append("<option value=\"" + listOfWords[word] + "\"");
+	}
+}
+
 function record(data) {
 	$.each(data.result.records, function(recordKey, recordValue) {
 
@@ -8,6 +15,8 @@ function record(data) {
 
 		listOfWords[recordEnglish] = recordIndi;
 	});
+
+	initiate_data();
 }
 
 function setVal() {
