@@ -43,7 +43,7 @@ function iterateRecords(data) {
 
       //Setting up the answer and the choice
 
-      let kalaLetter = recordKala;
+      let kalaLetter = recordKala.toUpperCase();
       let kalaOrderedLetter = kalaLetter.split('');
       
       
@@ -54,6 +54,7 @@ function iterateRecords(data) {
       }
 
       let kalaRandomLetter = arrayRandomize(kalaOrderedLetter);
+      
       for (let i = 0; i < kalaRandomLetter.length; i++) {
         $("#answerSource").append(
           $('<span data-source-id = "'+ kalaRandomLetter[i] + '"data-number-source-id = "' + i +'"draggable="true" "class = "source">').text(kalaRandomLetter[i])
@@ -151,9 +152,9 @@ function drop(e) {
   
   const dataSourceId = e.dataTransfer.getData('text'); 
   const dataTargetId = e.target.getAttribute('data-target-id');
-  // const dataNumberId = e.dataTransfer.getData('data-number-source-id')
+  const dataNumberId = e.dataTransfer.getData('data-number-source-id')
   // console.log(dataTargetId);
-  // console.log(dataNumberId);
+  console.log(dataNumberId);
   
   if(dataSourceId === dataTargetId) {
     e.target.insertAdjacentHTML('afterbegin', dataSourceId);
@@ -164,9 +165,9 @@ function drop(e) {
     let sourceElemSpanTag = document.querySelector(sourceElemDataId);
     console.log(sourceElemSpanTag)
     Object.assign(sourceElemSpanTag, {
-    className: 'notDraggable',
-    draggable: false,
-      });
+      className: 'notDraggable',
+      draggable: false,
+    });
     
   }
   else{
