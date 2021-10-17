@@ -7,7 +7,7 @@
 
     <div class="options">
         <figure>
-            <a href="/php/about-us.php">
+            <a href="/php/about.php">
             <img src ="./images/about.png"  alt="kathy">
             </a>
             <figcaption>ABOUT</figcaption>
