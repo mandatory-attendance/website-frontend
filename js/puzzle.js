@@ -30,7 +30,7 @@ function iterateRecords(data) {
 
     if(recordEnglish && recordID == get_count()) {
       
-      document.getElementById("nextPuzzle").style.display="none"; //change this next button to block if needed
+      document.getElementById("nextPuzzle").style.display="block"; //change this next button to block if needed
       
       //Seting up the questions
       let currentWordId = get_count();
