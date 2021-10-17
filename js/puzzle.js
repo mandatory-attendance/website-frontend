@@ -1,6 +1,8 @@
 let currentWord = '';
 let currentGuessedLetter = 0;
 
+document.getElementById("finishMessage").style.display = "none";
+
 //counting functions
 function set_count() {
 	count=1;
@@ -28,11 +30,10 @@ function iterateRecords(data) {
 
     if(recordEnglish && recordID == get_count()) {
       
-      document.getElementById("nextPuzzle").style.display="block"; //change this next button to block if needed
+      document.getElementById("nextPuzzle").style.display="none"; //change this next button to block if needed
       
       //Seting up the questions
       let currentWordId = get_count();
-      console.log(currentWordId);
 			$("#puzzleQuestion").append(
 				$('<figcaption id = "puzzleEnglishQuestion">').text(recordEnglish)
 			);
@@ -111,6 +112,7 @@ function iterateRecords(data) {
         else{
 
           document.getElementById("nextPuzzle").style.display="none";
+          document.getElementById("finishMessage").style.display = "block";
         }
 
         

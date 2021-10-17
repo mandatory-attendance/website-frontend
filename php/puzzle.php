@@ -15,8 +15,22 @@
 
         <?php include './support/sidenav.php';?>
 
-        <a id="learning-exit" href="../index.html">&times;</a>
+        <a id="puzzle-exit" href="../index.php">&times;</a>
         <!--<div id = "HowToPlay"><button>How to Play</button></div>-->
+
+        <section id = "finishMessage">
+            <div id = "topMessage">
+                CONGRATULATIONS!!!
+            </div>
+            <div id = "botMessage">
+                You have completed the puzzle mode.<br>
+                Press <a href = "../index.php"><span id = "puzzleHere">Here</span></a> to return to Homepage.
+                <!-- <a href = "../index.php">
+                <img id = "puzzleBackToHome" src = "../images/home.png"><br>
+                Home
+                </a> -->
+            </div>
+        </section>
         
         <section id = "puzzleQuestion">
             
