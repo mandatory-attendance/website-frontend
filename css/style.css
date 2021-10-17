@@ -464,7 +464,8 @@ article {
 }  
 
 #picture{
-    height:20vw;
+    height:200px;
+    width: 350px;
 }
 
 #puzzleBody{
