@@ -3,7 +3,7 @@
     <a href="./../index.php">
         <img src="./../images/KLY LOGO.png" width="40%" alt=""> Home
     </a>
-    <a href="./about-us.php">
+    <a href="./about.php">
         <img src="./../images/about.png" width="20%" alt=""> About
     </a>
     <a href="./flashcard.php">
