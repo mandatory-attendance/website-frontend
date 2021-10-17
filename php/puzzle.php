@@ -19,10 +19,9 @@
         <!--<div id = "HowToPlay"><button>How to Play</button></div>-->
         
         <section id = "puzzleQuestion">
-            <figcaption id = "puzzleEnglishQuestion">
-            </figcaption>
+            
             <div id = "questionPict">
-                <img id = "picture">
+                
             </div>
         </section>
 

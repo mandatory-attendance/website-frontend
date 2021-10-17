@@ -28,21 +28,17 @@ function iterateRecords(data) {
 
     if(recordEnglish && recordID == get_count()) {
       
-      document.getElementById("nextPuzzle").style.display="none";
+      document.getElementById("nextPuzzle").style.display="block"; //change this next button to block if needed
       
       //Seting up the questions
-      let englishQuestion = document.getElementById("puzzleEnglishQuestion");
-      let puzzlePicture = document.getElementById("picture");
       let currentWordId = get_count();
-
-      englishQuestion.remove();
-      puzzlePicture.remove();
+      console.log(currentWordId);
 			$("#puzzleQuestion").append(
 				$('<figcaption id = "puzzleEnglishQuestion">').text(recordEnglish)
 			);
       
       $("#puzzleQuestion").append(
-				$('<img id = "picture" src = ../../images/'+ currentWordId + '.jpg alt = "' + recordEnglish +'">')
+				$('<img id = "picture" src = ../../images/'+ currentWordId + '.png alt = "' + recordEnglish +'">')
 			);
 
       //Setting up the answer and the choice
@@ -89,9 +85,14 @@ function iterateRecords(data) {
         
         const completeSource = document.querySelectorAll('#answerSource > span');
         const completeTarget = document.querySelectorAll('#answerTarget > span');
+        let englishQuestion = document.getElementById("puzzleEnglishQuestion");
+        let puzzlePicture = document.getElementById("picture");
+    
+        englishQuestion.remove();
+        puzzlePicture.remove();
 
         currentGuessedLetter = 0;
-        document.getElementById("nextPuzzle").style.display="none";
+        
 
         completeSource.forEach(el => {
           el.remove();
@@ -100,7 +101,19 @@ function iterateRecords(data) {
           el.remove();
         }) 
         inc_count();
-        iterateRecords(data);
+
+        if (get_count()<53){
+
+          iterateRecords(data);
+
+        }
+
+        else{
+
+          document.getElementById("nextPuzzle").style.display="none";
+        }
+
+        
       }; 
 		}
 	}); 
