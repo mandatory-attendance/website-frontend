@@ -10,7 +10,7 @@ body{
     font-family: 'Indie Flower';
 }
 #banner {
-    background-color:pink;
+    background-color:#b0d2bf;
     margin: 0%;
 }
 
@@ -32,6 +32,9 @@ body{
 
 /*Nisha: page header*/
 #page-header {
+    z-index: 1;
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -140,9 +143,27 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
+
+.ruler{
+    position: absolute;
+    left: 75%;
+    bottom: 5%;
+    max-width: 80%;
+    
+    
+}
+
+.pencil{
+    position: absolute;
+    right: 74%;
+    bottom: 5%;
+    max-width: 80%;
+}
+
+
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 50%;
   position: relative;
   margin: auto;
 }
@@ -259,7 +280,7 @@ img {vertical-align: middle;}
 	overflow: auto; 
 	background-color: #3d724d; 
 	background-color: rgba(0,0,0,0.4);
-    z-index: 1;
+    z-index: 2;
 }
 
 /* How to Play Modal */
@@ -278,6 +299,9 @@ img {vertical-align: middle;}
 
 /* Content of Modal*/
 .DisclaimerContent {
+    background-image: url('./../images/flag2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-color: #b0d2bf;
 	margin: auto;
 	padding: 40px;
