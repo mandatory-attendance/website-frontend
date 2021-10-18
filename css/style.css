@@ -10,7 +10,7 @@ body{
     font-family: 'Indie Flower';
 }
 #banner {
-    background-color:pink;
+    background-color:#b0d2bf;
     margin: 0%;
 }
 
@@ -31,53 +31,6 @@ body{
 } */
 
 /*Nisha: page header*/
-#page-header {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 20vw;
-    background-image: url('./../images/backgroundLogo.png');
-    background-size: 150% 185%;
-    background-repeat: no-repeat;
-}
-
-#klylogo {
-    display: flex;
-    width: 30vw;
-    height: 7vw;
-    align-items: center;  
-    margin: 4vw;  
-}
-
-#klylogo a >img {
-    width: 100%;
-    height: fit-content;
-}
-
-#klylogo a >img:hover{
-    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
-}
-
-#options {
-    width: 80vw;
-    height: 85%;
-    margin:10px auto;
-    padding:5px;
-    text-align:center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
- }
-
-#options figure a > img{
-    width: 5vw;
-    height: 5vw;
-}
-
-#options figure a > img:hover{
-    filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
-}
 
 /* .slideshow{
     width:50%;
