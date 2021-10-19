@@ -29,10 +29,12 @@ function next() {
 		
 				if(recordEnglish && recordID == get_count()) {
 					$('.englishword').text(recordEnglish);
+					$('.englishword').append('<img src="../images/' + recordID + '.png" />'); 
 				}
 		
 				if(recordKala && recordID == get_count()) {
 					$('.kalaword').text(recordKala); 
+					$('.kalaword').append('<img src="../images/' + recordID + '.png" />');
 				}
 			});
 		}
