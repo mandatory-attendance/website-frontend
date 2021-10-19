@@ -21,8 +21,8 @@
                 <div class="numbertext">1 / 3</div>
                 <img src="./images/map.jpg">
                 <div class="slideshow-item-text">
-                    <h5>okay </h5>
-                    <p>hedsjhuhfdhjhhdhfuhdfuhdfuhduhduhudsfhbdhbdhbd</p>
+                  <h5>Kala Lagaw Ya </h5>
+                    <p>Traditional language owned by Western and Central islands of the Torres Strait.</p>
                 </div>
             </div>
 
@@ -37,7 +37,7 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
-                <img src="./images/knowledge.png">
+                <img src="./images/flag.jpeg">
                 <div class="slideshow-item-text">
                     <h5>okay </h5>
                     <p>hedsjhuhfdhjhhdhfuhdfuhdfuhduhduhudsfhbdhbdhbd</p>
