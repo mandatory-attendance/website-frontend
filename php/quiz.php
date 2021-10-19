@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="./../css/style.css">
     </head>
 
+    <?php include '..//php/support/disclaimer.php';?>
+
     <body id="quiz-body">
 
     </body>

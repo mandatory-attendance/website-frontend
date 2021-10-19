@@ -31,7 +31,7 @@
             <figcaption>PUZZLE</figcaption>
         </figure>
         <figure>
-            <a href="./php/index.php">
+            <a href="./php/quiz.php">
             <img src ="./images/quiz.png" alt="sean">
             </a>
             <figcaption>QUIZ</figcaption>
