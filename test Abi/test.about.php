@@ -30,9 +30,7 @@
 
             <div class="test-about-row">
                 <section style="text-align:center">
-                    <iframe width="580" height="350" src="https://www.youtube.com/embed/UD-xWwNtPXI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </section>
-                
+                    <<iframe width="580" height="350" src="https://www.youtube.com/embed/UD-xWwNtPXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
                 <section class="test-about-description1">
                     <h1></h1>
                     <p>
