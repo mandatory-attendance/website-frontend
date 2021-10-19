@@ -116,7 +116,7 @@ window.onload = function() {
 			<h1>Kala Lagaw Ya</h1>
 
 			<p>
-      Kala Lagaw Ya is an school friendly application that aims to assist students to a basic introduction to the Western and Central island of Torres Strait traditional lanuage. 
+      Kala Lagaw Ya is a school friendly application that aims to assist students to a basic introduction to the Western and Central island of Torres Strait traditional lanuage. 
 			
 			</p>
 
