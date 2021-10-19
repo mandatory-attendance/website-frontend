@@ -1244,3 +1244,27 @@ text-align: center;
 .test-about-row > section {
     width: 50vw;
 }
+
+
+#navbar {
+    padding: 2vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #dae4df;
+    position: fixed;
+ }
+
+#navbar a > img{
+    width: 6vw;
+    height: 6vw;
+}
+
+#navbar a{
+    padding: 1.5vw;
+}
+
+#navbar a > img:hover{
+    filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
+}

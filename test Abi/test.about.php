@@ -9,6 +9,46 @@
 
     <?php include '..//php/support/disclaimer.php';?>
 
+    <nav id="navbar">
+        <!-- <section id="nav-klylogo">
+            <a href="/index.php">
+            <img src="..//images/KLY LOGO.png" alt="KLY LOGO">
+            </a>
+        </section> -->
+
+        <section id="nav-home">
+            <a href="/index.php">
+            <img src="..//images/home.png" alt="KLY LOGO">
+            </a>
+        </section>
+        <section id="nav-about">
+            <a href="/index.php">
+            <img src="..//images/about.png" alt="KLY LOGO">
+            </a>
+        </section>
+        <section id="nav-home">
+            <a href="/index.php">
+            <img src="..//images/flash.png" alt="KLY LOGO">
+            </a>
+        </section>
+        <section id="nav-home">
+            <a href="/index.php">
+            <img src="..//images/translate.png" alt="KLY LOGO">
+            </a>
+        </section>
+        <section id="nav-home">
+            <a href="/index.php">
+            <img src="..//images/puzzle.png" alt="KLY LOGO">
+            </a>
+        </section>
+        <section id="nav-home">
+            <a href="/index.php">
+            <img src="..//images/quiz.png" alt="KLY LOGO">
+            </a>
+        </section>
+
+    </nav>
+
     <body id="banner">
         <article id="test-about-contents">
 
