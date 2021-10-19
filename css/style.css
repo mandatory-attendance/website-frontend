@@ -1016,14 +1016,6 @@ footer {
     .sidenav a {font-size: 18px;}
 }
 
-
-
-
-
-
-
-
-
 .translation-heading > h1 {
     text-align: center;
     font-size: 5vw;
@@ -1089,7 +1081,9 @@ footer {
 }
 /* Matt - Flashcards Page */
 
-#banner {
+#flashcards {
+    background-color:#b0d2bf;
+    margin: 0%;
     overflow: hidden;
 }
 

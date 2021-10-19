@@ -3,10 +3,10 @@
 	<head>
         <?php include './support/head.php';?>
         <title>Flashcard</title>
-        <link rel="stylesheet" href="./../css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
 
-    <body id="banner">
+    <body id="flashcards">
 
 		<?php include'./support/disclaimer.php';?>
 
@@ -30,6 +30,6 @@
 		<section id="current-language"><p></p></section>
 
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<script src="./../js/flashcards.js"></script>
+		<script src="../js/flashcards.js"></script>
     </body>
 </html>
