@@ -84,7 +84,11 @@
                 <section class="test-about-description">
                         <h1>Matt</h1>
                         <p>
-                            Some text here.
+                            I was born in Brisbane, Queensland, and have lived here ever since. I am in my first 
+                            year of a Bachelor of Information Technology, with a major in User Experience Design. As 
+                            the editor of the group, it is my responsibility to ensure all aspects of our application
+                            and report align with the requirements given by the brief, and to ensure all our work
+                            is coherent and neat. 
                         </p>
                 </section>
 
