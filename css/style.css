@@ -1254,6 +1254,7 @@ text-align: center;
     align-items: center;
     background-color: #dae4df;
     position: fixed;
+    left: 20%;
  }
 
 #navbar a > img{
