@@ -29,6 +29,8 @@
 
 		<section id="current-language"><p></p></section>
 
+		<section id="word-num"><p></p></section>
+
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script src="../js/flashcards.js"></script>
     </body>

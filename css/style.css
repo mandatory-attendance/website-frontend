@@ -6,7 +6,7 @@ Background
 */
 
 /* Nisha - font for website */
-body{
+body {
     font-family: 'Indie Flower';
 }
 #banner {
@@ -1163,7 +1163,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 3em;
 }
 
 #flashcards-header {
@@ -1183,6 +1183,14 @@ footer {
     max-width: 300px;
     max-height: 300px;
     margin-bottom: 100px;
+}
+
+#word-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    margin: 10px;
 }
 
 

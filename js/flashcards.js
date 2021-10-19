@@ -29,13 +29,16 @@ function next() {
 		
 				if(recordEnglish && recordID == get_count()) {
 					$('.englishword').text(recordEnglish);
-					$('.englishword').append('<img src="../images/' + recordID + '.png" />'); 
+					$('.englishword').append('<img src="../images/' + recordID + '.png" alt="' + recordEnglish + '"/>'); 
+					$('#word-num').text("Word " + recordID + " of 52"); 
 				}
 		
 				if(recordKala && recordID == get_count()) {
 					$('.kalaword').text(recordKala); 
-					$('.kalaword').append('<img src="../images/' + recordID + '.png" />');
+					$('.kalaword').append('<img src="../images/' + recordID + '.png" alt="' + recordEnglish +'"/>');
+					$('#word-num').text("Word " + recordID + " of 52"); 
 				}
+
 			});
 		}
 		var data = {resource_id: "9229d441-bdcc-40a9-8ad9-d287b2d679c4"}
