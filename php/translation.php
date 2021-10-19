@@ -25,7 +25,7 @@
 
         <div class="translation-body-button">
             <button id="translate">
-                <img src="../images/flash.png" alt="translate word">
+                <img src="../images/translate.png" alt="translate word">
             </button>
         </div>
 
