@@ -39,10 +39,10 @@ function iterateRecords(data) {
 			);
       
       $("#puzzleQuestion").append(
-				$('<img id = "picture" src = ../../images/'+ currentWordId + '.png alt = "' + recordEnglish +'">')
+				$('<img id = "picture" src = "../images/'+ currentWordId + '.png" alt = "' + recordEnglish +'">')
 			);
       // $('#puzzleQuestion').append('<img src="../images/' + recordID + '.png" />'); 
-      
+
       //Setting up the answer and the choice
 
       let kalaLetter = recordKala.toUpperCase();
