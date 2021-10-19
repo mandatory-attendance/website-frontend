@@ -1,7 +1,7 @@
 let currentWord = '';
 let currentGuessedLetter = 0;
 
-document.getElementById("finishMessage").style.display = "none";
+
 
 //counting functions
 function set_count() {
@@ -20,6 +20,7 @@ function inc_count() {
 function iterateRecords(data) {
 
   document.getElementById("tryAgain").style.display = "none";
+  document.getElementById("finishMessage").style.display = "none";
 
 	$.each(data.result.records, function(recordKey, recordValue) {
     
