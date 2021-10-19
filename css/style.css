@@ -380,18 +380,18 @@ article {
 }
 
 .modes-button {
-    margin: 5vw;
+    margin-top: 5vw;
     background: #b7ccb7;
     display: flex;
     flex-direction: initial;
     justify-content: space-around;
-    padding: 5%;
+    padding: 1%;
 }
 
 .learning-mode-button, .translation-mode-button, .puzzle-mode-button {
     background: white;
     padding: 10%;
-    width: 400px;
+    width: 10vw;
     display: flex;
     justify-content: center;
     border-radius: 1.5em;
