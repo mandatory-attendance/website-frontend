@@ -380,18 +380,18 @@ article {
 }
 
 .modes-button {
+    margin: 5vw;
     background: #b7ccb7;
     display: flex;
     flex-direction: initial;
     justify-content: space-around;
-    padding: 1%;
-   
+    padding: 5%;
 }
 
 .learning-mode-button, .translation-mode-button, .puzzle-mode-button {
     background: white;
-    padding: 5%;
-    width: 300px;
+    padding: 10%;
+    width: 400px;
     display: flex;
     justify-content: center;
     border-radius: 1.5em;
@@ -959,6 +959,7 @@ footer {
 }
 
 .references {
+    margin-top: 5vw;
     padding: 2%;
     background-color:#588c7e;
 }
