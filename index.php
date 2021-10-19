@@ -107,6 +107,24 @@ window.onload = function() {
   offset = navbar.offsetTop; //gets the offset position of the navbar
   myscroll();
 }; 
+</script>
+
+    <div class="modes-button">
+        <div class="learning-mode-button">
+          <a href="html/learning.html">FLASHCARD MODE</a>
+        </div>
+        <div class="translation-mode-button">
+          <a href="html/translation.html">TRANSLATION MODE</a>
+        </div>
+        <div class="puzzle-mode-button">
+          <a href="html/#">PUZZLE MODE</a>
+        </div>
+    </div>
+
+    <div class="references">
+      <h1>References</h1>
+    </div>
+
     </body>
 </html>
 
