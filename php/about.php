@@ -103,6 +103,36 @@
 
         </article>
 
+        <div class="references">
+            <h1>References</h1>
+
+            <p>
+                State Library of Queensland. (2020). <i>Aboriginal and Torres Strait Islander languages word lists</i>. 
+                <a href="https://data.gov.au/dataset/ds-qld-3fa7a159-f280-48f9-9a83-9209f73942ef/details?q=">
+                    https://data.gov.au/dataset/ds-qld-3fa7a159-f280-48f9-9a83-9209f73942ef/details?q=</a>
+            </p>
+
+            <p>
+                State Library of Western Australia. (2018).  <i>warnings, protocols and disclaimers</i>. 
+                <a href="https://slwa.wa.gov.au/fromanotherview/protocols/">https://slwa.wa.gov.au/fromanotherview/protocols/</a>
+            </p>
+
+            <p>
+                Torres Strait Island Language Plan (n.d.). [Footer Logo]
+                <a href="https://www.tstlanguages.org/our-languages/kala-lagaw-ya">https://www.tstlanguages.org/our-languages/kala-lagaw-ya</a>
+            </p>
+
+            <p>
+                Torres Strait Island Language Plan (n.d.). <i>Kala Lagaw Ya</i>. 
+                <a href="https://www.tstlanguages.org/our-languages/kala-lagaw-ya">https://www.tstlanguages.org/our-languages/kala-lagaw-ya</a>
+            </p>
+
+            <p>
+                Torres Strait Island Language Plan (n.d.). [Map of Torres Strait Islands]
+                <a href="https://www.tstlanguages.org/our-languages/kala-lagaw-ya">https://www.tstlanguages.org/our-languages/kala-lagaw-ya</a>
+            </p>
+        </div>
+
     </body>
 
 </html>
