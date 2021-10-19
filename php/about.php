@@ -16,9 +16,9 @@
          
             <div class="test-about-row">
                 <section class="test-about-description">
-                    <h1>Kalaw Lagaw Ya Language</h1>
+                    <h1>Kala Lagaw Ya Language</h1>
                     <p>
-                        Kala Lagaw Ya is one of two traditional languages of the Torres Strait. Kala Lagaw Ya (also written as Kalaw Lagaw Ya) 
+                        Kala Lagaw Ya is one of two traditional languages of the Torres Strait. Kala Lagaw Ya (also known as Kalaw Lagaw Ya) 
                         is the traditional language owned by the Western and Central islands of the Torres Strait. It is linguistically connected 
                         to the Aboriginal languages of the Australian mainland.
                     </p>
@@ -36,7 +36,7 @@
                 <section class="test-about-description1">
                     <h1></h1>
                     <p>
-                        Some text here.
+                        To learn more about the Kala Lagaw Ya language, you can visit the tstlanguages website <a href ="https://www.tstlanguages.org/our-languages/kala-lagaw-ya"> here</a>.
                     </p>
                 </section>
             </div>
