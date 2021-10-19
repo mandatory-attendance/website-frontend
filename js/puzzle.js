@@ -1,7 +1,7 @@
 let currentWord = '';
 let currentGuessedLetter = 0;
 
-document.getElementById("finishMessage").style.display = "none";
+
 
 //counting functions
 function set_count() {
@@ -19,7 +19,7 @@ function inc_count() {
 //main data iteration
 function iterateRecords(data) {
 
-  document.getElementById("tryAgain").style.display = "none";
+  
 
 	$.each(data.result.records, function(recordKey, recordValue) {
     
@@ -30,16 +30,14 @@ function iterateRecords(data) {
 
     if(recordEnglish && recordID == get_count()) {
       
-      document.getElementById("nextPuzzle").style.display="block"; //change this next button to block if needed
       
       //Seting up the questions
-      let currentWordId = get_count();
 			$("#puzzleQuestion").append(
 				$('<figcaption id = "puzzleEnglishQuestion">').text(recordEnglish)
 			);
       
       $("#puzzleQuestion").append(
-				$('<img id = "picture" src = "../images/'+ currentWordId + '.png" alt = "' + recordEnglish +'">')
+				$('<img id = "picture" src = "../images/'+ recordID + '.png" alt = "' + recordEnglish +'">')
 			);
       // $('#puzzleQuestion').append('<img src="../images/' + recordID + '.png" />'); 
 
@@ -212,7 +210,13 @@ function drop(e) {
 
 
 $(document).ready(function() {
+
+  document.getElementById("nextPuzzle").style.display="none"; //change this next button to block if needed
+  document.getElementById("tryAgain").style.display = "none";
+  document.getElementById("finishMessage").style.display = "none";
+
 	set_count();
+  
 	var data = {
 		resource_id: "9229d441-bdcc-40a9-8ad9-d287b2d679c4"
 	};
