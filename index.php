@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <?php include 'support/head.php';?>
+        <?php include 'php/support/head.php';?>
         <title>Homepage</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
