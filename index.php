@@ -7,7 +7,7 @@
     </head>
     
 
-    <body id="banner">
+    <body id="homepage">
         <?php include './php/support/homepage/disclaimer.php';?>
         <?php include './testnisha/test-fullsize.php';?>
         
