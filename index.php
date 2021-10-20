@@ -11,14 +11,25 @@
         <?php include './php/support/homepage/disclaimer.php';?>
         <?php include './testnisha/test-fullsize.php';?>
         
-        <script src="./js/slideshow.js"></script>
+        <script src="js/slideshow.js"></script>
         <div class="slideshow-container">
 
         <img class="ruler" src="./images/ruler.png">
         <img  class="pencil"src="./images/pencil.png">
 
+
             <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
+                <img src="./images/flag.jpeg">
+                <div class="slideshow-item-text">
+                    <h5>Torres Strait Map </h5>
+                    <p></p>
+                </div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
                 <img src="./images/map.jpg">
                 <div class="slideshow-item-text">
                   <h5>Kala Lagaw Ya </h5>
@@ -27,7 +38,7 @@
             </div>
 
             <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
+                <div class="numbertext">3 / 3</div>
                 <img src="./images/people.webp">
                 <div class="slideshow-item-text">
                     <h5>okay </h5>
@@ -35,14 +46,7 @@
                 </div>
             </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="./images/flag.jpeg">
-                <div class="slideshow-item-text">
-                    <h5>okay </h5>
-                    <p>hedsjhuhfdhjhhdhfuhdfuhdfuhduhduhudsfhbdhbdhbd</p>
-                </div>
-            </div>
+
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
