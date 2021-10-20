@@ -1,6 +1,6 @@
 <div id="interactHeader">
     <div id="interactLogo">
-        <a href="index.php">
+        <a href="../index.php">
         <img src="./../images/KLY LOGO.png" alt="KLY LOGO">
         </a>
     </div>
