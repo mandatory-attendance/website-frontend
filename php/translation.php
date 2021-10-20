@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="./../css/style.css">
 </head>
 
-<body id="banner">
+<body id="translation">
     <?php include './support/disclaimer.php';?>
     <?php include '..//php/support/interactionheader.php';?>
     
