@@ -32,6 +32,7 @@ body {
 
 /*Nisha: page header*/
 #page-header {
+    overflow: hidden;
     z-index: 1;
     position: sticky;
     top: 0;
@@ -197,18 +198,18 @@ img {vertical-align: middle;}
 
 .ruler{
     position: absolute;
-    left: 75%;
-    bottom: 5%;
-    max-width: 80%;
+    max-width: 70%;
+    left:77%;
+    top: 10%;
     
     
 }
 
 .pencil{
     position: absolute;
-    right: 74%;
-    bottom: 5%;
-    max-width: 80%;
+    max-width: 70%;
+    right:76%;
+    top: 10%;
 }
 
 
@@ -286,7 +287,7 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: black;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -1012,7 +1013,7 @@ footer {
 .references {
     margin-top: 5vw;
     padding: 2%;
-    background-color:#588c7e;
+    background-color:#ffffff;
 }
 
 /* Matt - Side Navigation Bar */
