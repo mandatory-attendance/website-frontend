@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <?php include 'support/head.php';?>
+        <?php include '..//php/support/head.php';?>
         <title>Homepage</title>
         <link rel="stylesheet" href="..//css/style.css">
     </head>
@@ -9,7 +9,7 @@
 
     <?php include '..//php/support/disclaimer.php';?>
 
-    <body id="banner">
+    <body id="about">
     <?php include '..//php/support/interactionheader.php';?>
         <article id="test-about-contents">
 
