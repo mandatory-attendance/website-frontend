@@ -9,7 +9,7 @@
 
 <body id="banner">
     <?php include './support/disclaimer.php';?>
-    <?php include './support/sidenav.php';?>
+    <?php include '..//php/support/interactionheader.php';?>
     
     <div class="translation-heading">
         <h1>Translation</h1>

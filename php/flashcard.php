@@ -9,8 +9,8 @@
     <body id="flashcards">
 
 		<?php include'./support/disclaimer.php';?>
+		<?php include '..//php/support/interactionheader.php';?>
 
-		<?php include'./support/sidenav.php';?>
 
 		<header id = "flashcards-header">Flashcards</header>
 

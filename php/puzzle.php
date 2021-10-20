@@ -8,12 +8,12 @@
 
     <body id = "puzzleBody">
         <?php include './support/disclaimer.php';?>
+        <?php include '..//php/support/interactionheader.php';?>
         
         <header id = "puzzleHeader">
             Puzzle Mode
         </header>
 
-        <?php include './support/sidenav.php';?>
 
         <a id="puzzle-exit" href="../index.php">&times;</a>
         <!--<div id = "HowToPlay"><button>How to Play</button></div>-->

@@ -10,6 +10,7 @@
     <?php include '..//php/support/disclaimer.php';?>
 
     <body id="banner">
+    <?php include '..//php/support/interactionheader.php';?>
         <article id="test-about-contents">
 
         <h1>About Kala Lagaw Ya</h1>
