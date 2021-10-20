@@ -1136,7 +1136,8 @@ footer {
 #flashcards {
     background-color:#b0d2bf;
     margin: 0%;
-    overflow: hidden;
+    /* overflow: hidden; */
+    font-family: 'Indie Flower';
 }
 
 #flash {
@@ -1147,8 +1148,8 @@ footer {
 }
 
 .scene {
-    width: 900px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
     border: 1px solid #CCC;
     margin: 40px 0;
     perspective: 600px;
@@ -1172,8 +1173,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 900px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
     line-height: 200px;
     color: black;
     font-size: 4em;
@@ -1182,11 +1183,15 @@ footer {
     backface-visibility: hidden;
     margin: auto;
     border-radius: 0.5em;
-    background: white;
+}
+
+.card__face--front {
+    background: #D2D5EC;
 }
   
 .card__face--back {
     transform: rotateY(180deg);
+    background: #C4E4F5;
 }
 
 #next_button, #prev_button {
@@ -1201,6 +1206,7 @@ footer {
     cursor: pointer;
     border-radius: 0.5em;
     position: absolute;
+    font-family: 'Indie Flower';
 }
 
 #next_button {
@@ -1232,8 +1238,7 @@ footer {
 }
 
 .englishword img, .kalaword img {
-    max-width: 300px;
-    max-height: 300px;
+    height: 200px;
     margin-bottom: 100px;
 }
 

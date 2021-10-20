@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-        <?php include './support/head.php';?>
+        <?php include 'support/head.php';?>
         <title>Flashcard</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
@@ -12,7 +12,7 @@
 		<?php include '..//php/support/interactionheader.php';?>
 
 
-		<header id = "flashcards-header">Flashcards</header>
+		<!-- <header id = "flashcards-header">Flashcards</header> -->
 
 		<section id="flash">
 			<section class="scene scene--card">
