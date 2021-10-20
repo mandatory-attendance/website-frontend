@@ -3,7 +3,7 @@
     <head>
         <?php include 'support/head.php';?>
         <title>Homepage</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     
 
