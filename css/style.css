@@ -131,8 +131,8 @@ Background
  }
 
 #interactIcon figure a > img{
-    width: 5vw;
-    height: 5vw;
+    width: 7vw;
+    height: 7vw;
 }
 
 #interactIcon figure a > img:hover{
@@ -357,9 +357,6 @@ img {vertical-align: middle;}
 
 /* Content of Modal*/
 .DisclaimerContent {
-    background-image: url('./../images/flag2.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
     background-color: #b0d2bf;
 	margin: auto;
 	padding: 40px;
