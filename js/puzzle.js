@@ -32,6 +32,9 @@ function iterateRecords(data) {
       
       
       //Seting up the questions
+      document.getElementById("nextPuzzle").style.display="none"; //change this next button to block if needed
+
+      
 			$("#puzzleQuestion").append(
 				$('<figcaption id = "puzzleEnglishQuestion">').text(recordEnglish)
 			);
@@ -211,7 +214,7 @@ function drop(e) {
 
 $(document).ready(function() {
 
-  document.getElementById("nextPuzzle").style.display="none"; //change this next button to block if needed
+  
   document.getElementById("tryAgain").style.display = "none";
   document.getElementById("finishMessage").style.display = "none";
 
