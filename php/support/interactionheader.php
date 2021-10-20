@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<style>
+<!-- <style>
 #interactHeader {
     z-index: 1;
     position: sticky;
@@ -90,4 +90,4 @@
 #interactIcon figure a > img:hover{
     filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
 }
-</style>
+</style> -->
