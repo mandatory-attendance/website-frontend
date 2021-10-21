@@ -86,11 +86,7 @@
                     <li><a href="php/translation.php">Translate</a></li>
                     <li><a href="php/puzzle.php">Puzzle</a></li>
                     <li><a href="php/quiz.php">Quiz</a></li>
-<<<<<<< Updated upstream
-                    <li><a href="php/about.php#references">References</a></li>
-=======
                     <li><a href="php/references.php">References</a></li>
->>>>>>> Stashed changes
                 </ul>
             </div>
 
