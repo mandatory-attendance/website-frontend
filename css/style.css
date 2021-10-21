@@ -567,7 +567,7 @@ article {
 #puzzleEnglishQuestion{
     font-size: 3vw;
     border-radius: 10px;
-    background-color: #b4dbff;
+    background-color: #d2d5ec;
     height:3.5vw;
     margin-bottom: 10px;
 }
@@ -593,11 +593,7 @@ article {
 }
 #answerSource span{
     font-size: 3vw;
-    background-color: #b4dbff;
-    width:50px;
-    height:50px;
-    margin: 5px;
-    border-radius: 10px;
+    background-color: #c4e4f5;
 }
 #tryAgain{
     text-align: center;
