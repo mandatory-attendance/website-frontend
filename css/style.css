@@ -1428,6 +1428,7 @@ footer .links ul li a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation: fadeIn 2s;
 }
 
 #quiz-start h1 {
@@ -1455,3 +1456,8 @@ footer .links ul li a {
     border-radius: 0.5em;
     font-family: 'Indie Flower';
 }
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
