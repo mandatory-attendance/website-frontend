@@ -2,7 +2,7 @@
 <html>
     <head>
         <?php include '..//php/support/head.php';?>
-        <title>Homepage</title>
+        <title>About</title>
         <link rel="stylesheet" href="..//css/style.css">
     </head>
 
@@ -17,7 +17,7 @@
          
             <div class="test-about-row">
                 <section class="test-about-description">
-                    <h1>Kala Lagaw Ya Language</h1>
+                    <h1>Kala Lagaw Ya Origin</h1>
                     <p>
                         Kala Lagaw Ya is one of two traditional languages of the Torres Strait. Kala Lagaw Ya (also known as Kalaw Lagaw Ya) 
                         is the traditional language owned by the Western and Central islands of the Torres Strait. It is linguistically connected 
@@ -35,9 +35,11 @@
                 </section>
                 
                 <section class="test-about-description1">
-                    <h1></h1>
+                    <h1>Pronounciations</h1>
                     <p>
-                        To learn more about the Kala Lagaw Ya language, you can visit the tstlanguages website <a href ="https://www.tstlanguages.org/our-languages/kala-lagaw-ya"> here</a>.
+                        The following video contains pronounciations for some common Kala Lagaw Ya words.<br><br>
+                        To learn more about the Kala Lagaw Ya language, we encourage you to visit the Torres Strait Island 
+                        Language Plan website <a href ="https://www.tstlanguages.org/our-languages/kala-lagaw-ya">here</a>.
                     </p>
                 </section>
             </div>
@@ -47,8 +49,8 @@
             <section class="test-about-description1">
                     <h1>Our Purpose</h1>
                     <p>
-                        We are a group of students attending the University of Queensland who have collectively 
-                        worked on this website for our DECO1800 (Design Computing Studio 1) course this semester (Sem 2, 2021).
+                        We are a group of five students attending the University of Queensland who have collectively 
+                        worked on this website for our Design Computing Studio 1 (DECO1800) course this semester (Semester 2, 2021).
                     </p>
             </section>
             
@@ -86,10 +88,9 @@
                         <h1>Matt</h1>
                         <p>
                             I was born in Brisbane, Queensland, and have lived here ever since. I am in my first 
-                            year of a Bachelor of Information Technology, with a major in User Experience Design. As 
-                            the editor of the group, it is my responsibility to ensure all aspects of our application
-                            and report align with the requirements given by the brief, and to ensure all our work
-                            is coherent and neat. 
+                            year of a Bachelor of Information Technology, with a major in User Experience Design.
+                            I recognise my white privilege that I bring to this project. I also acknowledge that, 
+                            for me, an information technology University degree provides an avenue to employment.
                         </p>
                 </section>
 

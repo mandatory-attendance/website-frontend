@@ -359,19 +359,20 @@ img {vertical-align: middle;}
 .DisclaimerContent {
     background-color: #b0d2bf;
 	margin: auto;
-	padding: 40px;
-	padding-top: 5%;
+	/* padding: 40px; */
+	/* padding-top: 5%; */
 	border: 1px solid #888;
 	width: 75%;
-	height: 70%;
-	font-size: 20px;
+	height: 80%;
+	font-size: 2vw;
     text-align: center;
 	border-radius: 25px;
 }
 
 .DisclaimerContent p {
-    font-size: 20px;
-    padding: 4%;
+    font-size: 1.5vw;
+    padding-left: 4%;
+    padding-right: 4%;
 
 }
 

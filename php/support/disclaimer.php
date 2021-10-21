@@ -7,8 +7,16 @@
 <div class="DisclaimerContent">
     <h1>Disclaimer</h1>
     <p>Aboriginal and Torres Strait Islander viewers are advised that this website may contain images of deceased persons.<br>
-        Users are warned that there may be words and descriptions that may be culturally sensitive and which might not normally be used in certain public or community contexts.<br>
-        Terms and annotations that reflect the attitude of the author or the period in which the item was written, may be considered inappropriate today.</p>
+        <!-- Users are warned that there may be words and descriptions that may be culturally sensitive and which might not normally 
+        be used in certain public or community contexts.<br>
+        Terms and annotations that reflect the attitude of the author or the period in which the item was written, may be considered 
+        inappropriate today. <br> -->
+        In presenting this work, we acknowledge that we attempted to contact representatives of the Kala Lagaw Ya people 
+        but did not recieve a reply, and recognise the impact this may have on our treatment of the work. The work presented 
+        is a proposal only. However, we will relinquish all proposed concepts as part of a collaborative and participatory design
+        process for the right of Aboriginal and Torres Strait Islander custodians' to self determine the design process, purpose, 
+        benefits and outcomes.
+    </p>
     <span class="Continuebutton"><button class="ContinueButton">Continue</button></span>
 </div>
 </div>
