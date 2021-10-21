@@ -1222,7 +1222,7 @@ text-align: center;
 
 .test-about-description1 {
     flex-direction: row;
-    width: 96%;
+    width: 100%;
     padding: 2%;
     text-align: justify;
     background: white;
