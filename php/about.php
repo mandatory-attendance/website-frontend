@@ -68,7 +68,8 @@
                 <section class="test-about-description">
                         <h1>Abigail</h1>
                         <p>
-                            Some text here.
+                            I was born in Phillippines, Naga City and moved to Australia in 2011. 
+                            I am in my 2nd year studying Bachelor of Information Technology, majoring in User Experience Design.
                         </p>
                 </section>
 
