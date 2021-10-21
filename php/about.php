@@ -33,7 +33,7 @@
 
             <div class="test-about-row">
                 <section style="text-align:center">
-                    <iframe width="580" height="350" src="https://www.youtube.com/embed/UD-xWwNtPXI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="640" height="430" src="https://www.youtube.com/embed/UD-xWwNtPXI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
                 
                 <section class="test-about-description1">
@@ -51,8 +51,12 @@
             <section class="test-about-description1">
                     <h1>Our Purpose</h1>
                     <p>
-                        We are a group of five students attending the University of Queensland who have collectively 
-                        worked on this website for our Design Computing Studio 1 (DECO1800) course this semester (Semester 2, 2021).
+                        We are a group of five students (Team Mandatory Attandance/ Mayfly) attending the University of Queensland who have collectively 
+                        worked on this website for our Design Computing Studio 1 (DECO1800) course this semester (Semester 2, 2021). 
+                        Our purpose in developing this application is to create an educational tool which assissts in teaching and
+                        introducing the Kala Lagaw Ya language to primary school students (9 to 11 year olds).
+                        As this language is classified as severely endangered, we seek to promote it and ensure their culture is not forgotten. 
+                        (Torres Strait Island Language Plan, n.d.) 
                     </p>
             </section>
             
