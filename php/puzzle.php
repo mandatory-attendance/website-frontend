@@ -10,10 +10,6 @@
         <?php include 'support/disclaimer.php';?>
         <?php include 'support/interactionheader.php';?>
 
-
-
-        <a id="puzzle-exit" href="../index.php">&times;</a>
-
         <section id = "finishMessage">
             <div id = "topMessage">
                 CONGRATULATIONS!!!
@@ -21,6 +17,7 @@
             <div id = "botMessage">
                 You have completed the puzzle mode.<br>
                 Press <a href = "../index.php"><span id = "puzzleHere">Here</span></a> to return to Homepage.
+
             </div>
         </section>
         
@@ -46,6 +43,7 @@
         <nav id = "nextPuzzle">
             <button class = "nextButton">Next</button>
         </nav>
+
         
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="./../js/puzzle.js"></script>
