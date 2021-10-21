@@ -1329,24 +1329,6 @@ text-align: center;
     filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .translation-info {
     display: flex;
     justify-content: center;
@@ -1490,4 +1472,38 @@ footer .links ul li a {
 
 .formPopup, .formPopup h2  {
     color: black;
+}
+
+/* Quiz Page - Matt & Yashik */
+#quiz-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#quiz-start h1 {
+    font-size: 5vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#quiz-start h2 {
+    font-size: 3vw;
+}
+
+#quiz-begin {
+    background-color: white;
+    border: none;
+    color: black;
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    cursor: pointer;
+    border-radius: 0.5em;
+    font-family: 'Indie Flower';
 }
