@@ -38,10 +38,7 @@
     
     <div class="translation-info">
         <div class="translation-info-picture">
-
-        </div>
-        <div class="translation-info-summary">
-
+            <img id="picture">
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

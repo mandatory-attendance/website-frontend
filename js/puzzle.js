@@ -2,7 +2,6 @@ let currentWord = '';
 let currentGuessedLetter = 0;
 
 
-
 //counting functions
 function set_count() {
 	count=1;
@@ -34,15 +33,15 @@ function iterateRecords(data) {
       //Seting up the questions
       document.getElementById("nextPuzzle").style.display="none"; //change this next button to block if needed
 
-      
+      //Appending the question in English
 			$("#puzzleQuestion").append(
 				$('<figcaption id = "puzzleEnglishQuestion">').text(recordEnglish)
 			);
       
+      //Appending the picture to the page
       $("#puzzleQuestion").append(
 				$('<img id = "picture" src = "../images/'+ recordID + '.png" alt = "' + recordEnglish +'">')
 			);
-      // $('#puzzleQuestion').append('<img src="../images/' + recordID + '.png" />'); 
 
       //Setting up the answer and the choice
 
@@ -51,6 +50,7 @@ function iterateRecords(data) {
       let kalaOrderedLetter = kalaLetter.split('');
       let kalaRandomLetter = [];
       
+      //Setting up the target blocks
       for (let i = 0; i < kalaOrderedLetter.length; i++) {
         $("#answerTarget").append(
           $('<span data-target-id = "'+ kalaOrderedLetter[i] + i +'"class = "target">')
@@ -59,13 +59,17 @@ function iterateRecords(data) {
           kalaRandomLetter.push(kalaOrderedLetter[i] + i);
       }
 
+      //Randomizing the position for each words
       kalaRandomLetter = arrayRandomize(kalaRandomLetter);
       
+      //Setting up the randomized source blocks
       for (let i = 0; i < kalaRandomLetter.length; i++) {
         $("#answerSource").append(
           $('<span data-source-id = "'+ kalaRandomLetter[i] +'"draggable="true" "class = "source">').text(kalaRandomLetter[i][0])
           );
       }
+
+      //Initializing each blocks into drag and drop functions
       const answerSource = document.querySelectorAll('#answerSource > span');
       const answerTarget = document.querySelectorAll('#answerTarget > span');
 
@@ -96,21 +100,25 @@ function iterateRecords(data) {
 
         currentGuessedLetter = 0;
         
-
+        // Delete current finished question
         completeSource.forEach(el => {
           el.remove();
         })
         completeTarget.forEach(el => {
           el.remove();
         }) 
+
+        //Incrementing the question id
         inc_count();
 
+        //Showing the next question
         if (get_count()<53){
 
           iterateRecords(data);
 
         }
 
+        //Displaying message when the user has finished puzzle mode
         else{
 
           document.getElementById("nextPuzzle").style.display="none";
@@ -125,6 +133,7 @@ function iterateRecords(data) {
 
 //Array randomizer
 //source : https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+// changes: variable names
   
 function arrayRandomize(array) {  
 
@@ -151,6 +160,7 @@ function arrayRandomize(array) {
 
 //Drag and Drop Functions
 //source : https://blog.jscrambler.com/build-a-simple-game-in-vanilla-js-with-the-drag-and-drop-api
+// changes: variable names, position, and structure 
 
 function dragStart(e) {
   const data = { 
@@ -185,7 +195,7 @@ function drop(e) {
   const dataTargetId = e.target.getAttribute('data-target-id');
   const wordLength = currentWord.length;
   
-  
+  //If user has correctly assign one of the letter
   if(letterSourceId === dataTargetId) {
     e.target.insertAdjacentHTML('afterbegin', letterSourceId[0]);
     e.target.style = 'font-size: 3vw; background: #467e9d';
@@ -195,29 +205,33 @@ function drop(e) {
     let sourceElemSpanTag = document.querySelector(sourceElemDataId);
     currentGuessedLetter++
     
+    //Set finished letter into undraggable
     Object.assign(sourceElemSpanTag, {
       className: 'notDraggable',
       draggable: false,
     });
-
+    
+    //When user has correctly assign the all the letters, display next button
     if (currentGuessedLetter === wordLength){
       document.getElementById("nextPuzzle").style.display="block";
     }
     
   }
+  //When user has assign the wrong letter, display "Try again" message
   else{
     document.getElementById("tryAgain").style.display = "block";
   }
   
 }
 
-
+//When the page is ready
 $(document).ready(function() {
 
-  
+  //Hiding complete message and try again message
   document.getElementById("tryAgain").style.display = "none";
   document.getElementById("finishMessage").style.display = "none";
 
+  //Initializing the current word id
 	set_count();
   
 	var data = {

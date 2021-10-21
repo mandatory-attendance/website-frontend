@@ -6,7 +6,7 @@ Background
 */
 
 /* Nisha - font for website */
-#homepage, #flashcards, #puzzleBody, #quiz, #sidenav, #translation, #about {
+#homepage, #flashcards, #puzzle, #quiz, #sidenav, #translation, #about {
     font-family: 'Indie Flower';
     background-color: #b0d2bf;
     margin: 0%;
@@ -358,19 +358,20 @@ img {vertical-align: middle;}
 .DisclaimerContent {
     background-color: #b0d2bf;
 	margin: auto;
-	padding: 40px;
-	padding-top: 5%;
+	/* padding: 40px; */
+	/* padding-top: 5%; */
 	border: 1px solid #888;
 	width: 75%;
-	height: 70%;
-	font-size: 20px;
+	height: 80%;
+	font-size: 2vw;
     text-align: center;
 	border-radius: 25px;
 }
 
 .DisclaimerContent p {
-    font-size: 20px;
-    padding: 4%;
+    font-size: 1.5vw;
+    padding-left: 4%;
+    padding-right: 4%;
 
 }
 
@@ -456,70 +457,6 @@ article {
 }
 
 /*Garry*/
-/*Learning Mode*/
-/* #learningBody{
-    margin: 0;
-    background-color: #AAE3F7;
-}
-
-#learningHeader{
-    text-align: center;
-    font-size: 4vw;
-    margin-top: 40px;
-}
-
-
-/* #learningPicture{
-    width: 50%;
-    height:20vw;
-    margin-top: 3vw;
-    float:left;
-    display:inline;
-    text-align:right;
-} */
-
-
-
-/* #learningCard{
-    margin-top: 3vw;
-    float:left;
-    height:12vw;
-    width: 30%;
-    
-    padding-top: 8vw;
-    text-align: center;
-    font-size: 3vw;
-}
-.flashcards{
-    padding:5vw 10vw 5vw 10vw;
-    background-color: #ADD8AF;
-}
-#learningButtons{
-    margin-top: 25vw;
-    float: none;
-    width:100%;
-}
-#row {
-    text-align: center;
-}
-.totalWords {
-    width:33%;
-}
-
-#language {
-    font-size:2vw;
-}
-
-#HowToPlay {
-    margin-top:3vw;
-    margin-right: 3vw;
-    text-align: right;
-}
-
-.flipCard {
-    color:black;
-} */
-
 /*Puzzle Mode*/
 
 #puzzle-exit {
@@ -539,12 +476,12 @@ article {
     transition: 0.3s;
 }  
 
-#picture{
-    height:200px;
-    
+#puzzleQuestion img {
+    height: 200px; 
+    object-fit: contain;
 }
 
-#puzzleBody{
+#puzzle{
     margin: auto;
     background-color: #b0d2bf;
 }
@@ -559,15 +496,13 @@ article {
 #puzzleQuestion{
     text-align: center;
     width: 30%;
-    margin: auto;
-    
+    margin: auto; 
 }
-
 
 #puzzleEnglishQuestion{
     font-size: 3vw;
     border-radius: 10px;
-    background-color: #b4dbff;
+    background-color: #d2d5ec;
     height:3.5vw;
     margin-bottom: 10px;
 }
@@ -593,7 +528,7 @@ article {
 }
 #answerSource span{
     font-size: 3vw;
-    background-color: #b4dbff;
+    background-color: #c4e4f5;
     width:50px;
     height:50px;
     margin: 5px;
@@ -670,7 +605,7 @@ article {
 
 /* Nisha */
 /* Hamburger Icon */
-.HambugerLines{
+/* .HambugerLines{
     width:4vw;
     height:1vw;
     margin: 0.5vw;
@@ -694,7 +629,7 @@ article {
 
 .HambugerOptions a:hover {background-color: #ddd;}
 
-.HambugerIcon:hover .HambugerOptions {display: block;}
+.HambugerIcon:hover .HambugerOptions {display: block;} */
 
 /* .HambugerIcon:hover .HambugerButton {}; */
 
@@ -1110,12 +1045,24 @@ footer {
     align-items: center;
 }
 
+.translation-body-english {
+    background: #D2D5EC;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.translation-body-indigenous {
+    background: #C4E4F5;
+    border: 0px;
+    border-radius: 10px;
+}
+
+
 .translation-body-english > h1, .translation-body-indigenous > h1 {
     margin: 2%;
     padding: 2%;
     width: 100%;
     text-align: center;
-    background: #5F9D91;
     border: 0px;
     border-radius: 10px;
 }
@@ -1136,25 +1083,22 @@ footer {
 }
 /* Matt - Flashcards Page */
 
-#flashcards {
-    background-color:#b0d2bf;
-    margin: 0%;
-    /* overflow: hidden; */
-    font-family: 'Indie Flower';
-}
+/* #flashcards {
+    overflow: hidden;
+} */
 
 #flash {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .scene {
     width: 700px;
-    height: 400px;
+    height: 350px;
     border: 1px solid #CCC;
-    margin: 40px 0;
+    margin: 20px 0;
     perspective: 600px;
 }
   
@@ -1177,7 +1121,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 700px;
-    height: 400px;
+    height: 350px;
     line-height: 200px;
     color: black;
     font-size: 4em;
@@ -1241,8 +1185,8 @@ footer {
 }
 
 .englishword img, .kalaword img {
-    height: 200px;
-    margin-bottom: 100px;
+    height: 150px;
+    margin-bottom: 75px;
 }
 
 #word-num {
@@ -1250,7 +1194,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    margin: 10px;
+    margin: 5px;
 }
 
 
@@ -1277,7 +1221,7 @@ text-align: center;
 
 .test-about-description1 {
     flex-direction: row;
-    width: 96%;
+    width: 100%;
     padding: 2%;
     text-align: justify;
     background: white;
@@ -1294,7 +1238,7 @@ text-align: center;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    padding: 1%;
+    padding: 2%;
     margin-top: 2%;
     margin-bottom: 2%;
     background: #ffffff;
@@ -1328,4 +1272,185 @@ text-align: center;
 
 #navbar a > img:hover{
     filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
+}
+
+.translation-info {
+    display: flex;
+    justify-content: center;
+}
+
+.translation-info-picture {
+    margin: 5%;
+    width: 30vw;
+    border: solid 1px;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+#picture {
+    width: 100%;
+    height: 100%;
+}
+
+ /* Homepage Footer - Nisha */
+ footer {
+    background: white;
+    color: Black;
+    height: 350px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+}
+
+@media only screen and (min-width: 800px) {
+    footer {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+footer .footer-section {
+    flex: 1;
+    padding: 25px;
+}
+
+footer a {
+    color: #3d724d;
+    transition-property: color;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+}
+
+footer a:hover {
+    color: grey;
+}
+
+footer .links ul {
+    display: inline;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer .links ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contact a {
+    text-decoration: underline;
+}
+
+.loginPopup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.formPopup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+}
+
+.formContainer {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.formContainer input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #eee;
+}
+
+.formContainer input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.formContainer .btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: #8ebf42;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.formContainer .cancel {
+    background-color: #cc0000;
+}
+
+.formContainer .btn:hover,
+.openButton:hover {
+    opacity: 1;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form button {
+    width: 100px;
+}
+
+.contact-form .contact-input {
+    font-size: 20;
+}
+
+.formPopup, .formPopup h2  {
+    color: black;
+}
+
+/* Quiz Page - Matt & Yashik */
+#quiz-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#quiz-start h1 {
+    font-size: 5vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#quiz-start h2 {
+    font-size: 3vw;
+}
+
+#quiz-begin {
+    background-color: white;
+    border: none;
+    color: black;
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    cursor: pointer;
+    border-radius: 0.5em;
+    font-family: 'Indie Flower';
 }
