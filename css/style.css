@@ -800,6 +800,10 @@ body {
     color: gray;
 }
 
+figcaption {
+    font-size: 1.5vw;
+}
+
 .home-button, .about-button, .learn-button, .translation-button, .test-button {
     display: flex;
     align-items: center;
@@ -1324,6 +1328,10 @@ footer a {
 
 footer a:hover {
     color: grey;
+}
+
+footer .links {
+    padding-left: 15%;
 }
 
 footer .links ul {

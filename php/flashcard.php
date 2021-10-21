@@ -10,6 +10,7 @@
 
 		<?php include'./support/disclaimer.php';?>
 		<?php include '..//php/support/interactionheader.php';?>
+		<style>#flashcardsheader {font-weight: bold;}</style>
 
 
 		<!-- <header id = "flashcards-header">Flashcards</header> -->

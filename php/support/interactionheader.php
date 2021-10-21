@@ -10,13 +10,13 @@
             <a href="about.php">
             <img src ="./../images/about.png"  alt="kathy">
             </a>
-            <figcaption>ABOUT</figcaption>
+            <figcaption id=aboutheader>ABOUT</figcaption>
         </figure>
         <figure>
             <a href="flashcard.php">
             <img src ="./../images/flash.png"  alt="steve">
             </a>
-            <figcaption>FLASHCARD</figcaption>
+            <figcaption id="flashcardsheader">FLASHCARD</figcaption>
         </figure>
         <figure>
             <a href="translation.php">
