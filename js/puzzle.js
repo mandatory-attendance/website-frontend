@@ -133,6 +133,7 @@ function iterateRecords(data) {
 
 //Array randomizer
 //source : https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+// changes: variable names
   
 function arrayRandomize(array) {  
 
@@ -159,6 +160,7 @@ function arrayRandomize(array) {
 
 //Drag and Drop Functions
 //source : https://blog.jscrambler.com/build-a-simple-game-in-vanilla-js-with-the-drag-and-drop-api
+// changes: variable names, position, and structure 
 
 function dragStart(e) {
   const data = { 
