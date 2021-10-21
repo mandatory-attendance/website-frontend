@@ -110,11 +110,11 @@ Background
     margin: 4vw;  
 }
 
-#klylogo a >img {
+#klylogo a > img {
     width: 100%;
 }
 
-#klylogoa >img:hover{
+#klylogo a > img:hover {
     filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
 }
 
@@ -131,15 +131,15 @@ Background
  }
 
 #options figure a > img{
-    width: 5.5vw;
-    height: 5.5vw;
+    width: 4.5vw;
+    height: 4.5vw;
 }
 
 #options figure a > img:hover{
     filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
 }
 
-/*Nisha:interaction header*/
+/* Nisha: interaction header */
 #interactHeader {
     z-index: 1;
     position: sticky;
