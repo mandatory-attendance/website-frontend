@@ -6,7 +6,7 @@ Background
 */
 
 /* Nisha - font for website */
-#homepage, #flashcards, #puzzleBody, #quiz, #sidenav, #translation, #about {
+#homepage, #flashcards, #puzzle, #quiz, #sidenav, #translation, #about {
     font-family: 'Indie Flower';
     background-color: #b0d2bf;
     margin: 0%;
@@ -541,12 +541,12 @@ article {
     transition: 0.3s;
 }  
 
-#picture{
-    height:200px;
-    
+#puzzleQuestion img {
+    height: 200px; 
+    object-fit: contain;
 }
 
-#puzzleBody{
+#puzzle{
     margin: auto;
     background-color: #b0d2bf;
 }
@@ -561,10 +561,8 @@ article {
 #puzzleQuestion{
     text-align: center;
     width: 30%;
-    margin: auto;
-    
+    margin: auto; 
 }
-
 
 #puzzleEnglishQuestion{
     font-size: 3vw;
@@ -1385,8 +1383,11 @@ footer a:hover {
     color: grey;
 }
 
-footer .links ul li {
+footer .links ul {
+    display: inline;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 footer .links ul li a {
@@ -1395,7 +1396,6 @@ footer .links ul li a {
     font-size: 1.2em;
     text-decoration: none;
     list-style: none;
-
 }
 
 .contact a {

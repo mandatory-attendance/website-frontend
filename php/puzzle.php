@@ -6,13 +6,13 @@
         <link rel="stylesheet" href="./../css/style.css">
     </head>
 
-    <body id = "puzzleBody">
-        <?php include './support/disclaimer.php';?>
-        <?php include '..//php/support/interactionheader.php';?>
+    <body id = "puzzle">
+        <?php include 'support/disclaimer.php';?>
+        <?php include 'support/interactionheader.php';?>
         
-        <header id = "puzzleHeader">
+        <!-- <header id = "puzzleHeader">
             Puzzle Mode
-        </header>
+        </header> -->
 
 
         <a id="puzzle-exit" href="../index.php">&times;</a>
