@@ -72,13 +72,13 @@
                 </p>
 
                 <section class="contact"> 
-                    <div>Phone: 0467784589</div>
+                    <p>Phone: 0467784589</p>
                     <p><a href=mailto:info@learnkly.com>info@learnkly.com</a></p>
                 </section>
             </div>
 
             <div class="footer-section links">
-                <h2>Quick Links</h2>
+                <h1>Quick Links</h1>
                 <ul>
         <a href="./php/about.php">
                     <li><a href="php/about.php">About</a></li>
@@ -86,11 +86,12 @@
                     <li><a href="php/translation.php">Translate</a></li>
                     <li><a href="php/puzzle.php">Puzzle</a></li>
                     <li><a href="php/quiz.php">Quiz</a></li>
+                    <li><a href="php/about.php#references">References</a></li>
                 </ul>
             </div>
 
             <div class="footer-section contact-form">
-                <h2>Contact Us</h2>
+                <h1>Contact Us</h1>
                 <br>
                 <form action="index.html" method="post">
                     <input type="email" name="email" class="contact-input" placeholder="Your email address" required>

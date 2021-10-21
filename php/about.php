@@ -92,10 +92,12 @@
                 <section class="test-about-description">
                         <h1>Matt</h1>
                         <p>
-                            I was born in Brisbane, Queensland, and have lived here ever since. I am in my first 
-                            year of a Bachelor of Information Technology, with a major in User Experience Design.
-                            I recognise my white privilege that I bring to this project. I also acknowledge that, 
-                            for me, an information technology University degree provides an avenue to employment.
+                        I was born in Brisbane, Queensland, and have lived here ever since. I am in my first year 
+                        of a Bachelor of Information Technology, with a major in User Experience Design. I recognise 
+                        my white privilege that I bring to this project. I also acknowledge that, for me, an information 
+                        technology University degree provides an avenue to employment. By completing this project, I 
+                        hope to learn more about Indigenous Australian Culture and languages, and learn how to bring 
+                        awareness to the many issues they face.
                         </p>
                 </section>
 
@@ -110,7 +112,7 @@
 
         </article>
 
-        <div class="references">
+        <div id="references">
             <h1>References</h1>
 
             <p>

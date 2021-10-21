@@ -36,8 +36,8 @@ Background
     justify-content: space-around;
 } */
 
-/*Nisha: page header*/
-#page-header {
+/*Nisha: page header (Old larger header)*/
+/* #page-header {
     overflow: hidden;
     z-index: 1;
     position: sticky;
@@ -82,6 +82,57 @@ Background
 #options figure a > img{
     width: 7vw;
     height: 7vw;
+}
+
+#options figure a > img:hover{
+    filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
+} */
+
+/*Nisha: Homepage header */
+#page-header {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 16vw;
+    background-image: url('./../images/backgroundLogo.png');
+    background-size: 150% 185%;
+    background-repeat: no-repeat;
+}
+
+#klylogo {
+    display: flex;
+    width: 20vw;
+    height: 3vw;
+    align-items: center;  
+    margin: 4vw;  
+}
+
+#klylogo a >img {
+    width: 100%;
+}
+
+#klylogoa >img:hover{
+    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
+}
+
+#options {
+    width: 74vw;
+    height: 80%;
+    margin:10px auto;
+    padding:5px;
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+#options figure a > img{
+    width: 5.5vw;
+    height: 5.5vw;
 }
 
 #options figure a > img:hover{
@@ -948,7 +999,7 @@ footer {
     width: 50vw;
 }
 
-.references {
+#references {
     margin-top: 5vw;
     padding: 2%;
     background-color:#ffffff;
@@ -1158,18 +1209,18 @@ footer {
 }
 
 #next_button {
-    right: 420px;
+    left: 60vw;
 }
 
 #prev_button {
-    left: 420px;
+    right: 60vw;
 }
 
 #current-language {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: 3vw;
 }
 
 #flashcards-header {
@@ -1194,7 +1245,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 2vw;
     margin: 5px;
 }
 
@@ -1297,27 +1348,20 @@ text-align: center;
  footer {
     background: white;
     color: Black;
-    height: 350px;
     position: relative;
     bottom: 0;
     display: flex;
-}
-
-@media only screen and (min-width: 800px) {
-    footer {
-        flex-direction: row;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    footer {
-        flex-direction: column;
-    }
+    margin-top: 7vw;
+    flex-direction: row;
 }
 
 footer .footer-section {
     flex: 1;
     padding: 25px;
+}
+
+footer p {
+    font-size: 1.2vw;
 }
 
 footer a {
@@ -1345,7 +1389,7 @@ footer .links ul {
 footer .links ul li a {
     display: block;
     margin-bottom: 10px;
-    font-size: 1.2em;
+    font-size: 1.2vw;
     text-decoration: none;
     list-style: none;
 }
