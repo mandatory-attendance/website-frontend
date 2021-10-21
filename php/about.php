@@ -70,8 +70,10 @@
                 <section class="test-about-description">
                         <h1>Abigail</h1>
                         <p>
-                            I was born in Phillippines, Naga City and moved to Australia in 2011. 
-                            I am in my 2nd year studying Bachelor of Information Technology, majoring in User Experience Design.
+                            I was born in Phillippines, Naga City and moved here to Australia in 2011. I was brought up in a Filipino household
+                            and have still been able to experience, to some extent, Filipino culture despite moving. I am in my 2nd year studying 
+                            Bachelor of Information Technology, majoring in User Experience Design. Reflecting on my own experiences and cultural heritage, 
+                            I acknowledge the deep importance of language to one's culture, and this extends into my motivations for this project.
                         </p>
                 </section>
 
