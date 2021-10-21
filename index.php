@@ -2,7 +2,7 @@
 <html>
     <head>
         <?php include 'php/support/head.php';?>
-        <title>Homepage</title>
+        <title>KLY Homepage</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     
@@ -68,32 +68,15 @@
 			<h1>Kala Lagaw Ya</h1>
 
 			<p>
-      Kala Lagaw Ya is a school friendly application that aims to assist students to a basic introduction to the Western and Central island of Torres Strait traditional lanuage. 
+            KLY is a web-based application that aims to assist students in learning 
+            the basics of the traditional Western and Central island languages
+            of the Torres Strait Islands. 
 			
 			</p>
 
 			<section class="contact"> 
-
 				<div>Phone: 0467784589</div>
-				<p><a href=mailto:info@lunarhotel&casino.com>info@learnmore.com</a></p>
-				<p><a onclick="openForm()">Subscribe to Mailing List</a></p>
-
-				<div class="formPopup" id="popupForm">
-
-					<form action="/action_page.php" class="formContainer">
-					  <h2>Enter your Details</h2>
-					  <label for="email">
-						<strong>E-mail</strong>
-					  </label>
-					  <input type="text" id="email" placeholder="Your Email" name="email" required>
-					  <label for="name">
-						<strong>Name</strong>
-					  </label>
-					  <input type="text" id="psw" placeholder="Your Name" required>
-					  <button type="submit" class="btn">Submit</button>
-					  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-					</form>
-				</div>
+				<p><a href=mailto:info@learnkly.com>info@learnkly.com</a></p>
 			</section>
 		</div>
 
@@ -101,11 +84,11 @@
 			<h2>Quick Links</h2>
 			<ul>
       <a href="./php/about.php">
-				<li><a href="booking.html">About</a></li>
-				<li><a href="facilities.html">Flashcard</a></li>
-				<li><a href="gallery.html">Translate</a></li>
-				<li><a href="about.html">Puzzel</a></li>
-				<li><a href="about.html#references">Quiz</a></li>
+				<li><a href="php/about.php">About</a></li>
+				<li><a href="php/flashcard.php">Flashcard</a></li>
+				<li><a href="php/translation.php">Translate</a></li>
+				<li><a href="php/puzzle.php">Puzzle</a></li>
+				<li><a href="php/quiz.php">Quiz</a></li>
 			</ul>
 		</div>
 
