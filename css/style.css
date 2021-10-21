@@ -1046,12 +1046,24 @@ footer {
     align-items: center;
 }
 
+.translation-body-english {
+    background: #D2D5EC;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.translation-body-indigenous {
+    background: #C4E4F5;
+    border: 0px;
+    border-radius: 10px;
+}
+
+
 .translation-body-english > h1, .translation-body-indigenous > h1 {
     margin: 2%;
     padding: 2%;
     width: 100%;
     text-align: center;
-    background: #5F9D91;
     border: 0px;
     border-radius: 10px;
 }
@@ -1210,7 +1222,7 @@ text-align: center;
 
 .test-about-description1 {
     flex-direction: row;
-    width: 96%;
+    width: 100%;
     padding: 2%;
     text-align: justify;
     background: white;
@@ -1227,7 +1239,7 @@ text-align: center;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    padding: 1%;
+    padding: 2%;
     margin-top: 2%;
     margin-bottom: 2%;
     background: #ffffff;
