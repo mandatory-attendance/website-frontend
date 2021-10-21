@@ -45,7 +45,7 @@ Background
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 20vw;
+    height: 23vw;
     background-image: url('./../images/backgroundLogo.png');
     background-size: 150% 185%;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ Background
 #klylogo {
     display: flex;
     width: 30vw;
-    height: 7vw;
+    height: 8vw;
     align-items: center;  
     margin: 4vw;  
 }
@@ -80,8 +80,8 @@ Background
  }
 
 #options figure a > img{
-    width: 5vw;
-    height: 5vw;
+    width: 7vw;
+    height: 7vw;
 }
 
 #options figure a > img:hover{
@@ -96,7 +96,7 @@ Background
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 20vw;
+    height: 16vw;
     background-image: url('./../images/backgroundLogo.png');
     background-size: 150% 185%;
     background-repeat: no-repeat;
@@ -104,8 +104,8 @@ Background
 
 #interactLogo {
     display: flex;
-    width: 30vw;
-    height: 7vw;
+    width: 20vw;
+    height: 3vw;
     align-items: center;  
     margin: 4vw;  
 }
@@ -119,8 +119,8 @@ Background
 }
 
 #interactIcon {
-    width: 80vw;
-    height: 85%;
+    width: 74vw;
+    height: 80%;
     margin:10px auto;
     padding:5px;
     text-align:center;
@@ -131,8 +131,8 @@ Background
  }
 
 #interactIcon figure a > img{
-    width: 7vw;
-    height: 7vw;
+    width: 5.5vw;
+    height: 5.5vw;
 }
 
 #interactIcon figure a > img:hover{
