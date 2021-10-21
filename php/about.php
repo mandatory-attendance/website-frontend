@@ -11,6 +11,8 @@
 
     <body id="about">
     <?php include 'support/interactionheader.php';?>
+    <style>#aboutheader {font-weight: bold;}</style>
+
         <article id="test-about-contents">
 
         <h1>About Kala Lagaw Ya</h1>
