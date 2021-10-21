@@ -477,7 +477,7 @@ article {
 }  
 
 #puzzleQuestion img {
-    height: 20vw; 
+    height: 15vw; 
     object-fit: contain;
 }
 
@@ -496,10 +496,10 @@ article {
 
 #puzzleEnglishQuestion{
     margin-top: 3vw;
-    font-size: 5vw;
+    font-size: 4vw;
     border-radius: 10px;
     background-color: #d2d5ec;
-    height:6vw;
+    height:5vw;
     margin-bottom: 10px;
 }
 
@@ -517,18 +517,18 @@ article {
 
 #answerTarget span{
     background-color: #467e9d;
-    width:7vw;
-    height:7vw;
+    width:5vw;
+    height:5vw;
     margin: 5px;
     border-radius: 20px;
 }
 #answerSource span{
-    font-size: 5vw;
+    font-size: 4vw;
     background-color: #c4e4f5;
-    width:7vw;
-    height:7vw;
+    width:5vw;
+    height:5vw;
     margin: 5px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 #tryAgain{
     text-align: center;

@@ -183,7 +183,7 @@ function dragOver(e) {
 }
 
 function dragLeave(e) {
-  e.target.style = 'font-size:5vw; background: #467e9d';
+  e.target.style = 'font-size:4vw; background: #467e9d';
 }
 
 function drop(e) {
@@ -198,7 +198,7 @@ function drop(e) {
   //If user has correctly assign one of the letter
   if(letterSourceId === dataTargetId) {
     e.target.insertAdjacentHTML('afterbegin', letterSourceId[0]);
-    e.target.style = 'font-size: 5vw; background: #467e9d';
+    e.target.style = 'font-size: 4vw; background: #467e9d';
     document.getElementById("tryAgain").style.display = "none";
     
     let sourceElemDataId = 'span[data-source-id="' + letterSourceId + '"]';
