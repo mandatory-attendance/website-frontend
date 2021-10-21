@@ -484,14 +484,9 @@ article {
 #puzzle{
     margin: auto;
     background-color: #b0d2bf;
+    
 }
 
-#puzzleHeader{
-    text-align: center;
-    font-size: 4vw;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
 
 #puzzleQuestion{
     text-align: center;
@@ -500,6 +495,8 @@ article {
 }
 
 #puzzleEnglishQuestion{
+    margin-top: 4vw;
+    margin-bottom: 2vw;
     font-size: 3vw;
     border-radius: 10px;
     background-color: #d2d5ec;
