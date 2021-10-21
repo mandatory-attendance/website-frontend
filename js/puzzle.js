@@ -40,7 +40,7 @@ function iterateRecords(data) {
       
       //Appending the picture to the page
       $("#puzzleQuestion").append(
-				$('<img id = "picture" src = "../images/'+ recordID + '.png" alt = "' + recordEnglish +'">')
+				$('<img id = "questionPicture" src = "../images/'+ recordID + '.png" alt = "' + recordEnglish +'">')
 			);
 
       //Setting up the answer and the choice
@@ -183,7 +183,7 @@ function dragOver(e) {
 }
 
 function dragLeave(e) {
-  e.target.style = 'font-size:3vw; background: #467e9d';
+  e.target.style = 'font-size:5vw; background: #467e9d';
 }
 
 function drop(e) {
@@ -198,12 +198,12 @@ function drop(e) {
   //If user has correctly assign one of the letter
   if(letterSourceId === dataTargetId) {
     e.target.insertAdjacentHTML('afterbegin', letterSourceId[0]);
-    e.target.style = 'font-size: 3vw; background: #467e9d';
+    e.target.style = 'font-size: 5vw; background: #467e9d';
     document.getElementById("tryAgain").style.display = "none";
     
     let sourceElemDataId = 'span[data-source-id="' + letterSourceId + '"]';
     let sourceElemSpanTag = document.querySelector(sourceElemDataId);
-    currentGuessedLetter++
+    currentGuessedLetter++;
     
     //Set finished letter into undraggable
     Object.assign(sourceElemSpanTag, {
