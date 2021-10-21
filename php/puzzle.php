@@ -9,6 +9,7 @@
     <body id = "puzzle">
         <?php include 'support/disclaimer.php';?>
         <?php include 'support/interactionheader.php';?>
+        <style>#puzzleheader {font-weight: bold;}</style>
 
         <section id = "finishMessage">
             <div id = "topMessage">
