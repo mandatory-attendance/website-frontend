@@ -1,16 +1,16 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <?php include '..//php/support/head.php';?>
+        <?php include 'support/head.php';?>
         <title>About</title>
-        <link rel="stylesheet" href="..//css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
 
 
-    <?php include '..//php/support/disclaimer.php';?>
+    <?php include 'support/disclaimer.php';?>
 
     <body id="about">
-    <?php include '..//php/support/interactionheader.php';?>
+    <?php include 'support/interactionheader.php';?>
         <article id="test-about-contents">
 
         <h1>About Kala Lagaw Ya</h1>
