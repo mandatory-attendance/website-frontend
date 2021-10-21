@@ -1330,3 +1330,39 @@ text-align: center;
 #navbar a > img:hover{
     filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.translation-info {
+    display: flex;
+    justify-content: center;
+}
+
+.translation-info-picture {
+    margin: 5%;
+    width: 30vw;
+    border: solid 1px;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+#picture {
+    width: 100%;
+    height: 100%;
+}

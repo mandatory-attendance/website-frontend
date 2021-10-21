@@ -25,6 +25,7 @@ function setVal() {
 		
 		if (englishInput in listOfWords) {
 			$("#indigenous-word").val(listOfWords[englishInput]);
+			setImg(englishInput);
 		}
 	}
 
@@ -33,9 +34,30 @@ function setVal() {
 		for(word in listOfWords) {
 			if  (listOfWords[word] == indiInput) {
 				$("#english-word").val(word);
+				setImg(word);
 			}
 		}
 	}
+}
+
+function findImg(input) {
+	let i = 1;
+	for (word in listOfWords) {
+		if (word != input) {
+			i += 1;
+		}
+		else if (word == input) {
+			break;
+		}
+	}
+	return i;
+}
+
+function setImg(input) {
+	let index = findImg(input);
+	var pic = document.getElementById("picture");
+	pic.setAttribute("src","./../images/" + index + ".png");
+	pic.setAttribute("alt",input);
 }
 
 document.getElementById("translate").onclick = function() {setVal()};
@@ -49,7 +71,7 @@ $(document).ready(function() {
 	$.ajax({
 		url: "https://www.data.qld.gov.au/api/3/action/datastore_search",
 		data: data,
-		dataType: "jsonp", // We use "jsonp" to ensure AJAX works correctly locally (otherwise XSS).
+		dataType: "jsonp",
 		cache: true,
 		success: function(data) {
 			record(data);
