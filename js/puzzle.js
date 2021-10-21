@@ -93,7 +93,7 @@ function iterateRecords(data) {
         const completeSource = document.querySelectorAll('#answerSource > span');
         const completeTarget = document.querySelectorAll('#answerTarget > span');
         let englishQuestion = document.getElementById("puzzleEnglishQuestion");
-        let puzzlePicture = document.getElementById("picture");
+        let puzzlePicture = document.getElementById("questionPicture");
     
         englishQuestion.remove();
         puzzlePicture.remove();
