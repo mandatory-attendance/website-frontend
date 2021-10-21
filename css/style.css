@@ -6,10 +6,27 @@ Background
 */
 
 /* Nisha - font for website */
-#homepage, #flashcards, #puzzle, #quiz, #sidenav, #translation, #about {
+#homepage, #flashcards, #puzzle, #quiz, #sidenav, #translation, #about, #references {
     font-family: 'Indie Flower';
     background-color: #b0d2bf;
     margin: 0%;
+}
+
+#refs {
+    margin: 5vw;
+}
+
+#refs h1, h2{
+    text-align: center;
+    line-height: 3vw;
+}
+
+#refs h1{
+    font-size: 4vw;
+}
+
+#refs h2{
+    font-size: 2.5vw;
 }
 
 /* #i {
