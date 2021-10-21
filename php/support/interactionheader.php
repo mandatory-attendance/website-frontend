@@ -22,19 +22,19 @@
             <a href="translation.php">
             <img src ="./../images/translate.png" alt="todd">
             </a>
-            <figcaption>TRANSLATE</figcaption>
+            <figcaption id="translateheader">TRANSLATE</figcaption>
         </figure>
         <figure>
             <a href="puzzle.php">
             <img src ="./../images/puzzle.png" alt="don">
             </a>
-            <figcaption>PUZZLE</figcaption>
+            <figcaption id="puzzleheader">PUZZLE</figcaption>
         </figure>
         <figure>
             <a href="quiz.php">
             <img src ="./../images/quiz.png" alt="sean">
             </a>
-            <figcaption>QUIZ</figcaption>
+            <figcaption id="quizheader">QUIZ</figcaption>
         </figure>
         </div>
     </div>
