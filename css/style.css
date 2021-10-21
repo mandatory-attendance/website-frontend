@@ -1382,75 +1382,18 @@ footer .links {
 footer .links ul {
     display: inline;
     list-style: none;
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
 }
 
 footer .links ul li a {
-    display: block;
-    margin-bottom: 10px;
     font-size: 1.2vw;
     text-decoration: none;
-    list-style: none;
+    display: flex;
+    padding: 0.3vw;
 }
 
 .contact a {
     text-decoration: underline;
-}
-
-.loginPopup {
-    position: relative;
-    text-align: center;
-    width: 100%;
-}
-
-.formPopup {
-    display: none;
-    position: fixed;
-    left: 50%;
-    top: 5%;
-    transform: translate(-50%, 5%);
-    border: 3px solid #999999;
-    z-index: 9;
-}
-
-.formContainer {
-    max-width: 300px;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.formContainer input[type=text] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 20px 0;
-    border: none;
-    background: #eee;
-}
-
-.formContainer input[type=text]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
-.formContainer .btn {
-    padding: 12px 20px;
-    border: none;
-    background-color: #8ebf42;
-    color: #fff;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom: 15px;
-    opacity: 0.8;
-}
-
-.formContainer .cancel {
-    background-color: #cc0000;
-}
-
-.formContainer .btn:hover,
-.openButton:hover {
-    opacity: 1;
 }
 
 .contact-form form {
@@ -1464,10 +1407,7 @@ footer .links ul li a {
 
 .contact-form .contact-input {
     font-size: 20;
-}
-
-.formPopup, .formPopup h2  {
-    color: black;
+    resize: none;
 }
 
 /* Quiz Page - Matt & Yashik */
@@ -1477,6 +1417,11 @@ footer .links ul li a {
     align-items: center;
     justify-content: center;
     animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 #quiz-start h1 {
@@ -1504,8 +1449,3 @@ footer .links ul li a {
     border-radius: 0.5em;
     font-family: 'Indie Flower';
 }
-
-@keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
