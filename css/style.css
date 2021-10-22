@@ -1429,12 +1429,12 @@ footer .links ul li a {
 
 /* Quiz Page - Matt & Yashik */
 
-#quiz-question {
+#question-flex {
     display: flex;
     justify-content: center;
 }
 
-#quiz-question p {
+#quiz-question {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1442,6 +1442,7 @@ footer .links ul li a {
     height: 7vw;
     font-size: 2vw;
     background: #AAE3F7;
+    margin: 3vw 0;
 }
 
 #quiz-answers {
@@ -1449,12 +1450,11 @@ footer .links ul li a {
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    margin-top: 3vw;
 }
 
 #a1, #a2, #a3 {
     width: 22vw;
-    height: 13vw;
+    height: 15vw;
     background: white;
     margin: 0 5vw;
 }

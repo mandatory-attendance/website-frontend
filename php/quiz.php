@@ -16,9 +16,11 @@
             <h2>Test your knowledge of the words you've learned so far with the quiz!</h2>
             <button id="quiz-begin">Begin</button>
         </section> -->
-        <section id="quiz-question">
-            <p></p>
-        </section>
+        <div id="question-flex">
+            <section id="quiz-question">
+                <p></p>
+            </section>
+        </div>
 
         <section id=quiz-answers>
             <section id="a1"><p></p></section>
@@ -30,6 +32,7 @@
             <button id="next-question">Next</button>
         </div>
 
-        <script src="../js/quiz.js">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="../js/quiz.js"></script>
     </body>
 </html>
