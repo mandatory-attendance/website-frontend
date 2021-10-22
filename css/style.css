@@ -1474,8 +1474,12 @@ footer .links ul li a {
     height: 15vw;
     background: white;
     margin: 0 3vw;
-    border-radius: 2em;
+    border-radius: 1em;
     border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
 }
 
 #a1:hover, #a2:hover, #a3:hover {
