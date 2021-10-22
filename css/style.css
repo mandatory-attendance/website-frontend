@@ -1428,35 +1428,43 @@ footer .links ul li a {
 }
 
 /* Quiz Page - Matt & Yashik */
-/* #quiz-start {
+
+#quiz-question {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+#quiz-question p {
+    display: flex;
     align-items: center;
     justify-content: center;
-    animation: fadeIn 2s;
+    width: 55vw;
+    height: 7vw;
+    font-size: 2vw;
+    background: #AAE3F7;
 }
 
-@keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+#quiz-answers {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3vw;
 }
 
-#quiz-start h1 {
-    font-size: 5vw;
-    margin-bottom: 10px;
-    margin-top: 10px;
+#a1, #a2, #a3 {
+    width: 22vw;
+    height: 13vw;
+    background: white;
+    margin: 0 5vw;
 }
 
-#quiz-start h2 {
-    font-size: 3vw;
-}
-
-#quiz-begin {
+#next-question {
     background-color: white;
     border: none;
     color: black;
-    width: 150px;
-    height: 75px;
+    width: 10vw;
+    height: 4vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -1465,7 +1473,13 @@ footer .links ul li a {
     cursor: pointer;
     border-radius: 0.5em;
     font-family: 'Indie Flower';
-} */
+    margin: 2vw 0;
+}
+
+#button-flex {
+    display: flex;
+    justify-content: center;
+}
 
 /* References Page */
 #refs p {
