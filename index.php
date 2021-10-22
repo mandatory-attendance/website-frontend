@@ -20,7 +20,7 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
-                <img src="./images/flag.jpeg">
+                <img class= "map" src="./images/flag.jpeg">
                 <div class="slideshow-item-text">
                     <h5>Torres Strait Islands Flag</h5>
                     <p>The green at the top and bottom of the flag represent the land 
