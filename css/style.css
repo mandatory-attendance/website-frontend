@@ -1428,7 +1428,7 @@ footer .links ul li a {
 }
 
 /* Quiz Page - Matt & Yashik */
-#quiz-start {
+/* #quiz-start {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1465,7 +1465,7 @@ footer .links ul li a {
     cursor: pointer;
     border-radius: 0.5em;
     font-family: 'Indie Flower';
-}
+} */
 
 /* References Page */
 #refs p {
