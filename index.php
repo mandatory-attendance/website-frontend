@@ -22,8 +22,12 @@
                 <div class="numbertext">1 / 3</div>
                 <img src="./images/flag.jpeg">
                 <div class="slideshow-item-text">
-                    <h5>Torres Strait Map </h5>
-                    <p></p>
+                    <h5>Torres Strait Islands Flag</h5>
+                    <p>The green at the top and bottom of the flag represent the land 
+                        and the blue represents the sea. The black lines represent the 
+                        Torres Strait Islander people. The centre of the flag shows a 
+                        white dhari (dancer’s headdress) which represents Torres 
+                        Strait Islander culture.</p>
                 </div>
             </div>
 
@@ -32,7 +36,7 @@
                 <div class="numbertext">2 / 3</div>
                 <img src="./images/map.jpg">
                 <div class="slideshow-item-text">
-                  <h5>Kala Lagaw Ya </h5>
+                  <h5>Kala Lagaw Ya Language</h5>
                     <p>Traditional language owned by Western and Central islands of the Torres Strait.</p>
                 </div>
             </div>
@@ -41,8 +45,9 @@
                 <div class="numbertext">3 / 3</div>
                 <img src="./images/people.webp">
                 <div class="slideshow-item-text">
-                    <h5>okay </h5>
-                    <p>hedsjhuhfdhjhhdhfuhdfuhdfuhduhduhudsfhbdhbdhbd</p>
+                    <h5>Torres Strait Island Peoples</h5>
+                    <p>These unique outfits are traditionally used for dance and performing arts. Each island 
+                        has a unique set of songs, dances and ways to illustrate their island’s stories.</p>
                 </div>
             </div>
 

@@ -1466,3 +1466,8 @@ footer .links ul li a {
     border-radius: 0.5em;
     font-family: 'Indie Flower';
 }
+
+/* References Page */
+#refs p {
+    font-size: 1.2vw;
+}
