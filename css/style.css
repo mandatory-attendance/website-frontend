@@ -1440,9 +1440,10 @@ footer .links ul li a {
     justify-content: center;
     width: 55vw;
     height: 7vw;
-    font-size: 2vw;
+    font-size: 3vw;
     background: #AAE3F7;
     margin: 3vw 0;
+    border-radius: 0.5em;
 }
 
 #quiz-answers {
@@ -1456,7 +1457,15 @@ footer .links ul li a {
     width: 22vw;
     height: 15vw;
     background: white;
-    margin: 0 5vw;
+    margin: 0 3vw;
+    border-radius: 2em;
+    border: 2px solid black;
+}
+
+#a1:hover, #a2:hover, #a3:hover {
+    border: 2px solid #477E9D;
+    cursor: pointer;
+    
 }
 
 #next-question {
