@@ -34,24 +34,19 @@ function rand_answer() {
 // 	return c_num;
 // }
 
-// function append_d1(correct_id, correct_num) {
-// 	var d1_id = rand_id();
+function append_d1(correct_id, d1_num) {
+	var d1_id = rand_id();
 
-// 	while(d1_id == correct_id) {
-// 		d1_id = rand_id();
-// 	}
+	while(d1_id == correct_id) {
+		d1_id = rand_id();
+	}
 
-// 	var d1_num = rand_answer();
-
-// 	while(d1_num == correct_num) {
-// 		d1_num = rand_answer();
-// 	}
-
-// 	var d1_word = eng_array[d1_id];
-// 	$('#a' + d1_num).text(d1_word);
-// }
+	var d1_word = eng_array[d1_id-1];
+	$('#a' + d1_num).text(d1_word);
+}
 
 var eng_array = [];
+var num_array = [1,2,3];
 
 // function checkCorrect() {
 
@@ -84,16 +79,12 @@ function next() {
 					$('#a' + correct_num).text(recordEnglish);
 					var correct_id = recordID;
 					eng_array.splice((recordID-1), 1);
+					num_array.splice((correct_num-1), 1);
 					console.log(eng_array);
-					// store_id(correct_id);
-					// store_num(correct_num);
+					console.log(num_array);
 				}
 			});
 		}
-
-		// correct_id = get_id();
-		// correct_num = get_num();
-		// append_d1(correct_id, correct_num);
 
 		var data = {resource_id: "9229d441-bdcc-40a9-8ad9-d287b2d679c4"}
 		$.ajax({
@@ -105,10 +96,15 @@ function next() {
 				iterateRecords(data);
 			}
 		});
+		d1_num = num_array[0]
+		append_d1(get_count(), d1_num);
 		inc_count();
+		eng_array = [];
+		num_array = [1,2,3];
+		console.log(get_count());
 	}
 }
 
 $(document).ready(function() {
-	next()
+	next();
 })
