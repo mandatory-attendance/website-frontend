@@ -154,14 +154,14 @@ img {vertical-align: middle;}
 }
 
 .slideshow-container {
-padding-top: 3vw;
-  width: 50%;
-  position: relative;
-  margin: auto;
+    padding-top: 3vw;
+    width: 50%;
+    position: relative;
+    margin: auto;
 }
 
 .slideshow-container img{
-    width: 50vw;
+    width: 49.5vw;
     height: 35vw;
     object-fit: cover;
 }
@@ -194,14 +194,14 @@ padding-top: 3vw;
 
 
 .slideshow-item-text{
-    max-width: 50%;
+    max-width: 55%;
     position: absolute;
     max-height: 50%;
     left:0;
     transform: translateY(-100%);
     color:black;
     background-color: rgba(56, 113, 167, 0.9);
-   
+    padding: 1%;
 }
 
 .slideshow-item-text h5{
