@@ -9,7 +9,10 @@
     <body id = "puzzle">
         <?php include 'support/disclaimer.php';?>
         <?php include 'support/interactionheader.php';?>
-        <style>#puzzleheader {font-weight: bold;}</style>
+        <style>#puzzleheader {font-weight: bold; color: #648B7F;}</style>
+
+        <img class="puzzelPencil" src="./../images/puzzel_pencil.png">
+		<img class="puzzelRuler" src="./../images/puzzel_ruler.png">
 
         <section id = "finishMessage">
             <div id = "topMessage">

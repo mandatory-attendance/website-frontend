@@ -11,7 +11,7 @@
 
     <body id="about">
     <?php include 'support/interactionheader.php';?>
-    <style>#aboutheader {font-weight: bold;}</style>
+    <style>#aboutheader {font-weight: bold; color: #648B7F}</style>
 
         <article id="test-about-contents">
 

@@ -10,7 +10,7 @@
 <body id="translation">
     <?php include './support/disclaimer.php';?>
     <?php include '..//php/support/interactionheader.php';?>
-    <style>#translateheader {font-weight: bold;}</style>
+    <style>#translateheader {font-weight: bold; color: #648B7F}</style>
     
     <div class="translation-heading">
         <h1>Translation</h1>

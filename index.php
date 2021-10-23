@@ -20,7 +20,7 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
-                <img class= "map" src="./images/flag.jpeg">
+                <img class= "flag" src="./images/flag.jpeg">
                 <div class="slideshow-item-text">
                     <h5>Torres Strait Islands Flag</h5>
                     <p>The green at the top and bottom of the flag represent the land 
@@ -34,7 +34,7 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
-                <img src="./images/map.jpg">
+                <img class= "map" src="./images/map.jpg">
                 <div class="slideshow-item-text">
                   <h5>Kala Lagaw Ya Language</h5>
                     <p>Traditional language owned by Western and Central islands of the Torres Strait.</p>
@@ -43,7 +43,7 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
-                <img src="./images/people.webp">
+                <img class= "people"src="./images/people.webp">
                 <div class="slideshow-item-text">
                     <h5>Torres Strait Island Peoples</h5>
                     <p>These unique outfits are traditionally used for dance and performing arts. Each island 

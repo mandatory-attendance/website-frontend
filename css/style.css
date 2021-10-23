@@ -271,18 +271,19 @@ img {vertical-align: middle;}
 
 .ruler{
     position: absolute;
-    width:74%;
     left:77%;
-    top: 10%;
-    
-    
+    max-width: 70%;
+    max-height: 65%;
+    top: 20%;
 }
+
 
 .pencil{
     position: absolute;
-    width:74%;
     right:76%;
-    top: 10%;
+    max-width: 70%;
+    max-height: 65%;
+    top: 20%;
 }
 
 
@@ -295,12 +296,11 @@ padding-top: 3vw;
 }
 
 .slideshow-container img{
-    max-width: 100%;
+    width: 50vw;
+    height: 35vw;
 }
 
-.slideshow-container .map {
-    width: 200%;
-}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -542,6 +542,22 @@ article {
 
 /*Garry*/
 /*Puzzle Mode*/
+
+.puzzelPencil{
+    position: absolute;
+    right: 69%;
+    max-width: 30%;
+    top: 51%;
+
+}
+
+.puzzelRuler{
+    position: absolute;
+    left: 70%;
+    max-width: 29%;
+    top: 50%;
+
+}
 
 #puzzle-exit {
     color: black;
@@ -1171,6 +1187,21 @@ footer {
 /* #flashcards {
     overflow: hidden;
 } */
+
+.flashPencil{
+    position: absolute;
+    max-width: 25%;
+    top: 35%;
+    right: 73%;
+}
+
+.flashRuler{
+    position:absolute;
+    max-width:28%;
+    top: 33%;
+    left: 73%;
+  
+}
 
 #flash {
     display: flex;

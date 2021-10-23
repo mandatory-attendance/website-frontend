@@ -8,7 +8,7 @@
 
     <?php include 'support/disclaimer.php';?>
     <?php include 'support/interactionheader.php';?>
-    <style>#quizheader {font-weight: bold;}</style>
+    <style>#quizheader {font-weight: bold; color: #648B7F}</style>
 
     <body id="quiz">
         <!-- <section id="quiz-start">

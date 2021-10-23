@@ -10,10 +10,13 @@
 
 		<?php include'./support/disclaimer.php';?>
 		<?php include '..//php/support/interactionheader.php';?>
-		<style>#flashcardsheader {font-weight: bold;}</style>
+		<style>#flashcardsheader {font-weight: bold; color: #648B7F;}</style>
 
 
 		<!-- <header id = "flashcards-header">Flashcards</header> -->
+		<img class="flashPencil" src="./../images/flash_pencil.png">
+		<img class="flashRuler" src="./../images/flash_ruler.png">
+
 
 		<section id="flash">
 			<section class="scene scene--card">
