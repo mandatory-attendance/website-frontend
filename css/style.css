@@ -163,6 +163,7 @@ padding-top: 3vw;
 .slideshow-container img{
     width: 50vw;
     height: 35vw;
+    object-fit: cover;
 }
 
 
