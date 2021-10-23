@@ -1043,11 +1043,8 @@ footer {
     resize: none;
     width: 100%;
 }
-/* Matt - Flashcards Page */
 
-/* #flashcards {
-    overflow: hidden;
-} */
+/* Matt - Flashcards Page */
 
 .flashPencil{
     position: absolute;
@@ -1068,15 +1065,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 10px; */
 }
 
 .scene {
     width: 700px;
     height: 350px;
-    border: 1px solid #CCC;
     margin: 20px 0;
-    perspective: 600px;
+    perspective: 800px;
 }
   
 .card {
