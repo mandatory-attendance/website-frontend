@@ -184,7 +184,7 @@ img {vertical-align: middle;}
 }
 
 .next {
-  right: 0;
+  right: 7px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -847,12 +847,12 @@ figcaption {
     font-size: 1.25vw;
 }
 
-footer {
+/* footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #E9BCD7;
-}
+} */
 
 .footer-home-button > h3 > a, .footer-about-button > h3 > a, .footer-Learn-button > h3 > a, .footer-Translation-button > h3 > a, .footer-Test-button > h3 > a {
     text-decoration: none;
@@ -1265,7 +1265,7 @@ text-align: center;
 }
 
  /* Homepage Footer - Nisha */
- footer {
+/*  footer {
     background: white;
     color: Black;
     position: relative;
@@ -1279,6 +1279,23 @@ footer .footer-section {
     flex: 1;
     padding: 25px;
 }
+
+
+
+.contact a {
+    text-decoration: underline;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form button {
+    width: 100px;
+}
+
+ */
 
 footer p {
     font-size: 1.2vw;
@@ -1295,10 +1312,6 @@ footer a:hover {
     color: grey;
 }
 
-footer .links {
-    padding-left: 15%;
-}
-
 footer .links ul {
     display: inline;
     list-style: none;
@@ -1312,23 +1325,45 @@ footer .links ul li a {
     padding: 0.3vw;
 }
 
-.contact a {
-    text-decoration: underline;
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+    align-items: flex-start;
 }
 
-.contact-form form {
+
+
+.contact-form, .links, .about {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
 }
 
-.contact-form form button {
-    width: 100px;
+.contact-form > form {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
 }
 
 .contact-form .contact-input {
     font-size: 20;
     resize: none;
 }
+
+.contact-form > form > button {
+    border: 0px;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5px;
+    background: #b0d2bf;
+    color: black;
+    font-size: inherit;
+}
+
 
 /* Quiz Page - Matt & Yashik */
 
