@@ -89,7 +89,12 @@
                 <section class="test-about-description">
                         <h1>Yashik</h1>
                         <p>
-                            Some text here.
+                        I was born in a small city named Sangrur of Punjab, India and I have been staying there for all my childhood 
+                        till 2 years of my Bachelors in Software Engineering. I moved to Brisbane for my future studies and moving to 
+                        Brisbane in 2019 brings my culture and language from my hometown which I respect and acknowledge. I understand 
+                        the importance of language to a culture and I also respect to the land and people of Brisbane and its 
+                        culture and language. I hope to learn more about the Indigenous Culture in Australia and pay my utmost respect 
+                        to people of this land.
                         </p>
                 </section>
 
