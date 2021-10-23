@@ -1143,11 +1143,11 @@ footer {
     font-size: 3vw;
 }
 
-#flashcards-header {
+/* #flashcards-header {
     text-align: center;
     font-size: 3vw;
     margin-top: 40px;
-}
+} */
 
 .englishword, .kalaword {
     display: flex;
@@ -1157,7 +1157,7 @@ footer {
 }
 
 .englishword img, .kalaword img {
-    height: 150px;
+    height: 10vw;
     margin-bottom: 75px;
 }
 
