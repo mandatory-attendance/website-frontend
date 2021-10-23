@@ -26,7 +26,7 @@
         </figure>
         <figure>
             <a href="./php/puzzle.php">
-            <img src ="./images/puzzle.png" alt="puzzel icon">
+            <img src ="./images/puzzle.png" alt="puzzle icon">
             </a>
             <figcaption>PUZZLE</figcaption>
         </figure>
@@ -40,4 +40,4 @@
     </div>
 </div>
 
-<script src="./js/navbarscroll.js"></script>
+

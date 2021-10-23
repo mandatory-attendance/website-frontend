@@ -6,20 +6,21 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     
-
     <body id="homepage">
-        <?php include 'php/support/homepage/disclaimer.php';?>
-        <?php include 'testnisha/test-fullsize.php';?>
-        
-        
-        <div class="slideshow-container">
 
+        <!-- Website Disclaimer -->
+        <?php include 'php/support/homepage/disclaimer.php';?>
+
+        <!-- Website Navbar -->
+        <?php include 'php/support/homepage/navbar.php';?>
+        
+        <!-- Website Slideshow -->
+        <div class="slideshow-container">
         <img class="ruler" src="./images/ruler.png">
         <img  class="pencil"src="./images/pencil.png">
 
-
             <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
+                <div class="numbertext">1 / 4</div>
                 <img class= "flag" src="./images/flag.jpeg">
                 <div class="slideshow-item-text">
                     <h5>Torres Strait Islands Flag</h5>
@@ -31,9 +32,8 @@
                 </div>
             </div>
 
-
             <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
+                <div class="numbertext">2 / 4</div>
                 <img class= "map" src="./images/map.jpg">
                 <div class="slideshow-item-text">
                   <h5>Kala Lagaw Ya Language</h5>
@@ -42,7 +42,7 @@
             </div>
 
             <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
+                <div class="numbertext">3 / 4</div>
                 <img class= "people"src="./images/people.webp">
                 <div class="slideshow-item-text">
                     <h5>Torres Strait Island Peoples</h5>
@@ -51,19 +51,31 @@
                 </div>
             </div>
 
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img class= "people"src="./images/teach.png">
+                <div class="slideshow-item-text">
+                    <h5>Preserving Indigenous languages</h5>
+                    <p> Including Kala Lagaw Ya, Indigenous languages are becoming extinct at a faster rate than anywehre else in the world.  
+                    </p>
+                </div>
+            </div>
+
+
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
         </div>
+
         <br>
 
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span> 
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
         </div>
 
-
+        <script src="js/slideshow.js"></script>
     <!-- Website Footer -->
         <footer>
             <div class="footer-section about">
@@ -105,8 +117,6 @@
                 </form>
             </div>
         </footer>
-
-        <script src="js/slideshow.js"></script>
     </body>
 </html>
 
