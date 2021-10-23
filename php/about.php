@@ -82,7 +82,12 @@
                 <section class="test-about-description">
                         <h1>Nisha</h1>
                         <p>
-                            Some text here.Some text here.Some text here.Some text here.
+                        I am currently in my 2nd year studying a dual in Bachelor of Commerce and Information Technology, majoring in business 
+                        information systems and user experience design.  I was born in Sydney, Australia and moved to Brisbane in 2011. 
+                        Even thought I have lived in Australia my whole life my parents who came to Australia 22 years ago from Indian 
+                        have made sure that I was and still able to experience every part of my culture to the fullest extent. 
+                        Reflecting on this and the task at hand, I am  able to acknowledge the deep importance of language to one’s culture.
+                         By completing this project, I hope to learn more about the tradition landowner’s language and culture.
                         </p>
                 </section>
 
@@ -93,6 +98,7 @@
                             and have still been able to experience, to some extent, Filipino culture despite moving. I am in my 2nd year studying 
                             Bachelor of Information Technology, majoring in User Experience Design. Reflecting on my own experiences and cultural heritage, 
                             I acknowledge the deep importance of language to one's culture, and this extends into my motivations for this project.
+                            Through this project, I hope to learn and also help educate and encourage others in learning endangered Indegenous languages. 
                         </p>
                 </section>
 
