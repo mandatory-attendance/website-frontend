@@ -58,12 +58,27 @@
                         As this language is classified as severely endangered, we seek to promote it and ensure their culture is not forgotten. 
                         (Torres Strait Island Language Plan, n.d.) 
                     </p>
+                    <p>
+                        We have made an effort to connect directly with the community (phone and email), however, we are yet to receive a reponse. We intended
+                        to work with members or representatives of the community to ensure that we were appropriately using their language and representing their culture.
+                        As this was unfortunately not able to be carried out, we have instead made sure to have easily accessible disclaimers on each page of the website and
+                        extensively researched sensitivity concerns regarding the Kala Lagaw Ya language and culture to found our project decisions on. 
+                    </p>
             </section>
             
             
             <h4>The Lead Designers</h4>
 
             <div class="test-about-row">
+                <section class="test-about-description">
+                    <h1> Team Members </h1>
+                    <p>Garryco Thandi</p>
+                    <p>Matthew Bezett </p>
+                    <p>Yashik Anand </p>
+                    <p>Nisha Vashist </p>
+                    <p>Abigail Borromeo </p>
+
+                </section>
                 <section class="test-about-description">
                         <h1>Nisha</h1>
                         <p>
@@ -72,7 +87,7 @@
                 </section>
 
                 <section class="test-about-description">
-                        <h1>Abigail</h1>
+                        <h1>Abi</h1>
                         <p>
                             I was born in Phillippines, Naga City and moved here to Australia in 2011. I was brought up in a Filipino household
                             and have still been able to experience, to some extent, Filipino culture despite moving. I am in my 2nd year studying 
@@ -113,7 +128,11 @@
                 <section class="test-about-description">
                         <h1>Garryco</h1>
                         <p>
-                            Some text here.
+                        I am an international student from Indonesia and came to Brisbane 2 years ago. I am currently studying 
+                        Information Technology and majoring in Software Information Systems. Personally, I am interested in learning
+                         languages and cultures, which has become my motivation for working on this project. At first, I learned 
+                         about First Australians culture during my foundation year, which has piqued my interest and finally 
+                         led to me working on this project that allowed me to explore and understand their culture even deeper.
                         </p>
                 </section>
 
