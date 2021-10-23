@@ -1046,14 +1046,14 @@ footer {
 
 /* Matt - Flashcards Page */
 
-.flashPencil{
+.flashPencil {
     position: absolute;
     max-width: 25%;
     top: 35%;
     right: 73%;
 }
 
-.flashRuler{
+.flashRuler {
     position:absolute;
     max-width:28%;
     top: 33%;
