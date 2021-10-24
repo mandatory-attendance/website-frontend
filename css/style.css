@@ -1504,3 +1504,13 @@ footer {
 #question {
     font-size: 3vw;
 }
+
+#correct {
+    background: darkgreen;
+    color: white;
+}
+
+#incorrect {
+    background: red;
+    color: white;
+}

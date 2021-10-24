@@ -112,16 +112,7 @@ $(document).ready(function() {
 
 
 
-
-
 var listOfWords = {};
-
-function initiate_data() {
-	for (word in listOfWords) {
-		$("#engWords").append("<option value=\"" + word + "\"");
-		$("#indiWords").append("<option value=\"" + listOfWords[word] + "\"");
-	}
-}
 
 function record(data) {
 	$.each(data.result.records, function(recordKey, recordValue) {
@@ -131,50 +122,136 @@ function record(data) {
 
 		listOfWords[recordEnglish] = recordIndi;
 	});
+
+	setParam();
 }
 
-function setVal() {
-	var englishInput = document.getElementById("english-word").value;
-	if (englishInput != undefined) {
-		
-		if (englishInput in listOfWords) {
-			$("#indigenous-word").val(listOfWords[englishInput]);
-			setImg(englishInput);
-		}
-	}
-
-	var indiInput = document.getElementById("indigenous-word").value;
-	if (indiInput != undefined) {
-		for(word in listOfWords) {
-			if  (listOfWords[word] == indiInput) {
-				$("#english-word").val(word);
-				setImg(word);
-			}
-		}
-	}
-}
-
-function findImg(input) {
-	let i = 1;
+function randomIndiWord() {
+	var index = Math.floor(Math.random()*52);
+	var counter = 1;
 	for (word in listOfWords) {
-		if (word != input) {
-			i += 1;
-		}
-		else if (word == input) {
-			break;
+		if (counter == index) {
+			return listOfWords[word];
+		} else {
+			counter += 1;
 		}
 	}
-	return i;
 }
 
-function setImg(input) {
-	let index = findImg(input);
-	var pic = document.getElementById("picture");
-	pic.setAttribute("src","./../images/" + index + ".png");
-	pic.setAttribute("alt",input);
+function randomEnglishWord() {
+	var index = Math.floor(Math.random()*51);
+	var counter = 1;
+	for (word in listOfWords) {
+		if (counter == index) {
+			return word;
+		} else {
+			counter += 1;
+		}
+	}
 }
 
-document.getElementById("translate").onclick = function() {setVal()};
+function findAnswer(option) {
+	for (word in listOfWords) {
+		if (listOfWords[word] == option) {
+			return word;
+		}
+	}
+	return "Not found";
+}
+
+function setOptions(questionWord) {
+	var answer = findAnswer(questionWord);
+	var val2 = randomEnglishWord();
+	if (answer == val2) {
+		val2 = randomEnglishWord();
+	}
+	var val3 = randomEnglishWord();
+	if (answer == val3) {
+		val3 = randomEnglishWord();
+	}
+
+	var option1 = document.getElementById("option1");
+	var option2 = document.getElementById("option2");
+	var option3 = document.getElementById("option3");
+
+	var ansId = Math.floor(Math.random() * 3) + 1;
+
+	if (ansId == 1) {
+		option1.innerText = answer;
+		option2.innerText = val2;
+		option3.innerText = val3;
+	} else if (ansId == 2) {
+		option1.innerText = val2;
+		option2.innerText = answer;
+		option3.innerText = val3;
+	} else if (ansId == 3) {
+		option1.innerText = val3;
+		option2.innerText = val2;
+		option3.innerText = answer;
+	}
+
+	document.getElementById("a1").onclick = function() {checkAns(answer, option1)};
+	document.getElementById("a2").onclick = function() {checkAns(answer, option2)};
+	document.getElementById("a3").onclick = function() {checkAns(answer, option3)};
+}
+
+function setParam() {
+	var word = randomIndiWord();
+	var question = document.getElementById("question");
+	question.innerText = "What is the English word for " + word + "?";
+
+	setOptions(word);
+}
+
+function setCorrectVal(option) {
+
+}
+
+function setIncorrectVal(option) {
+
+}
+
+
+function checkAns(answer, option) {
+	if (answer == option.innerText) {
+		setCorrectVal(option);
+	} else if (answer != option.innerText) {
+		setIncorrectVal(option);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById("next-question").onclick = function() {setParam()};
 
 $(document).ready(function() {
 	
