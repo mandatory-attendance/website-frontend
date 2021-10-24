@@ -968,7 +968,7 @@ figcaption {
     .sidenav a {font-size: 18px;}
 }
 
-.translation-heading > h1 {
+.translation-heading > h1, .quiz-heading > h1 {
     margin: 1%;
     text-align: center;
     font-size: 5vw;
@@ -1450,3 +1450,32 @@ footer {
 #refs p {
     font-size: 1.2vw;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Quiz Page */
