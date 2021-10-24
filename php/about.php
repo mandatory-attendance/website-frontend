@@ -87,7 +87,7 @@
                         Even thought I have lived in Australia my whole life my parents who came to Australia 22 years ago from Indian 
                         have made sure that I was and still able to experience every part of my culture to the fullest extent. 
                         Reflecting on this and the task at hand, I am  able to acknowledge the deep importance of language to one’s culture.
-                         By completing this project, I hope to learn more about the tradition landowner’s language and culture.
+                        By completing this project, I hope to learn more about the tradition landowner’s language and culture.
                         </p>
                 </section>
 
@@ -122,12 +122,13 @@
                 <section class="test-about-description">
                         <h1>Matt</h1>
                         <p>
-                        I was born in Brisbane, Queensland, and have lived here ever since. I am in my first year 
-                        of a Bachelor of Information Technology, with a major in User Experience Design. I recognise 
-                        my white privilege that I bring to this project. I also acknowledge that, for me, an information 
-                        technology University degree provides an avenue to employment. By completing this project, I 
-                        hope to learn more about Indigenous Australian Culture and languages, and learn how to bring 
-                        awareness to the many issues they face.
+                        I was born in Brisbane, Queensland, and have lived here ever since. My Mum was also born in Brisbane,
+                        however my Dad is from Dunedin, New Zealand. Despite not visiting New Zealand, I still experienced the 
+                        country's culture through my parents. I recognise my white privilege that I bring to this project, and 
+                        I pay my respects to the traditional owners of the land on which I reside. I am  currently in my first 
+                        year of a Bachelor of Information Technology, with a major in User Experience Design. I acknowledge that 
+                        this degree provides an avenue to employment. By completing this project, I  hope to learn more about 
+                        Indigenous Australian Culture and Customs, and learn how to bring awareness to the many issues they face.
                         </p>
                 </section>
 
