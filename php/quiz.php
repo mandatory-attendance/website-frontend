@@ -16,7 +16,7 @@
             <h2>Test your knowledge of the words you've learned so far with the quiz!</h2>
             <button id="quiz-begin">Begin</button>
         </section> -->
-        <div id="question-flex">
+        <!-- <div id="question-flex">
             <section id="quiz-question">
                 <p></p>
             </section>
@@ -26,7 +26,14 @@
             <section id="a1"><p></p></section>
             <section id="a2"><p></p></section>
             <section id="a3"><p></p></section>
-        </section>
+        </section> -->
+
+        <div class="quiz-heading">
+            <h1>Quiz</h1>
+        </div>
+        <div class="quiz-ques">
+            
+        </div>
 
         <div id="button-flex">
             <button id="next-question">Next</button>

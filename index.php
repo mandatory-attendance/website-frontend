@@ -56,8 +56,8 @@
                 <img class= "people"src="./images/teach.png" alt="Teacher pointing at Indigenous language words">
                 <div class="descriptionImage">
                     <h5>Preserving Indigenous languages</h5>
-                    <p> Including Kala Lagaw Ya, Indigenous languages are becoming extinct at a faster rate than anywehre else in the world (Over $22 million to preserve Indigenous languages, 2021).  
-                    </p>
+                    <p>Indigenous languages, such as Kala Lagaw Ya, are becoming extinct at a faster rate 
+                        than anywhere else in the world.</p>
                 </div>
             </div>
 
