@@ -1263,19 +1263,22 @@ text-align: center;
     border: solid 1px;
     padding: 1%;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .translation-info-left, .translation-info-picture, .translation-info-right {
     width: 30%;
 }
 
-.translation-info-left > img, .translation-info-picture  > img, .translation-info-right > img {
+.translation-info-left > img, .translation-info-right > img {
     width: 100%;
 }
 
 #picture {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: 20vw;
 }
 
  /* Homepage Footer - Nisha */
@@ -1381,12 +1384,12 @@ footer {
 
 /* Quiz Page - Matt & Yashik */
 
-#question-flex {
+/* #question-flex {
     display: flex;
     justify-content: center;
-}
+} */
 
-#quiz-question {
+/* #quiz-question {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1396,13 +1399,14 @@ footer {
     background: #AAE3F7;
     margin: 3vw 0;
     border-radius: 0.5em;
-}
+} */
 
 #quiz-answers {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 1%;
 }
 
 #a1, #a2, #a3 {
@@ -1479,3 +1483,21 @@ footer {
 
 
 /* Quiz Page */
+.quiz-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-ques {
+    min-width: 50%;
+    text-align: center;
+    background: #AAE3F7;
+    border: 0px black solid;
+    border-radius: 25px;
+    margin: 1%;
+}
+
+#question {
+    font-size: 3vw;
+}
