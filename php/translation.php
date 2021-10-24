@@ -12,9 +12,6 @@
     <?php include '..//php/support/interactionheader.php';?>
     <style>#translateheader {font-weight: bold; color: #648B7F}</style>
     
-    <div class="translation-heading">
-        <h1>Translation</h1>
-    </div>
 
     <div class="translation-info">
         <div class="translation-info-left">

@@ -1073,8 +1073,8 @@ figcaption {
 }
 
 .scene {
-    width: 700px;
-    height: 350px;
+    width: 38vw;
+    height: 42vh;
     margin: 20px 0;
     perspective: 800px;
 }
@@ -1097,11 +1097,11 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px;
-    height: 350px;
+    width: 38vw;
+    height: 42vh;
     line-height: 200px;
     color: black;
-    font-size: 4em;
+    font-size: 5vw;
     font-weight: bold;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -1122,11 +1122,11 @@ figcaption {
     background-color: white;
     border: none;
     color: black;
-    width: 150px;
-    height: 75px;
+    width: 8vw;
+    height: 4vw;
     text-align: center;
     display: inline-block;
-    font-size: 30px;
+    font-size: 2vw;
     cursor: pointer;
     border-radius: 0.5em;
     position: absolute;
@@ -1502,4 +1502,14 @@ footer {
 
 #question {
     font-size: 3vw;
+}
+
+.correct {
+    background: darkgreen !important;
+    color: white !important;
+}
+
+.incorrect {
+    background: red !important;
+    color: white !important;
 }
