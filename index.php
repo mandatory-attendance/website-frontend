@@ -19,10 +19,10 @@
         <img class="ruler" src="./images/ruler.png">
         <img  class="pencil"src="./images/pencil.png">
 
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 4</div>
-                <img class= "flag" src="./images/flag.jpeg">
-                <div class="slideshow-item-text">
+            <div class="slideImages fade">
+                <div class="imagesLeft">1 / 4</div>
+                <img class= "flag" src="./images/flag.jpeg" alt="Torres Strait Islands Flag">
+                <div class="descriptionImage">
                     <h5>Torres Strait Islands Flag</h5>
                     <p>The green at the top and bottom of the flag represent the land 
                         and the blue represents the sea. The black lines represent the 
@@ -32,47 +32,47 @@
                 </div>
             </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 4</div>
-                <img class= "map" src="./images/map.jpg">
-                <div class="slideshow-item-text">
+            <div class="slideImages fade">
+                <div class="imagesLeft">2 / 4</div>
+                <img class= "map" src="./images/map.jpg" alt="Torres Strait Islands Map">
+                <div class="descriptionImage">
                   <h5>Kala Lagaw Ya Language</h5>
                     <p>Traditional language owned by Western and Central islands of the Torres Strait.</p>
                 </div>
             </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 4</div>
-                <img class= "people"src="./images/people.webp">
-                <div class="slideshow-item-text">
+            <div class="slideImages fade">
+                <div class="imagesLeft">3 / 4</div>
+                <img class= "people" src="./images/people.webp" alt= "Torres Strait Islands Dance">
+                <div class="descriptionImage">
                     <h5>Torres Strait Island Peoples</h5>
                     <p>These unique outfits are traditionally used for dance and performing arts. Each island 
                         has a unique set of songs, dances and ways to illustrate their island’s stories.</p>
                 </div>
             </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 4</div>
-                <img class= "people"src="./images/teach.png">
-                <div class="slideshow-item-text">
+            <div class="slideImages fade">
+                <div class="imagesLeft">4 / 4</div>
+                <img class= "people"src="./images/teach.png" alt="Teacher pointing at Indigenous language words">
+                <div class="descriptionImage">
                     <h5>Preserving Indigenous languages</h5>
-                    <p> Including Kala Lagaw Ya, Indigenous languages are becoming extinct at a faster rate than anywehre else in the world.  
+                    <p> Including Kala Lagaw Ya, Indigenous languages are becoming extinct at a faster rate than anywehre else in the world (Over $22 million to preserve Indigenous languages, 2021).  
                     </p>
                 </div>
             </div>
 
 
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="leftButton" onclick="nextSlide(-1)">&#10094;</a>
+            <a class="rightButton" onclick="nextSlide(1)">&#10095;</a>
         </div>
 
         <br>
 
         <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
-            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="imagePosition" onclick="slide(1)"></span> 
+            <span class="imagePosition" onclick="slide(2)"></span> 
+            <span class="imagePosition" onclick="slide(3)"></span> 
+            <span class="imagePosition" onclick="slide(4)"></span> 
         </div>
 
         <script src="js/slideshow.js"></script>

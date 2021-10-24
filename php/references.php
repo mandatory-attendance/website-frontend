@@ -137,12 +137,24 @@
                     <a href="https://www.tstlanguages.org/our-languages/kala-lagaw-ya">https://www.tstlanguages.org/our-languages/kala-lagaw-ya</a><br><br>
                 </p>
 
-            
+
+
+                <h2>Homepage Slideshow Code</h2>
+
+
+
                 <h2>Homepage Slideshow Images</h2>
+                <p>
+                SLIDE 1:En.wikipedia.org. n.d. Torres Strait Islander Flag. [online] Available at: https://en.wikipedia.org/wiki/Torres_Strait_Islander_Flag <br><br>
+                SLIDE 2: Tstlanguages.org. n.d. Kala Lagaw Ya Torres Strait Traditional Language. [online] Available at: https://www.tstlanguages.org/our-languages/kala-lagaw-ya  <br><br> 
+                SLIDE 3: Takai, K., 2020. Torres Strait culture. [online] Queensland. Available at: https://www.queensland.com/au/en/things-to-do/indigenous/torres-strait-culture <br><br>
+                SLIDE 4: Australian Government. 2021. Over $22 million to preserve Indigenous languages. [online] Available at: https://www.arts.gov.au/departmental-news/over-22-million-preserve-indigenous-languages  <br><br>
+                </p>    
 
                 <h2>Homepage Slideshow Image Descriptions</h2>
                 <p>
-                    https://aiatsis.gov.au/explore/torres-strait-islander-flag<br><br>
+                    SLIDE 1: AIATSIS. n.d. Torres Strait Islander flag. [online] Available at: https://aiatsis.gov.au/explore/torres-strait-islander-flag <br><br>
+                    SLIDE 4: Australian Government. 2021. Over $22 million to preserve Indigenous languages. [online] Available at: https://www.arts.gov.au/departmental-news/over-22-million-preserve-indigenous-languages 
                 </p>
 
         </article>
