@@ -17,8 +17,16 @@
     </div>
 
     <div class="translation-info">
+        <div class="translation-info-left">
+            <img src="./../images/flash_pencil.png">
+        </div>
+        
         <div class="translation-info-picture">
             <img id="picture">
+        </div>
+        
+        <div class="translation-info-right">
+            <img src="./../images/flash_pencil.png">
         </div>
     </div>
     
@@ -33,8 +41,9 @@
         <div class="translation-body-button">
             <button id="translate">
                 <img src="../images/translate.png" alt="translate word">
+                <p> Press to Translate </p>
             </button>
-            <p> Press to Translate </p>
+            
         </div>
 
         <div class="translation-body-indigenous">

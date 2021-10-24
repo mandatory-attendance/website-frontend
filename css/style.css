@@ -979,6 +979,7 @@ figcaption {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 2%;
 }
 
 .translation-body-button {
@@ -990,11 +991,11 @@ figcaption {
 }
 
 .translation-body-button > button {
-    border: 1px solid green;
+    border: 3px solid green;
     border-radius: 12px;
     cursor: pointer;
+    font-family: 'Indie Flower';
     background-color: white;
-    border: 0px;
 }
 
 .translation-body-button > button > img {
@@ -1040,7 +1041,7 @@ figcaption {
 
 #english-word, #indigenous-word {
     border: 0px;
-    background: gainsboro;
+    background: white;
     border-radius: 4px;
     padding: 10px;
     text-align: center;
@@ -1253,18 +1254,23 @@ text-align: center;
 
 .translation-info {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2%;
 }
 
 .translation-info-picture {
-    margin: 5%;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    width: 13vw;
-    height: 13vw;
     border: solid 1px;
     padding: 1%;
     border-radius: 20px;
+}
+
+.translation-info-left, .translation-info-picture, .translation-info-right {
+    width: 30%;
+}
+
+.translation-info-left > img, .translation-info-picture  > img, .translation-info-right > img {
+    width: 100%;
 }
 
 #picture {
