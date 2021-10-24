@@ -139,16 +139,16 @@ img {vertical-align: middle;}
 /* images holding the slideshow  */
 .ruler{
     position: absolute;
-    left:77%;
-    max-width: 70%;
+    left:48vw;
+    max-width: 30%;
     max-height: 65%;
     top: 20%;
 }
 
 .pencil{
     position: absolute;
-    right:76%;
-    max-width: 70%;
+    right:48vw;
+    max-width: 30%;
     max-height: 65%;
     top: 20%;
 }
