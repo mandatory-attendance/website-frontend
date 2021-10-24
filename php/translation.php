@@ -18,7 +18,7 @@
 
     <div class="translation-info">
         <div class="translation-info-left">
-            <img src="./../images/flash_pencil.png">
+            <img src="./../images/translate_pencil.png">
         </div>
         
         <div class="translation-info-picture">
@@ -26,7 +26,7 @@
         </div>
         
         <div class="translation-info-right">
-            <img src="./../images/flash_pencil.png">
+            <img src="./../images/translate_ruler.png">
         </div>
     </div>
     
