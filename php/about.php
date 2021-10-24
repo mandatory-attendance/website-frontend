@@ -84,7 +84,7 @@
                         <p>
                         I am currently in my 2nd year studying a dual in Bachelor of Commerce and Information Technology, majoring in business 
                         information systems and user experience design.  I was born in Sydney, Australia and moved to Brisbane in 2011. 
-                        Even thought I have lived in Australia my whole life my parents who came to Australia 22 years ago from Indian 
+                        Even though I have lived in Australia my whole life my parents who came to Australia 22 years ago from Indian 
                         have made sure that I was and still able to experience every part of my culture to the fullest extent. 
                         Reflecting on this and the task at hand, I am  able to acknowledge the deep importance of language to one’s culture.
                          By completing this project, I hope to learn more about the tradition landowner’s language and culture.
@@ -134,11 +134,13 @@
                 <section class="test-about-description">
                         <h1>Garryco</h1>
                         <p>
-                        I am an international student from Indonesia and came to Brisbane 2 years ago. I am currently studying 
-                        Information Technology and majoring in Software Information Systems. Personally, I am interested in learning
-                         languages and cultures, which has become my motivation for working on this project. At first, I learned 
-                         about First Australians culture during my foundation year, which has piqued my interest and finally 
-                         led to me working on this project that allowed me to explore and understand their culture even deeper.
+                        I am currently studying Information Technology and majoring in Software Information Systems.  I was born in
+                        a city called Medan, Indonesia and came to Brisbane 2 year ago. Although I lived in Indonesia for most of my life,
+                        my family have maintained Chinese culture as my ancestors originated from China. Personally, I am interested in learning
+                        languages and cultures, which has become my motivation for working on this project. When I first came to Australia,
+                        I had no idea about Indigenous Australian Culture until I learned about First Australians culture during my foundation year.
+                        This has piqued my interest and this project has become an opportunity ofr me to explore and understand their culture even deeper.
+                        I also acknowledge the importance of Indeginous culture and language and respect the traditional landowners.
                         </p>
                 </section>
 
