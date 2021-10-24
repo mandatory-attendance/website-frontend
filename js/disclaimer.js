@@ -12,3 +12,14 @@ DisclaimerBlock.onclick = function() {
 span.onclick = function() {
     modal.style.display = "none"
 }
+
+function popup() {
+    if (document.body.getAttribute("id") == "homepage") {
+        modal.style.display = "block";
+        
+    }
+}
+
+window.addEventListener('load', (event) => {
+    popup();
+})
