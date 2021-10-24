@@ -1504,12 +1504,12 @@ footer {
     font-size: 3vw;
 }
 
-#correct {
-    background: darkgreen;
-    color: white;
+.correct {
+    background: darkgreen !important;
+    color: white !important;
 }
 
-#incorrect {
-    background: red;
-    color: white;
+.incorrect {
+    background: red !important;
+    color: white !important;
 }
