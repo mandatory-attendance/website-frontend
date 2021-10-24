@@ -157,6 +157,13 @@
                     SLIDE 4: Australian Government. 2021. Over $22 million to preserve Indigenous languages. [online] Available at: https://www.arts.gov.au/departmental-news/over-22-million-preserve-indigenous-languages 
                 </p>
 
+                <h2>Puzzle Code</h2>
+                <p>
+                    Array Shuffle: Stackoverflow. (2010). [How to randomize (shuffle) a JavaScript array?]<a href="https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array">
+                    https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array</a><br>
+                    Drag and Drop: Imsirovic, A. (2021, August 19). Build a Simple Game in Vanilla JS With the Drag and Drop API. <a href ="https://blog.jscrambler.com/build-a-simple-game-in-vanilla-js-with-the-drag-and-drop-api">
+                    https://blog.jscrambler.com/build-a-simple-game-in-vanilla-js-with-the-drag-and-drop-api</a>     
+                </p>
         </article>
     </body>
 </html>
