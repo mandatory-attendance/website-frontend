@@ -24,11 +24,11 @@
                 <img class= "flag" src="./images/flag.jpeg" alt="Torres Strait Islands Flag">
                 <div class="descriptionImage">
                     <h5>Torres Strait Islands Flag</h5>
-                    <p>The green at the top and bottom of the flag represent the land 
-                        and the blue represents the sea. The black lines represent the 
-                        Torres Strait Islander people. The centre of the flag shows a 
-                        white dhari (dancer’s headdress) which represents Torres 
-                        Strait Islander culture.</p>
+                    <p>The green at the top and bottom of the flag represent the land and the blue 
+                        represents the sea. The black lines represent the Torres Strait Islander people. 
+                        The centre of the flag shows a white dhari (dancer’s headdress) which represents 
+                        Torres Strait Islander culture. The points of the star represent the five island 
+                        groups in the Torres Strait and the white symbolises peace.</p>
                 </div>
             </div>
 
