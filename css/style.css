@@ -1485,3 +1485,7 @@ footer {
 .incorrect {
     border: 10px solid red !important;
 }
+
+#option1, #option2, #option3 {
+    font-family: 'Indie Flower';
+}
