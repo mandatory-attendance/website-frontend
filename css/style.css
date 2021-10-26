@@ -90,7 +90,7 @@ Background
     width: 100%;
     height: 12vw;
     background-color: white;
-    border-bottom: #1b7fcccc solid 3px;
+    border-bottom: #547C9A solid 10px;
 }
 
 #interactLogo {
@@ -154,7 +154,7 @@ img {vertical-align: middle;}
 }
 
 .slideshow-container {
-    padding-top: 3vw;
+    padding-top: 2vw;
     width: 50%;
     position: relative;
     margin: auto;
@@ -1203,7 +1203,7 @@ text-align: center;
     text-align: justify;
     background: white;
     border-radius: 1em;
-    border: solid #1b7fcccc;
+    border: 10px solid #547C9A;
 }
 
 .test-about-description1 p {
@@ -1221,7 +1221,7 @@ text-align: center;
     margin-bottom: 2%;
     background: #ffffff;
     border-radius: 1em;
-    border: solid #1b7fcccc;
+    border: 10px solid #547C9A;
 }
 
 .test-about-row > section {
@@ -1345,6 +1345,7 @@ footer .links ul li a {
 }
 
 footer {
+    margin-top: 3vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -1457,33 +1458,6 @@ footer {
     font-size: 1.2vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Quiz Page */
 .quiz-body {
     display: flex;
@@ -1505,11 +1479,9 @@ footer {
 }
 
 .correct {
-    background: darkgreen !important;
-    color: white !important;
+    border: 10px solid #3F875F !important;
 }
 
 .incorrect {
-    background: red !important;
-    color: white !important;
+    border: 10px solid red !important;
 }
