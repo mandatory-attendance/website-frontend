@@ -25,7 +25,7 @@ function randomIndiWord() {
 }
 
 function randomEnglishWord() {
-	var index = Math.floor(Math.random()*51);
+	var index = Math.floor(Math.random()*41);
 	var counter = 1;
 	for (word in listOfWords) {
 		if (counter == index) {

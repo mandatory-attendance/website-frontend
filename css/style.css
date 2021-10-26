@@ -1458,33 +1458,6 @@ footer {
     font-size: 1.2vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Quiz Page */
 .quiz-body {
     display: flex;
@@ -1507,10 +1480,12 @@ footer {
 
 .correct {
     border: 10px solid #3F875F !important;
-    
 }
 
 .incorrect {
     border: 10px solid red !important;
-    
+}
+
+#option1, #option2, #option3 {
+    font-family: 'Indie Flower';
 }
