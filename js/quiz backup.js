@@ -1,5 +1,4 @@
 var listOfWords = {};
-var count = 1;
 
 function record(data) {
 	$.each(data.result.records, function(recordKey, recordValue) {
@@ -10,23 +9,23 @@ function record(data) {
 		listOfWords[recordEnglish] = recordIndi;
 	});
 
-	next();
+	setParam();
 }
 
-// function randomIndiWord() {
-// 	var index = Math.floor(Math.random()*52);
-// 	var counter = 1;
-// 	for (word in listOfWords) {
-// 		if (counter == index) {
-// 			return listOfWords[word];
-// 		} else {
-// 			counter += 1;
-// 		}
-// 	}
-// }
+function randomIndiWord() {
+	var index = Math.floor(Math.random()*52);
+	var counter = 1;
+	for (word in listOfWords) {
+		if (counter == index) {
+			return listOfWords[word];
+		} else {
+			counter += 1;
+		}
+	}
+}
 
 function randomEnglishWord() {
-	var index = Math.floor((Math.random() * 52) + 1);
+	var index = Math.floor(Math.random()*41);
 	var counter = 1;
 	for (word in listOfWords) {
 		if (counter == index) {
@@ -88,32 +87,13 @@ function reset() {
 }
 
 
-// function setParam() {
-// 	reset();
-// 	var word = randomIndiWord();
-// 	var question = document.getElementById("question");
-// 	question.innerText = "What is the English word for " + word + "?";
+function setParam() {
+	reset();
+	var word = randomIndiWord();
+	var question = document.getElementById("question");
+	question.innerText = "What is the English word for " + word + "?";
 
-// 	setOptions(word);
-// }
-
-function next() {
-	if (count <= 52) {
-		reset();
-		var counter = 1;
-		for (w in listOfWords) {
-			if (counter == count) {
-				var word = listOfWords[w];
-				break;
-			} else {
-				counter += 1;
-			}
-		}
-		var question = document.getElementById("question");
-		question.innerText = "What is the English word for " + word + "?";
-		count += 1;
-		setOptions(word);
-	}
+	setOptions(word);
 }
 
 function setCorrectVal(option) {
@@ -146,8 +126,7 @@ function checkAns(option) {
 	}
 }
 
-// document.getElementById("next-question").onclick = function() {setParam()};
-document.getElementById("next-question").onclick = function() {next()};
+document.getElementById("next-question").onclick = function() {setParam()};
 document.getElementById("a1").onclick = function() {checkAns("option1")};
 document.getElementById("a2").onclick = function() {checkAns("option2")};
 document.getElementById("a3").onclick = function() {checkAns("option3")};
