@@ -12,21 +12,6 @@
     <?php include '..//php/support/interactionheader.php';?>
     <style>#translateheader {font-weight: bold; color: #648B7F}</style>
     
-
-    <div class="translation-info">
-        <div class="translation-info-left">
-            <img src="./../images/translate_pencil.png">
-        </div>
-        
-        <div class="translation-info-picture">
-            <img id="picture">
-        </div>
-        
-        <div class="translation-info-right">
-            <img src="./../images/translate_ruler.png">
-        </div>
-    </div>
-    
     <div class="translation-body">
         <div class="translation-body-english">
             <h1>English</h1>
@@ -49,6 +34,21 @@
             <datalist id="indiWords"></datalist>
         </div>
     </div>
+
+    <div class="translation-info">
+        <div class="translation-info-left">
+            <img src="./../images/translate_pencil.png">
+        </div>
+        
+        <div class="translation-info-picture">
+            <img id="picture">
+        </div>
+        
+        <div class="translation-info-right">
+            <img src="./../images/translate_ruler.png">
+        </div>
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="../js/translation.js"></script>
 </body>

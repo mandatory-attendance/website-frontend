@@ -560,37 +560,7 @@ article {
     color:black;
 }
 
-/* Nisha */
-/* Hamburger Icon */
-/* .HambugerLines{
-    width:4vw;
-    height:1vw;
-    margin: 0.5vw;
-    background-color: #99D5EF;
-}
-
-.HambugerOptions {
-  display: none;
-  position: absolute;
-  min-width: 6vw;
-  box-shadow: 5px 2vw 5vw 0vw rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.HambugerOptions a {
-  color: black;
-  padding: 1.5vw 2vw;
-  text-decoration: none;
-  display: block;
-}
-
-.HambugerOptions a:hover {background-color: #ddd;}
-
-.HambugerIcon:hover .HambugerOptions {display: block;} */
-
-/* .HambugerIcon:hover .HambugerButton {}; */
-
-/* Matt - Translate Page */
+/* Yashik - Translate Page */
 #translationHeader{
     text-align: center;
     font-size: 4vw;
@@ -846,13 +816,6 @@ figcaption {
     font-size: 1.25vw;
 }
 
-/* footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #E9BCD7;
-} */
-
 .footer-home-button > h3 > a, .footer-about-button > h3 > a, .footer-Learn-button > h3 > a, .footer-Translation-button > h3 > a, .footer-Test-button > h3 > a {
     text-decoration: none;
     color: #000000;
@@ -908,14 +871,8 @@ figcaption {
     width: 50vw;
 }
 
-/* #references {
-    margin-top: 5vw;
-    padding: 2%;
-    background-color:#ffffff;
-} */
-
 /* Matt - Side Navigation Bar */
-.sidenav {
+/* .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -965,7 +922,9 @@ figcaption {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-}
+} */
+
+/* Yashik - Translation page */
 
 .translation-heading > h1, .quiz-heading > h1 {
     margin: 1%;
@@ -1032,10 +991,16 @@ figcaption {
     text-align: center;
     border: 0px;
     border-radius: 10px;
+    font-size: 2vw;
 }
 
 .translation-body-english > form, .translation-body-indigenous > form {
     width: 90%;
+}
+
+.translation-body-english input, .translation-body-indigenous input {
+    height: 125px;
+    font-size: 2vw;
 }
 
 #english-word, #indigenous-word {
@@ -1063,7 +1028,6 @@ figcaption {
     max-width:28%;
     top: 33%;
     left: 73%;
-  
 }
 
 #flash {
