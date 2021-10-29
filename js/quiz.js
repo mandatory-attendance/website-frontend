@@ -104,9 +104,11 @@ function next() {
 		for (w in listOfWords) {
 			if (counter == count) {
 				var word = listOfWords[w];
+				$('numberOfWords').text("Word" + count + " of 52"); 
 				break;
 			} else {
 				counter += 1;
+				$('numberOfWords').text("Word" + count + " of 52"); 
 			}
 		}
 		var question = document.getElementById("question");
