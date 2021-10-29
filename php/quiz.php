@@ -11,6 +11,8 @@
     <style>#quizheader {font-weight: bold; color: #648B7F}</style>
 
     <body id="quiz">
+        <img class="quizPencil" src="./../images/quizPencil.png">
+		<img class="quizRuler" src="./../images/quizRuler.png">
         <div class="quiz-body">
             <div class="quiz-ques">
                 <p id="question">Testing</p>

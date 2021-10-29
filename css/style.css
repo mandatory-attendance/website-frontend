@@ -1376,8 +1376,8 @@ footer {
 }
 
 #a1, #a2, #a3 {
-    width: 22vw;
-    height: 15vw;
+    width: 15vw;
+    height: 13vw;
     background: white;
     margin: 0 3vw;
     border-radius: 1em;
@@ -1422,6 +1422,22 @@ footer {
 }
 
 /* Quiz Page */
+.quizPencil{
+    position: absolute;
+    right: 80%;
+    max-width: 20%;
+    top: 40%;
+}
+
+
+.quizRuler{
+    position: absolute;
+    left: 80%;
+    max-width: 20%;
+    top: 40%;
+}
+
+
 .quiz-body {
     display: flex;
     flex-direction: column;
