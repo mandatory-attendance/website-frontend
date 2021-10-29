@@ -31,7 +31,7 @@
             <figcaption>QUIZ</figcaption>
         </figure>
         <figure>
-            <a href="/php/translation.php">
+            <a href="php/translation.php">
             <img src ="./images/translate.png" alt="todd">
             </a>
             <figcaption>TRANSLATE</figcaption>
