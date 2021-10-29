@@ -19,12 +19,6 @@
             <figcaption id="flashcardsheader">FLASHCARD</figcaption>
         </figure>
         <figure>
-            <a href="translation.php">
-            <img src ="./../images/translate.png" alt="todd">
-            </a>
-            <figcaption id="translateheader">TRANSLATE</figcaption>
-        </figure>
-        <figure>
             <a href="puzzle.php">
             <img src ="./../images/puzzle.png" alt="don">
             </a>
@@ -35,6 +29,12 @@
             <img src ="./../images/quiz.png" alt="sean">
             </a>
             <figcaption id="quizheader">QUIZ</figcaption>
+        </figure>
+        <figure>
+            <a href="translation.php">
+            <img src ="./../images/translate.png" alt="todd">
+            </a>
+            <figcaption id="translateheader">TRANSLATE</figcaption>
         </figure>
         </div>
     </div>

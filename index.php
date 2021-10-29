@@ -113,7 +113,7 @@
                 <form action="index.html" method="post">
                     <input type="email" name="email" class="contact-input" placeholder="Your email address" required>
                     <textarea name="message" rows=7 class="contact-input" placeholder="Your Message" required></textarea>
-                    <button type="submit" class="button">Send</button>
+                    <button class="button">Send</button>
                 </form>
             </div>
         </footer>
