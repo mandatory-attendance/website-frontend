@@ -26,8 +26,8 @@
                         to the Aboriginal languages of the Australian mainland.
                     </p>
                 </section>
-                <section>
-                    <img src="./../images/islands.JPG" width="100%" height="100%">
+                <section class="about-image">
+                    <img src="./../images/islands.JPG">
                 </section>
             </div>
 

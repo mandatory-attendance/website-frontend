@@ -877,7 +877,18 @@ article {
 
 
 /* aboutpage */
+.about-image {
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 800px;
+}
 
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
 #test-about-contents{
 font-size: xx-large;
@@ -1165,4 +1176,12 @@ footer {
 /* References Page */
 #refs p {
     font-size: 1.2vw;
+}
+
+#numberOfWords{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    margin: 5px;
 }
