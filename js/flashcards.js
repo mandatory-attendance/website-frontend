@@ -60,7 +60,7 @@ document.getElementById("prev_button").onclick = function() {prev()};
 function prev() {
 	if(count > 1) {
 		count -= 2;
-		next()
+		next();
 	}
 }
 
@@ -70,16 +70,16 @@ function changeLanguage() {
 	}
 
 	else {
-		$('#current-language').text('English')
+		$('#current-language').text('English');
 	}
 }
 
 $(document).ready(function() {
-	next()
-	$('#current-language').text('English')
+	next();
+	$('#current-language').text('English');
 	var card = document.querySelector('.card');
 	card.addEventListener( 'click', function() {
   		card.classList.toggle('is-flipped');
-		changeLanguage()
+		changeLanguage();
 	});
 })

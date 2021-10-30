@@ -13,18 +13,6 @@ function record(data) {
 	next();
 }
 
-// function randomIndiWord() {
-// 	var index = Math.floor(Math.random()*52);
-// 	var counter = 1;
-// 	for (word in listOfWords) {
-// 		if (counter == index) {
-// 			return listOfWords[word];
-// 		} else {
-// 			counter += 1;
-// 		}
-// 	}
-// }
-
 function randomEnglishWord() {
 	var index = Math.floor((Math.random() * 52) + 1);
 	var counter = 1;
@@ -87,16 +75,6 @@ function reset() {
 	document.getElementById("a3").setAttribute("class", "none");
 }
 
-
-// function setParam() {
-// 	reset();
-// 	var word = randomIndiWord();
-// 	var question = document.getElementById("question");
-// 	question.innerText = "What is the English word for " + word + "?";
-
-// 	setOptions(word);
-// }
-
 function next() {
 	if (count <= 52) {
 		reset();
@@ -149,7 +127,6 @@ function checkAns(option) {
 	}
 }
 
-// document.getElementById("next-question").onclick = function() {setParam()};
 document.getElementById("next-question").onclick = function() {next()};
 document.getElementById("a1").onclick = function() {checkAns("option1")};
 document.getElementById("a2").onclick = function() {checkAns("option2")};
