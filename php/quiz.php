@@ -31,7 +31,6 @@
             </div>
 
             <section id="q-num"><p></p></section>
-            <section id="numberOfWords"><p></p></section>
 
             <div id="button-flex">
                 <button id="next-question">Next</button>

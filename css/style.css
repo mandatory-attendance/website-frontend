@@ -1,26 +1,11 @@
+/* Declaring font for each page */
 #homepage, #flashcards, #puzzle, #quiz, #sidenav, #translation, #about, #references {
     font-family: 'Indie Flower';
     background-color: #b0d2bf;
     margin: 0%;
 }
 
-#refs {
-    margin: 5vw;
-}
-
-#refs h1, h2{
-    text-align: center;
-    line-height: 3vw;
-}
-
-#refs h1{
-    font-size: 4vw;
-}
-
-#refs h2{
-    font-size: 2.5vw;
-}
-
+/* Homepage Navbar */
 #page-header {
     z-index: 1;
     position: sticky;
@@ -71,7 +56,11 @@
     filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
 }
 
-/* interaction navbar */
+figcaption {
+    font-size: 1.5vw;
+}
+
+/* Interaction page navbar */
 #interactHeader {
     z-index: 1;
     position: sticky;
@@ -121,13 +110,8 @@
     filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
 }
 
-/* Slideshow  */
-* {box-sizing: border-box}
-.slideImages {display: none}
-img {vertical-align: middle;}
-
-
-.ruler{
+/* Homepage */
+.ruler {
     position: absolute;
     left:48vw;
     max-width: 30%;
@@ -135,13 +119,19 @@ img {vertical-align: middle;}
     top: 20%;
 }
 
-.pencil{
+.pencil {
     position: absolute;
     right:48vw;
     max-width: 30%;
     max-height: 65%;
     top: 20%;
 }
+
+/* Slideshow */
+
+* {box-sizing: border-box}
+.slideImages {display: none}
+img {vertical-align: middle;}
 
 .slideshow-container {
     padding-top: 2vw;
@@ -155,7 +145,6 @@ img {vertical-align: middle;}
     height: 35vw;
     object-fit: cover;
 }
-
 
 .leftButton, .rightButton {
   cursor: pointer;
@@ -174,12 +163,12 @@ img {vertical-align: middle;}
 }
 
 .rightButton {
-  right: 7px;
-  border-radius: 3px 0 0 3px;
+    right: 7px;
+    border-radius: 3px 0 0 3px;
 }
 
 .leftButton:hover, .rightButton:hover {
-  background-color:  rgba(56, 113, 167, 0.9);
+    background-color:  rgba(56, 113, 167, 0.9);
 }
 
 .descriptionImage{
@@ -199,15 +188,12 @@ img {vertical-align: middle;}
     color: white;
     padding: 0px;
     margin: 0px;
-  
 }
 
 
 .descriptionImage p{
     font-size: 1vw;
-
 }
-
 
 .imagesLeft {
   color: black;
@@ -259,7 +245,7 @@ img {vertical-align: middle;}
   .leftButton, .rightButton,.text {font-size: 11px}
 }
 
-/*Disclaimer*/
+/* Disclaimer */
 .modal {
 	display: none; 
 	position: fixed; 
@@ -274,7 +260,6 @@ img {vertical-align: middle;}
     z-index: 2;
 }
 
-/* Content of Modal*/
 .DisclaimerContent {
     background-color: #b0d2bf;
 	margin: auto;
@@ -290,10 +275,8 @@ img {vertical-align: middle;}
     font-size: 1.5vw;
     padding-left: 4%;
     padding-right: 4%;
-
 }
 
-/* Close Button*/
 .exit {
     color: #ffffff;
 	float: right;
@@ -306,7 +289,6 @@ img {vertical-align: middle;}
 	cursor: pointer;
 } 
 
-/*Disclaimer  Button Block */
 .button a {
     background-color: #588c7e;
     display: block;
@@ -321,7 +303,6 @@ img {vertical-align: middle;}
 	cursor: pointer;
 }
 
-/*Disclaimer Continue Button */
 .DisclaimerContent .ContinueButton{
 	display: inline-block;
 	color: black;
@@ -374,7 +355,7 @@ article {
 }
 
 
-/*Puzzle Mode*/
+/* Puzzle Page */
 
 .puzzelPencil{
     position: absolute;
@@ -417,9 +398,7 @@ article {
 #puzzle{
     margin: auto;
     background-color: #b0d2bf;
-    
 }
-
 
 #puzzleQuestion{
     text-align: center;
@@ -455,6 +434,7 @@ article {
     margin: 5px;
     border-radius: 20px;
 }
+
 #answerSource span{
     font-size: 4vw;
     background-color: #c4e4f5;
@@ -463,6 +443,7 @@ article {
     margin: 5px;
     border-radius: 20px;
 }
+
 #tryAgain{
     text-align: center;
     margin-top:1vw;
@@ -470,10 +451,12 @@ article {
     font-size: 4vw;
     color:red;
 }
+
 #nextPuzzle{
     text-align:center;
     margin-bottom: 10px;
 }
+
 .nextButton{
     padding: 0.5vw 1vw;
     border:none;
@@ -506,8 +489,7 @@ article {
     margin-top:5vw;
     text-align: center;
     color:#272F58;
-    animation: fading ease-out 2s;
-    
+    animation: fading ease-out 2s; 
 }
 
 @keyframes fading {
@@ -533,140 +515,7 @@ article {
     color:black;
 }
 
-/*Translate Page */
-#translationHeader{
-    text-align: center;
-    font-size: 4vw;
-    margin-top: 40px;
-}
-
-#translator-box {
-    display: flex;
-    justify-content: center;
-}
-
-#translator {
-    display: flex;
-    justify-content: space-around;
-    width: 1300px;
-}
-
-@media only screen and (min-width: 1000px) {
-    #translator {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    #translator {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-.english, .kala {
-    background: white;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 2%;
-    margin-top: 25px;
-    background-color: #99D5EF;
-    border-radius: 2.5em;
-}
-
-.english h2, .kala h2 {
-    font-size: 3em;
-}
-
-.english input, .kala input {
-    width: 500px;
-    height: 75px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 2em;
-}
-
-#translate-button {
-    background-color: #d8ecf7;
-    border: none;
-    color: black;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    font-size: 2em;
-    cursor: pointer;
-    border-radius: 0.5em;
-    position: relative;
-    margin-top: 30px;
-}
-
-#translate-button-box {
-    display: flex;
-    justify-content: center;
-}
-
-.word-info {
-    position: relative;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    width: 1200px;
-    height: 200px;
-    background: #dbdcdd;
-    border-radius: 1.5em;
-}
-
-.info-box {
-    display: flex;
-    justify-content: center;
-}
-
-.word-info p{
-    font-size: 3em;
-}
-
-/* Translate Page Autocomplete Search */
-.autocomplete {
-    /*the container must be positioned relative:*/
-    position: relative;
-    display: inline-block;
-  }
-  .autocomplete-items {
-    position: absolute;
-    border: 1px solid #d4d4d4;
-    border-bottom: none;
-    border-top: none;
-    z-index: 99;
-    /*position the autocomplete items to be the same width as the container:*/
-    top: 100%;
-    left: 0;
-    right: 0;
-  }
-  .autocomplete-items div {
-    padding: 10px;
-    cursor: pointer;
-    background-color: #fff;
-    border-bottom: 1px solid #d4d4d4;
-    font-size: 1.5em;
-  }
-  .autocomplete-items div:hover {
-    /*when hovering an item:*/
-    background-color: #e9e9e9;
-  }
-  .autocomplete-active {
-    /*when navigating through the items using the arrow keys:*/
-    background-color: DodgerBlue !important;
-    color: #ffffff;
-  }
-
-/* Translation page */
+/* Translation Page */
 
 .translation-heading > h1, .quiz-heading > h1 {
     margin: 1%;
@@ -876,7 +725,7 @@ article {
 }
 
 
-/* aboutpage */
+/* About Page */
 .about-image {
     background: white;
     border-style: solid;
@@ -996,7 +845,7 @@ text-align: center;
     height: 20vw;
 }
 
- /*footer*/
+/* Homepage Footer */
 
 footer p {
     font-size: 1.2vw;
@@ -1035,8 +884,6 @@ footer {
     align-items: flex-start;
 }
 
-
-
 .contact-form, .links, .about {
     display: flex;
     flex-direction: column;
@@ -1067,7 +914,7 @@ footer {
 }
 
 
-/*quiz page*/
+/* Quiz Page */
 
 #quiz-answers {
     display: flex;
@@ -1110,7 +957,6 @@ footer {
     cursor: pointer;
     border-radius: 0.5em;
     font-family: 'Indie Flower';
-    margin: 2vw 0;
 }
 
 #button-flex {
@@ -1178,10 +1024,19 @@ footer {
     font-size: 1.2vw;
 }
 
-#numberOfWords{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2vw;
-    margin: 5px;
+#refs {
+    margin: 5vw;
+}
+
+#refs h1, h2{
+    text-align: center;
+    line-height: 3vw;
+}
+
+#refs h1{
+    font-size: 4vw;
+}
+
+#refs h2{
+    font-size: 2.5vw;
 }

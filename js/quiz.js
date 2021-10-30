@@ -113,7 +113,7 @@ function next() {
 		}
 		var question = document.getElementById("question");
 		question.innerText = "What is the English word for " + word + "?";
-		$('#q-num').text("Question " + count+ " of 52"); 
+		$('#q-num').text("Question " + count + " of 52"); 
 		count += 1;
 		setOptions(word);
 	}
