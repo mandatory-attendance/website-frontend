@@ -1155,6 +1155,13 @@ footer {
     font-family: 'Indie Flower';
 }
 
+#q-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
 /* References Page */
 #refs p {
     font-size: 1.2vw;
