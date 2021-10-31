@@ -140,6 +140,9 @@
 
 
                 <h2>Homepage Slideshow Code</h2>
+                <p>
+                (slideshow) retrieved from w3chools : How TO - Slideshow(https://www.w3schools.com/howto/howto_js_slideshow.asp) Last accessed 31/10/2021
+                </p>
 
 
 
